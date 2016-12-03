@@ -1,0 +1,265 @@
+[{
+        "type" : "vehicle_part",
+        "id" : "ups_rifle_t",
+        "name" : "mounted UPS rifle",
+        "symbol" : "t",
+        "color" : "yellow",
+        "broken_symbol" : "#",
+        "broken_color" : "yellow",
+        "damage_modifier" : 80,
+        "durability" : 400,
+        "range" : 25,
+        "item" : "ups_rifle",
+        "difficulty" : 6,
+        "location" : "on_roof",
+        "folded_volume": 8,
+        "flags" : ["TURRET", "FOLDABLE"],"//" : "Haven't figured out the breaks_into...",
+        "breaks_into" : [
+            {"item": "ups_rifle", "prob": 50}
+        ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "sur_pnu_lmg_t",
+        "name" : "mounted Pneumatic LMG",
+        "symbol" : "t",
+        "color" : "dark_gray",
+        "broken_symbol" : "#",
+        "broken_color" : "dark_gray",
+        "damage_modifier" : 80,
+        "durability" : 400,
+        "range" : 12,
+        "item" : "sur_pnu_lmg",
+        "difficulty" : 4,
+        "size" : 40,
+        "location" : "on_roof",
+        "folded_volume": 8,
+        "flags" : ["TURRET", "CARGO", "MANUAL", "FOLDABLE"],"//" : "CARGO for the ammo. MANUAL means you got stand in the same tile as it to use it.",
+        "breaks_into" : [
+            {"item": "sur_pnu_lmg", "prob": 50}
+        ]
+    },
+    {
+        "type":"GENERIC",
+        "id" : "surv_station","//" : "Actual item",
+        "name" : "Survivor's Station",
+        "description" : "A makeshift vehicle mountable station that comprises of many utilities all compressesd into a single unit. Has reduced cargo space to make a components fit but the careful placement has made this unit quite fragile.",
+        "weight" : 123134,
+        "to_hit" : -2,
+        "color" : "light_red",
+        "symbol" : "&",
+        "material" : ["steel"],
+        "volume" : 120,
+        "category" : "veh_parts",
+        "price" : 80000
+    }, {
+        "type" : "vehicle_part",
+        "id" : "surv_station_t","//" : "vehicle part",
+        "name" : "Survivor's Station Unit",
+        "symbol" : "&",
+        "color" : "light_red",
+        "broken_symbol" : "x",
+        "broken_color" : "light_red",
+        "damage_modifier" : 80,
+        "durability" : 100,
+        "epower" : -150,
+        "size" : 100,
+        "item" : "surv_station",
+        "difficulty" : 6,
+        "location" : "center",
+        "folded_volume": 40,
+        "flags" : ["CARGO", "OBSTACLE", "KITCHEN", "CHEMLAB", "CRAFTRIG", "FORGE", "WELDRIG", "COVERED", "FOLDABLE", "RECHARGE", "FRIDGE", "WATER_PURIFIER", "FAUCET"],"//" : "All utilities in one!",
+        "breaks_into" : [
+            {"item": "steel_lump", "count": [30, 40]},
+            {"item": "steel_chunk", "count": [30, 40]},
+            {"item": "scrap", "count": [30, 40]},
+            {"item": "circuit", "count": [30, 40]},
+            {"item": "e_scrap", "count": [30, 40]},
+            {"item": "amplifier", "count": [30, 40]}
+        ]
+    },
+  {
+    "type" : "vehicle_part",
+    "id": "engine_electric_small",
+    "copy-from": "engine_electric_small",
+	"override": true,
+	"flags" : ["FOLDABLE"],
+    "folded_volume": 2
+  },
+    {
+	"type" : "vehicle_part",
+    "id": "tank_little",
+    "copy-from": "tank_little",
+	"override": true,
+	"flags" : ["FOLDABLE"],
+    "folded_volume": 2
+	}
+	,
+  {
+    "type" : "vehicle_part",
+    "id": "funnel",
+    "copy-from": "funnel",
+	"override": true,
+	"flags" : ["FOLDABLE"],
+    "folded_volume": 2
+	}
+	,{
+        "type" : "vehicle_part",
+        "id" : "surv_full_223_t",
+        "name" : "mounted Survivor's .223 Assault Rifle",
+        "symbol" : "t",
+        "color" : "brown",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "damage_modifier" : 80,
+        "durability" : 400,
+        "range" : 12,
+        "item" : "surv_full_223",
+        "difficulty" : 4,
+        "size" : 40,
+        "location" : "on_roof",
+        "folded_volume": 8,
+        "flags" : ["TURRET", "CARGO", "MANUAL", "FOLDABLE"],
+        "breaks_into" : [
+            {"item": "surv_full_223", "prob": 50}
+        ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "surv_full_308_t",
+        "name" : "mounted Survivor's .308 Assault Rifle",
+        "symbol" : "t",
+        "color" : "brown",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "damage_modifier" : 80,
+        "durability" : 400,
+        "range" : 12,
+        "item" : "surv_full_308",
+        "difficulty" : 4,
+        "size" : 40,
+        "location" : "on_roof",
+        "folded_volume": 8,
+        "flags" : ["TURRET", "CARGO", "MANUAL", "FOLDABLE"],
+        "breaks_into" : [
+            {"item": "surv_full_308", "prob": 50}
+        ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "surv_full_762_t",
+        "name" : "mounted Survivor's 7.62x39 Assault Rifle",
+        "symbol" : "t",
+        "color" : "brown",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "damage_modifier" : 80,
+        "durability" : 400,
+        "range" : 12,
+        "item" : "surv_full_762",
+        "difficulty" : 4,
+        "size" : 40,
+        "location" : "on_roof",
+        "folded_volume": 8,
+        "flags" : ["TURRET", "CARGO", "MANUAL", "FOLDABLE"],
+        "breaks_into" : [
+            {"item": "surv_full_762", "prob": 50}
+        ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "surv_full_12_t",
+        "name" : "mounted Survivor's Full auto shotgun",
+        "symbol" : "t",
+        "color" : "brown",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "damage_modifier" : 80,
+        "durability" : 400,
+        "range" : 12,
+        "item" : "surv_full_12",
+        "difficulty" : 4,
+        "size" : 40,
+        "location" : "on_roof",
+        "folded_volume": 8,
+        "flags" : ["TURRET", "CARGO", "MANUAL", "FOLDABLE"],
+        "breaks_into" : [
+            {"item": "surv_full_12", "prob": 50}
+        ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "surv_lmg_308_t",
+        "name" : "mounted Survivor's 308 LMG",
+        "symbol" : "t",
+        "color" : "brown",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "damage_modifier" : 80,
+        "durability" : 400,
+        "range" : 12,
+        "item" : "surv_lmg_308",
+        "difficulty" : 4,
+        "size" : 80,
+        "location" : "on_roof",
+        "folded_volume": 8,
+        "flags" : ["TURRET", "CARGO", "MANUAL", "FOLDABLE"],
+        "breaks_into" : [
+            {"item": "surv_lmg_308", "prob": 50}
+        ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "surv_lmg_223_t",
+        "name" : "mounted Survivor's 223 LMG",
+        "symbol" : "t",
+        "color" : "brown",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "damage_modifier" : 80,
+        "durability" : 400,
+        "range" : 12,
+        "item" : "surv_lmg_223",
+        "difficulty" : 4,
+        "size" : 80,
+        "location" : "on_roof",
+        "folded_volume": 8,
+        "flags" : ["TURRET", "CARGO", "MANUAL", "FOLDABLE"],
+        "breaks_into" : [
+            {"item": "surv_lmg_223", "prob": 50}
+        ]
+    },{
+        "type" : "vehicle_part",
+        "id" : "surv_lmg_762_t",
+        "name" : "mounted Survivor's 762 LMG",
+        "symbol" : "t",
+        "color" : "brown",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "damage_modifier" : 80,
+        "durability" : 400,
+        "range" : 12,
+        "item" : "surv_lmg_762",
+        "difficulty" : 4,
+        "size" : 80,
+        "location" : "on_roof",
+        "folded_volume": 8,
+        "flags" : ["TURRET", "CARGO", "MANUAL", "FOLDABLE"],
+        "breaks_into" : [
+            {"item": "surv_lmg_762", "prob": 50}
+        ]
+    },
+	{
+        "type" : "vehicle_part",
+        "id" : "laser_lmg_t",
+        "name" : "mounted KRX-108 laser LMG",
+        "symbol" : "t",
+        "color" : "yellow",
+        "broken_symbol" : "#",
+        "broken_color" : "yellow",
+        "damage_modifier" : 50,
+        "durability" : 400,
+        "range" : 30,
+        "item" : "laser_lmg",
+        "difficulty" : 6,
+        "location" : "on_roof",
+        "folded_volume": 8,
+        "flags" : ["TURRET", "FOLDABLE"],"//" : "Haven't figured out the breaks_into...",
+        "breaks_into" : [
+            {"item": "laser_lmg", "prob": 50}
+        ]
+    }]

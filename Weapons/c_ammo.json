@@ -1,0 +1,23 @@
+[    
+	{
+        "type" : "AMMO",
+        "id" : "flintlock_ammo_mine","//" : "meant as a companion to the Survivor's Flintlock Sniper.",
+        "price" : 5000,
+        "name" : "Paper Mineball cartridge",
+        "symbol" : "=",
+        "color" : "white",
+        "description" : "A paper cartridge containing black powder and a Mineball.  A paper enclosed version of the historic projectile of the USA Civil war. The Mineball is still as deadly and accurate as ever.",
+        "material" : ["steel", "powder"],
+        "volume" : 2,
+        "weight" : 86,
+        "bashing" : 1,
+        "to_hit" : 0,
+        "ammo_type" : "flintlock",
+        "damage" : 50,
+        "range" : 25,
+        "dispersion" : 100,
+        "recoil" : 350,
+        "count" : 25,
+        "effects" : ["COOKOFF"]
+    }
+]

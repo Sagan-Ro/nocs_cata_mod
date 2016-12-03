@@ -1,0 +1,24 @@
+[
+   {
+        "type" : "vehicle_group",
+        "id" : "dirtlot","//" : "Low since there are not many vehicles to pick from.",
+        "vehicles" : [
+            ["surv_tractor", 5], ["surv_rv", 5]        ]
+    },{
+        "type" : "vehicle_group",
+        "id" : "city_vehicles",
+        "vehicles" : [
+            ["surv_rv", 5]        ]
+    },{
+        "type" : "vehicle_group",
+        "id" : "parkinglot",
+        "vehicles" : [
+            ["surv_rv", 5]
+        ]
+    },{
+        "type" : "vehicle_group",
+        "id" : "highway",
+        "vehicles" : [
+            ["surv_rv", 5]
+        ]
+    }]

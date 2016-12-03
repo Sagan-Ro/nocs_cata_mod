@@ -1,0 +1,27 @@
+[
+{
+        "id": "manual_surv",
+        "type": "GENERIC",
+        "category": "books",
+        "symbol": "?",
+        "color": "green",
+        "name": "Survivor Combatives",
+        "name_plural": "Survivor Combatives",
+        "description": "A journal with a tutorial on various unortodox combat mechanics.",
+        "price": 20000,
+        "material": "paper",
+        "weight": 150,
+        "volume": 1,
+        "to_hit": -1,
+        "book_data": {
+            "max_level" : 5,
+            "intelligence" : 8,
+            "time" : 10,
+            "fun" : 0,
+            "skill" : "melee",
+            "required_level" : 3,
+            "chapters": 3,
+            "use_action": "MA_MANUAL"
+        }
+    }
+]
