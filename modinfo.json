@@ -4,6 +4,7 @@
         "ident": "Cata++",
         "name": "Cataclysm++",
         "author": "Noctifer",
-        "description": "Adds many-a-thing to balance the survivor including a pesudo-story. Rewards investment.",
-        "path": ""
+        "description": "The unofficial expansion mod for Cataclysm: Dark Days Ahead.",
+        "path": "",
+        "dependencies": [ "dda" ]
     }
