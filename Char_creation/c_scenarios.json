@@ -102,11 +102,11 @@
     "points" : 0,
     "description": "A little over a year has passed since the apocalypse started, and you're about to face your second summer in Hell.",
     "allowed_locs" : ["forest","field","cabin"],
+    "traits" : ["MARTIAL_ARTS_SURV"],
     "start_name": "Outside Town",
     "flags" : ["SUM_ADV_START"],
     "professions" : ["naturalist","road_warrior","player_bandit","winter_scavenger","winter_army","waste_ranger","unemployed"],
-    "edit-mode" : "modify",
-    "add:traits" : ["MARTIAL_ARTS_SURV"]
+    "edit-mode" : "modify"
   },
   {
     "type": "scenario",
@@ -141,11 +141,11 @@
     "points" : 0,
     "description": "It is the winter after zero hour, cold and weary you ducked into a small cabin for the night.  The next morning, you awoke to the sound of lots of movement in the woods.",
     "allowed_locs": ["cabin"],
+    "traits" : ["MARTIAL_ARTS_SURV"],
     "start_name": "Abandoned Cabin",
     "flags" : ["SUR_START","WIN_START"],
     "professions" : ["winter_survivor","winter_scavenger","winter_army","unemployed"],
-    "edit-mode" : "modify",
-    "add:traits" : ["MARTIAL_ARTS_SURV"]
+    "edit-mode" : "modify"
   },
   {
     "type": "scenario",
