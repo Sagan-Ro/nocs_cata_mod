@@ -30,8 +30,10 @@
                 "id" : "style_surv_quite",
                 "name" : "Quiet Combat",
                 "unarmed_allowed" : true,
+                "melee_allowed" : true,
                 "min_unarmed" : 4,
                 "min_melee" : 4,
+                "quiet" : true,
                 "description" : "User has learned how to deal all attacks quietly"
             },
 			{
