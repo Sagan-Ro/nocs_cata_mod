@@ -31,7 +31,7 @@
         "job_description" : "I am here to find answers...",
         "bonus_str" : { "rng" : [ 2, 4 ] },
         "bonus_int" : { "rng" : [ 0, 2 ] },
-        "bonus_str" : { "rng" : [ 2, 4 ] },
+        "bonus_dex" : { "rng" : [ 2, 4 ] },
         "bonus_per" : { "rng" : [ 0, 2 ] },
         "skills" : [
             {
