@@ -1,382 +1,720 @@
 [
-    {
-    "type" : "MONSTER",
-    "id" : "mon_zombie_failed_weapon",
-    "name" : "zombie failed Bio-Weapon",
-    "species":"ZOMBIE",
-    "default_faction":"zombie",
-    "symbol":"Z",
-    "color":"red_cyan",
-    "size":"MEDIUM",
-    "material":"flesh",
-    "diff":25,
-    "anger_triggers":["FRIEND_DIED", "FRIEND_ATTACKED", "HURT"],
-    "fear_triggers":["FIRE"],
-    "aggression":0,
-    "morale":100,
-    "speed":100,
-    "melee_skill":4,
-    "melee_dice":3,
-    "melee_dice_sides":4,
-    "melee_cut":3,
-    "dodge":0,
-    "armor_bash":3,
-    "armor_cut":2,
-    "vision_day":40,
-    "vision_night":3,
-    "death_drops" : "wild_bio_weapom_item",
-    "luminance":12,
-    "hp":100,
-    "death_function":["ACID", "NORMAL"],
-    "special_attacks":[
-    ["SHOCKSTORM", 10], 
-    ["PARROT", 50], 
-    {"type" : "bite", "cooldown" : 5}
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_failed_weapon",
+    "name": "zombie failed Bio-Weapon",
+    "species": "ZOMBIE",
+    "default_faction": "zombie",
+    "symbol": "Z",
+    "color": "red_cyan",
+    "size": "MEDIUM",
+    "material": "flesh",
+    "diff": 25,
+    "anger_triggers": [
+      "FRIEND_DIED",
+      "FRIEND_ATTACKED",
+      "HURT"
     ],
-    "special_when_hit":["ZAPBACK", 60],
-    "description":"A zombie bionic mutant. One of the more 'enhanced' zombies. Dangerous on its own but even more so in groups.",
-    "flags":["SEES", "REGENERATES_10", "HEARS", "SMELLS", "STUMBLES", "POISON", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_SUBS", "CBM_POWER", "CBM_OP", "NO_BREATHE", "REVIVES", "BONES"]
-    },
-    {
-    "type" : "MONSTER",
-    "id" : "mon_failed_weapon",
-    "name" : "failed Bio-Weapon",
-    "species":"FBIO-WEAPON",
-    "default_faction":"fbio-weapon",
-    "symbol":"B",
-    "color":"red_cyan",
-    "size":"MEDIUM",
-    "material":"flesh",
-    "diff":25,
-    "aggression":100,
-    "morale":100,
-    "speed":100,
-    "melee_skill":6,
-    "melee_dice":4,
-    "melee_dice_sides":5,
-    "melee_cut":4,
-    "dodge":2,
-    "armor_bash":5,
-    "armor_cut":4,
-    "vision_day":40,
-    "vision_night":3,
-    "death_drops" : "wild_bio_weapom_item",
-    "upgrades":{
-    "into" : "mon_zombie_failed_weapon",
-    "half_life" : 15
-    },
-    "luminance":14,
-    "hp":150,
-    "death_function":["ACID", "NORMAL"],
-    "special_attacks":[["SHOCKSTORM", 15], ["PARROT", 80]],
-    "special_when_hit":["ZAPBACK", 75],
-    "description":"A walking bionic mutant. Deformed from its 'enhancements', and jealous of your existance, it hunts and kills whatever it finds.",
-    "flags":["SEES", "REGENERATES_10", "HEARS", "SMELLS", "WARM", "HUMAN", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_SUBS", "CBM_POWER", "CBM_OP", "BONES"]
-    },
-    {
-    "type" : "MONSTER",
-    "id" : "hulk_weapon",
-    "name" : "Bio-Weapon Apophis",
-    "species":"BIO-WEAPON",
-    "default_faction":"fbio-weapon",
-    "symbol":"A",
-    "color":"red_cyan",
-    "size":"HUGE",
-    "material":"flesh",
-    "diff":75,
-    "aggression":100,
-    "morale":100,
-    "speed":80,
-    "melee_skill":10,
-    "melee_dice":8,
-    "melee_dice_sides":6,
-    "melee_cut":6,
-    "dodge":5,
-    "armor_bash":20,
-    "armor_cut":20,
-    "armor_acid":20,
-    "armor_fire":20,
-    "vision_day":40,
-    "vision_night":30,
-    "death_drops" : "wild_bio_weapom_item",
-    "luminance":30,
-    "hp":500,
-    "death_function":["ACID", "NORMAL", "EXPLODE"],
-    "special_attacks":[["SHOCKSTORM", 15], ["TAZER", 15], ["PARROT", 80], ["SMASH", 20], ["BIO_OP_TAKEDOWN", 10],
-        {
-            "type" : "gun",
-            "cooldown" : 5,
-            "gun_type" : "bio_blaster_gun",
-            "ammo_type" : "generic_no_ammo",
-            "max_ammo" : 1000,
-            "fake_str" : 8,
-            "fake_dex" : 10,
-            "fake_per" : 10,
-            "fake_skills" : [["gun", 10], ["rifle", 8]],
-            "move_cost" : 100,
-            "targeting_cost" : 50,
-            "ranges" : [[ 20, 30, "DEFAULT" ]],
-            "description" : "Apophis fires its fusion blaster!",
-            "targeting_sound" : "swoosh...click!",
-            "targeting_volume" : 20,
-            "no_ammo_sound" : "clickclickclick!"
-        }
+    "fear_triggers": [
+      "FIRE"
     ],
-    "starting_ammo" : {"generic_no_ammo":1000},
-    "special_when_hit":["ZAPBACK", 75],
-    "description":"The ultimate bionic mutant.  Only god knows why it exists.  With incredible power, armor and bionics on its side, victory won't come easy.",
-    "flags":["SEES", "REGENERATES_50", "HEARS", "GOODHEARING", "SMELLS", "WARM", "HUMAN", "ATTACKMON", "PUSH_MON", "ELECTRIC", "GRABS", "BASHES", "GROUP_BASH", "CBM_OP", "CBM_SUBS", "CBM_SUBS", "CBM_POWER", "CBM_POWER", "BONES", "DESTROYS"]
-    },
-    {
-    "type" : "MONSTER",
-    "id" : "mon_fungus_failed_weapon",
-    "name" : "fungal failed Bio-Weapon",
-    "species":"FUNGUS",
-    "default_faction":"fungus",
-    "symbol":"F",
-    "color":"red_cyan",
-    "size":"MEDIUM",
-    "material":"veggy",
-    "diff":25,
-    "anger_triggers":["FRIEND_DIED", "FRIEND_ATTACKED", "HURT"],
-    "fear_triggers":["FIRE"],
-    "placate_triggers":["PLAYER_WEAK"],
-    "aggression":0,
-    "morale":100,
-    "speed":80,
-    "melee_skill":2,
-    "melee_dice":2,
-    "melee_dice_sides":2,
-    "melee_cut":2,
-    "dodge":0,
-    "armor_bash":5,
-    "armor_cut":5,
-    "vision_day":40,
-    "vision_night":3,
-    "death_drops" : "wild_bio_weapom_item",
-    "luminance":5,
-    "hp":100,
-    "death_function":["ACID", "FUNGUS", "NORMAL"],
-    "special_attacks":[["SHOCKSTORM", 10], ["PARROT", 50], ["FUNGUS", 200], 
-    {
-    "type" : "bite",
-    "cooldown" : 5
-    }, 
-    ["FUNGUS_HAZE", 25], ["FUNGUS_INJECT", 40], ["FUNGUS_BRISTLE", 40]],
-    "special_when_hit":["ZAPBACK", 60],
-    "description":"This... thing is a failed experiment of science, whose biology has been overtaken by the fungus.  Has various enhancements, both mutagenic and bionic, that it uses to serve its new overlord(s).",
-    "flags":["SEES", "REGENERATES_50", "HEARS", "SMELLS", "STUMBLES", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_SUBS", "CBM_POWER", "REVIVES", "BONES", "PUSH_MON"]
-    },
-    {
-    "type" : "MONSTER",
-    "id" : "mon_zombie_bio_infantry",
-    "name" : "zombie super soldier",
-    "species":"ZOMBIE",
-    "default_faction":"zombie",
-    "symbol":"Z",
-    "color":"red_cyan",
-    "size":"MEDIUM",
-    "material":"flesh",
-    "diff":25,
-    "anger_triggers":["FRIEND_DIED", "FRIEND_ATTACKED", "HURT"],
-    "aggression":100,
-    "morale":100,
-    "speed":100,
-    "melee_skill":3,
-    "melee_dice":2,
-    "melee_dice_sides":2,
-    "melee_cut":2,
-    "dodge":3,
-    "armor_bash":2,
-    "armor_cut":2,
-    "vision_day":40,
-    "vision_night":3,
-    "death_drops" : "wild_bio_infantry",
-    "luminance":2,
-    "hp":100,
-    "death_function":["NORMAL"],
-    "special_attacks":[
-        {
-            "type" : "gun",
-            "cooldown" : 3,
-            "gun_type" : "arc_laser_rifle",
-            "ammo_type" : "generic_no_ammo",
-            "max_ammo" : 1000,
-            "fake_str" : 8,
-            "fake_dex" : 10,
-            "fake_per" : 10,
-            "fake_skills" : [["gun", 3], ["rifle", 3]],
-            "move_cost" : 150,
-            "targeting_cost" : 100,
-            "ranges" : [[ 10, 15, "DEFAULT" ]],
-            "description" : "The super soldier fires its ARC rifle!",
-            "targeting_sound" : "argh!",
-            "targeting_volume" : 5,
-            "no_ammo_sound" : "beep-beep-beep!"
-        }
+    "aggression": 0,
+    "morale": 100,
+    "speed": 100,
+    "melee_skill": 4,
+    "melee_dice": 3,
+    "melee_dice_sides": 4,
+    "melee_cut": 3,
+    "dodge": 0,
+    "armor_bash": 3,
+    "armor_cut": 2,
+    "vision_day": 40,
+    "vision_night": 3,
+    "death_drops": "wild_bio_weapom_item",
+    "luminance": 12,
+    "hp": 100,
+    "death_function": [
+      "ACID",
+      "NORMAL"
     ],
-    "starting_ammo" : {"generic_no_ammo":100},
-    "special_when_hit":["ZAPBACK", 60],
-    "description":"A zombie of a former member of the military. This one wields a particular rifle and bionics and appears to know how to use them.",
-    "flags":["SEES", "REGENERATES_10", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_OP", "NO_BREATHE", "REVIVES", "BONES"]
-    },
-    {
-    "type" : "MONSTER",
-    "id" : "mon_zombie_bio_knight",
-    "name" : "zombie super jauggernaut",
-    "species":"ZOMBIE",
-    "default_faction":"zombie",
-    "symbol":"Z",
-    "color":"red_cyan",
-    "size":"MEDIUM",
-    "material":"flesh",
-    "diff":25,
-    "anger_triggers":["FRIEND_DIED", "FRIEND_ATTACKED", "HURT"],
-    "aggression":100,
-    "morale":100,
-    "speed":80,
-    "melee_skill":3,
-    "melee_dice":2,
-    "melee_dice_sides":2,
-    "melee_cut":2,
-    "dodge":3,
-    "armor_bash":2,
-    "armor_cut":2,
-    "vision_day":40,
-    "vision_night":3,
-    "death_drops" : "wild_bio_knight",
-    "luminance":2,
-    "hp":100,
-    "death_function":["NORMAL"],
-    "special_attacks":[
-        {
-            "type" : "gun",
-            "cooldown" : 5,
-            "gun_type" : "bio_blaster_gun",
-            "ammo_type" : "generic_no_ammo",
-            "max_ammo" : 1000,
-            "fake_str" : 8,
-            "fake_dex" : 10,
-            "fake_per" : 10,
-            "fake_skills" : [["gun", 3], ["rifle", 3]],
-            "move_cost" : 150,
-            "targeting_cost" : 200,
-            "ranges" : [[ 20, 30, "DEFAULT" ]],
-            "description" : "The super soldier fires its fusion blaster!",
-            "targeting_sound" : "swoosh...click!",
-            "targeting_volume" : 20,
-            "no_ammo_sound" : "beep-beep-beep!"
-        }
+    "special_attacks": [
+      [
+        "SHOCKSTORM",
+        10
+      ],
+      [
+        "PARROT",
+        50
+      ],
+      {
+        "type": "bite",
+        "cooldown": 5
+      }
     ],
-    "starting_ammo" : {"generic_no_ammo":100},
-    "special_when_hit":["ZAPBACK", 60],
-    "description":"A zombie of a former member of the military. This one wields a particular lmg, bionics and armor and appears to know how to use them.",
-    "flags":["SEES", "REGENERATES_10", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_OP", "NO_BREATHE", "REVIVES", "BONES"]
-    },
-    {
-    "type" : "MONSTER",
-    "id" : "mon_zombie_bio_scout",
-    "name" : "zombie super scout",
-    "species":"ZOMBIE",
-    "default_faction":"zombie",
-    "symbol":"Z",
-    "color":"red_cyan",
-    "size":"MEDIUM",
-    "material":"flesh",
-    "diff":25,
-    "anger_triggers":["FRIEND_DIED", "FRIEND_ATTACKED", "HURT"],
-    "aggression":100,
-    "morale":100,
-    "speed":100,
-    "melee_skill":3,
-    "melee_dice":2,
-    "melee_dice_sides":2,
-    "melee_cut":2,
-    "dodge":3,
-    "armor_bash":2,
-    "armor_cut":2,
-    "vision_day":40,
-    "vision_night":3,
-    "death_drops" : "wild_bio_scout",
-    "luminance":2,
-    "hp":100,
-    "death_function":["NORMAL"],
-    "special_attacks":[
-        {
-            "type" : "gun",
-            "cooldown" : 3,
-            "gun_type" : "laser_sniper",
-            "ammo_type" : "generic_no_ammo",
-            "max_ammo" : 1000,
-            "fake_str" : 8,
-            "fake_dex" : 10,
-            "fake_per" : 10,
-            "fake_skills" : [["gun", 3], ["rifle", 3]],
-            "move_cost" : 150,
-            "targeting_cost" : 150,
-            "ranges" : [[ 20, 30, "DEFAULT" ]],
-            "description" : "The super scout fires its rifle!",
-            "targeting_sound" : "arrrrrgh!",
-            "targeting_volume" : 5,
-            "no_ammo_sound" : "beep-beep-beep!"
-        }
+    "special_when_hit": [
+      "ZAPBACK",
+      60
     ],
-    "starting_ammo" : {"generic_no_ammo":100},
-    "special_when_hit":["ZAPBACK", 60],
-    "description":"A zombie of a former member of the military. This one wields a particular rifle and bionics and appears to know how to use them.",
-    "flags":["SEES", "REGENERATES_10", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_OP", "NO_BREATHE", "REVIVES", "BONES"]
+    "description": "A zombie bionic mutant. One of the more 'enhanced' zombies. Dangerous on its own but even more so in groups.",
+    "flags": [
+      "SEES",
+      "REGENERATES_10",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "POISON",
+      "ELECTRIC",
+      "ATTACKMON",
+      "BASHES",
+      "GROUP_BASH",
+      "CBM_SUBS",
+      "CBM_POWER",
+      "CBM_OP",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES"
+    ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_failed_weapon",
+    "name": "failed Bio-Weapon",
+    "species": "FBIO-WEAPON",
+    "default_faction": "fbio-weapon",
+    "symbol": "B",
+    "color": "red_cyan",
+    "size": "MEDIUM",
+    "material": "flesh",
+    "diff": 25,
+    "aggression": 100,
+    "morale": 100,
+    "speed": 100,
+    "melee_skill": 6,
+    "melee_dice": 4,
+    "melee_dice_sides": 5,
+    "melee_cut": 4,
+    "dodge": 2,
+    "armor_bash": 5,
+    "armor_cut": 4,
+    "vision_day": 40,
+    "vision_night": 3,
+    "death_drops": "wild_bio_weapom_item",
+    "upgrades": {
+      "into": "mon_zombie_failed_weapon",
+      "half_life": 15
     },
-    {
-    "type" : "MONSTER",
-    "id" : "mon_zombie_bio_tool",
-    "name" : "zombie super B.A.M.R.U",
-    "species":"ZOMBIE",
-    "default_faction":"zombie",
-    "symbol":"Z",
-    "color":"red_cyan",
-    "size":"MEDIUM",
-    "material":"flesh",
-    "diff":25,
-    "anger_triggers":["FRIEND_DIED", "FRIEND_ATTACKED", "HURT"],
-    "aggression":100,
-    "morale":100,
-    "speed":100,
-    "melee_skill":3,
-    "melee_dice":2,
-    "melee_dice_sides":2,
-    "melee_cut":2,
-    "dodge":3,
-    "armor_bash":2,
-    "armor_cut":2,
-    "vision_day":40,
-    "vision_night":3,
-    "death_drops" : "wild_bio_tool",
-    "luminance":2,
-    "hp":100,
-    "death_function":["NORMAL"],
-    "special_attacks":[
-        {
-            "type" : "gun",
-            "cooldown" : 1,
-            "gun_type" : "v29",
-            "ammo_type" : "generic_no_ammo",
-            "max_ammo" : 1000,
-            "fake_str" : 8,
-            "fake_dex" : 10,
-            "fake_per" : 10,
-            "fake_skills" : [["gun", 1], ["pistol", 2]],
-            "move_cost" : 100,
-            "targeting_cost" : 50,
-            "ranges" : [[ 8, 10, "DEFAULT" ]],
-            "description" : "The super scout fires its pistol!",
-            "targeting_sound" : "argh!",
-            "targeting_volume" : 5,
-            "no_ammo_sound" : "beep-beep-beep!"
-        }
+    "luminance": 14,
+    "hp": 150,
+    "death_function": [
+      "ACID",
+      "NORMAL"
     ],
-    "starting_ammo" : {"generic_no_ammo":100},
-    "special_when_hit":["ZAPBACK", 60],
-    "description":"A zombie of a former member of the military. This one wields a particular pistol and bionics and appears to know how to use them.",
-    "flags":["SEES", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_TECH", "NO_BREATHE", "REVIVES", "BONES"]
-    }
+    "special_attacks": [
+      [
+        "SHOCKSTORM",
+        15
+      ],
+      [
+        "PARROT",
+        80
+      ]
+    ],
+    "special_when_hit": [
+      "ZAPBACK",
+      75
+    ],
+    "description": "A walking bionic mutant. Deformed from its 'enhancements', and jealous of your existance, it hunts and kills whatever it finds.",
+    "flags": [
+      "SEES",
+      "REGENERATES_10",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "HUMAN",
+      "ELECTRIC",
+      "ATTACKMON",
+      "BASHES",
+      "GROUP_BASH",
+      "CBM_SUBS",
+      "CBM_POWER",
+      "CBM_OP",
+      "BONES"
+    ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "hulk_weapon",
+    "name": "Bio-Weapon Apophis",
+    "species": "BIO-WEAPON",
+    "default_faction": "fbio-weapon",
+    "symbol": "A",
+    "color": "red_cyan",
+    "size": "HUGE",
+    "material": "flesh",
+    "diff": 75,
+    "aggression": 100,
+    "morale": 100,
+    "speed": 80,
+    "melee_skill": 10,
+    "melee_dice": 8,
+    "melee_dice_sides": 6,
+    "melee_cut": 6,
+    "dodge": 5,
+    "armor_bash": 20,
+    "armor_cut": 20,
+    "armor_acid": 20,
+    "armor_fire": 20,
+    "vision_day": 40,
+    "vision_night": 30,
+    "death_drops": "wild_bio_weapom_item",
+    "luminance": 30,
+    "hp": 500,
+    "death_function": [
+      "ACID",
+      "NORMAL",
+      "EXPLODE"
+    ],
+    "special_attacks": [
+      [
+        "SHOCKSTORM",
+        15
+      ],
+      [
+        "TAZER",
+        15
+      ],
+      [
+        "PARROT",
+        80
+      ],
+      [
+        "SMASH",
+        20
+      ],
+      [
+        "BIO_OP_TAKEDOWN",
+        10
+      ],
+      {
+        "type": "gun",
+        "cooldown": 5,
+        "gun_type": "bio_blaster_gun",
+        "ammo_type": "generic_no_ammo",
+        "max_ammo": 1000,
+        "fake_str": 8,
+        "fake_dex": 10,
+        "fake_per": 10,
+        "fake_skills": [
+          [
+            "gun",
+            10
+          ],
+          [
+            "rifle",
+            8
+          ]
+        ],
+        "move_cost": 100,
+        "targeting_cost": 50,
+        "ranges": [
+          [
+            20,
+            30,
+            "DEFAULT"
+          ]
+        ],
+        "description": "Apophis fires its fusion blaster!",
+        "targeting_sound": "swoosh...click!",
+        "targeting_volume": 20,
+        "no_ammo_sound": "clickclickclick!"
+      }
+    ],
+    "starting_ammo": {
+      "generic_no_ammo": 1000
+    },
+    "special_when_hit": [
+      "ZAPBACK",
+      75
+    ],
+    "description": "The ultimate bionic mutant.  Only god knows why it exists.  With incredible power, armor and bionics on its side, victory won't come easy.",
+    "flags": [
+      "SEES",
+      "REGENERATES_50",
+      "HEARS",
+      "GOODHEARING",
+      "SMELLS",
+      "WARM",
+      "HUMAN",
+      "ATTACKMON",
+      "PUSH_MON",
+      "ELECTRIC",
+      "GRABS",
+      "BASHES",
+      "GROUP_BASH",
+      "CBM_OP",
+      "CBM_SUBS",
+      "CBM_SUBS",
+      "CBM_POWER",
+      "CBM_POWER",
+      "BONES",
+      "DESTROYS"
+    ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_fungus_failed_weapon",
+    "name": "fungal failed Bio-Weapon",
+    "species": "FUNGUS",
+    "default_faction": "fungus",
+    "symbol": "F",
+    "color": "red_cyan",
+    "size": "MEDIUM",
+    "material": "veggy",
+    "diff": 25,
+    "anger_triggers": [
+      "FRIEND_DIED",
+      "FRIEND_ATTACKED",
+      "HURT"
+    ],
+    "fear_triggers": [
+      "FIRE"
+    ],
+    "placate_triggers": [
+      "PLAYER_WEAK"
+    ],
+    "aggression": 0,
+    "morale": 100,
+    "speed": 80,
+    "melee_skill": 2,
+    "melee_dice": 2,
+    "melee_dice_sides": 2,
+    "melee_cut": 2,
+    "dodge": 0,
+    "armor_bash": 5,
+    "armor_cut": 5,
+    "vision_day": 40,
+    "vision_night": 3,
+    "death_drops": "wild_bio_weapom_item",
+    "luminance": 5,
+    "hp": 100,
+    "death_function": [
+      "ACID",
+      "FUNGUS",
+      "NORMAL"
+    ],
+    "special_attacks": [
+      [
+        "SHOCKSTORM",
+        10
+      ],
+      [
+        "PARROT",
+        50
+      ],
+      [
+        "FUNGUS",
+        200
+      ],
+      {
+        "type": "bite",
+        "cooldown": 5
+      },
+      [
+        "FUNGUS_HAZE",
+        25
+      ],
+      [
+        "FUNGUS_INJECT",
+        40
+      ],
+      [
+        "FUNGUS_BRISTLE",
+        40
+      ]
+    ],
+    "special_when_hit": [
+      "ZAPBACK",
+      60
+    ],
+    "description": "This... thing is a failed experiment of science, whose biology has been overtaken by the fungus.  Has various enhancements, both mutagenic and bionic, that it uses to serve its new overlord(s).",
+    "flags": [
+      "SEES",
+      "REGENERATES_50",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "ELECTRIC",
+      "ATTACKMON",
+      "BASHES",
+      "GROUP_BASH",
+      "CBM_SUBS",
+      "CBM_POWER",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_bio_infantry",
+    "name": "zombie super soldier",
+    "species": "ZOMBIE",
+    "default_faction": "zombie",
+    "symbol": "Z",
+    "color": "red_cyan",
+    "size": "MEDIUM",
+    "material": "flesh",
+    "diff": 25,
+    "anger_triggers": [
+      "FRIEND_DIED",
+      "FRIEND_ATTACKED",
+      "HURT"
+    ],
+    "aggression": 100,
+    "morale": 100,
+    "speed": 100,
+    "melee_skill": 3,
+    "melee_dice": 2,
+    "melee_dice_sides": 2,
+    "melee_cut": 2,
+    "dodge": 3,
+    "armor_bash": 2,
+    "armor_cut": 2,
+    "vision_day": 40,
+    "vision_night": 3,
+    "death_drops": "wild_bio_infantry",
+    "luminance": 2,
+    "hp": 100,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 3,
+        "gun_type": "arc_laser_rifle",
+        "ammo_type": "generic_no_ammo",
+        "max_ammo": 1000,
+        "fake_str": 8,
+        "fake_dex": 10,
+        "fake_per": 10,
+        "fake_skills": [
+          [
+            "gun",
+            3
+          ],
+          [
+            "rifle",
+            3
+          ]
+        ],
+        "move_cost": 150,
+        "targeting_cost": 100,
+        "ranges": [
+          [
+            10,
+            15,
+            "DEFAULT"
+          ]
+        ],
+        "description": "The super soldier fires its ARC rifle!",
+        "targeting_sound": "argh!",
+        "targeting_volume": 5,
+        "no_ammo_sound": "beep-beep-beep!"
+      }
+    ],
+    "starting_ammo": {
+      "generic_no_ammo": 100
+    },
+    "special_when_hit": [
+      "ZAPBACK",
+      60
+    ],
+    "description": "A zombie of a former member of the military. This one wields a particular rifle and bionics and appears to know how to use them.",
+    "flags": [
+      "SEES",
+      "REGENERATES_10",
+      "HEARS",
+      "SMELLS",
+      "POISON",
+      "BASHES",
+      "CBM_POWER",
+      "CBM_OP",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES"
+    ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_bio_knight",
+    "name": "zombie super jauggernaut",
+    "species": "ZOMBIE",
+    "default_faction": "zombie",
+    "symbol": "Z",
+    "color": "red_cyan",
+    "size": "MEDIUM",
+    "material": "flesh",
+    "diff": 25,
+    "anger_triggers": [
+      "FRIEND_DIED",
+      "FRIEND_ATTACKED",
+      "HURT"
+    ],
+    "aggression": 100,
+    "morale": 100,
+    "speed": 80,
+    "melee_skill": 3,
+    "melee_dice": 2,
+    "melee_dice_sides": 2,
+    "melee_cut": 2,
+    "dodge": 3,
+    "armor_bash": 2,
+    "armor_cut": 2,
+    "vision_day": 40,
+    "vision_night": 3,
+    "death_drops": "wild_bio_knight",
+    "luminance": 2,
+    "hp": 100,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 5,
+        "gun_type": "bio_blaster_gun",
+        "ammo_type": "generic_no_ammo",
+        "max_ammo": 1000,
+        "fake_str": 8,
+        "fake_dex": 10,
+        "fake_per": 10,
+        "fake_skills": [
+          [
+            "gun",
+            3
+          ],
+          [
+            "rifle",
+            3
+          ]
+        ],
+        "move_cost": 150,
+        "targeting_cost": 200,
+        "ranges": [
+          [
+            20,
+            30,
+            "DEFAULT"
+          ]
+        ],
+        "description": "The super soldier fires its fusion blaster!",
+        "targeting_sound": "swoosh...click!",
+        "targeting_volume": 20,
+        "no_ammo_sound": "beep-beep-beep!"
+      }
+    ],
+    "starting_ammo": {
+      "generic_no_ammo": 100
+    },
+    "special_when_hit": [
+      "ZAPBACK",
+      60
+    ],
+    "description": "A zombie of a former member of the military. This one wields a particular lmg, bionics and armor and appears to know how to use them.",
+    "flags": [
+      "SEES",
+      "REGENERATES_10",
+      "HEARS",
+      "SMELLS",
+      "POISON",
+      "BASHES",
+      "CBM_POWER",
+      "CBM_OP",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES"
+    ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_bio_scout",
+    "name": "zombie super scout",
+    "species": "ZOMBIE",
+    "default_faction": "zombie",
+    "symbol": "Z",
+    "color": "red_cyan",
+    "size": "MEDIUM",
+    "material": "flesh",
+    "diff": 25,
+    "anger_triggers": [
+      "FRIEND_DIED",
+      "FRIEND_ATTACKED",
+      "HURT"
+    ],
+    "aggression": 100,
+    "morale": 100,
+    "speed": 100,
+    "melee_skill": 3,
+    "melee_dice": 2,
+    "melee_dice_sides": 2,
+    "melee_cut": 2,
+    "dodge": 3,
+    "armor_bash": 2,
+    "armor_cut": 2,
+    "vision_day": 40,
+    "vision_night": 3,
+    "death_drops": "wild_bio_scout",
+    "luminance": 2,
+    "hp": 100,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 3,
+        "gun_type": "laser_sniper",
+        "ammo_type": "generic_no_ammo",
+        "max_ammo": 1000,
+        "fake_str": 8,
+        "fake_dex": 10,
+        "fake_per": 10,
+        "fake_skills": [
+          [
+            "gun",
+            3
+          ],
+          [
+            "rifle",
+            3
+          ]
+        ],
+        "move_cost": 150,
+        "targeting_cost": 150,
+        "ranges": [
+          [
+            20,
+            30,
+            "DEFAULT"
+          ]
+        ],
+        "description": "The super scout fires its rifle!",
+        "targeting_sound": "arrrrrgh!",
+        "targeting_volume": 5,
+        "no_ammo_sound": "beep-beep-beep!"
+      }
+    ],
+    "starting_ammo": {
+      "generic_no_ammo": 100
+    },
+    "special_when_hit": [
+      "ZAPBACK",
+      60
+    ],
+    "description": "A zombie of a former member of the military. This one wields a particular rifle and bionics and appears to know how to use them.",
+    "flags": [
+      "SEES",
+      "REGENERATES_10",
+      "HEARS",
+      "SMELLS",
+      "POISON",
+      "BASHES",
+      "CBM_POWER",
+      "CBM_OP",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES"
+    ]
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_bio_tool",
+    "name": "zombie super B.A.M.R.U",
+    "species": "ZOMBIE",
+    "default_faction": "zombie",
+    "symbol": "Z",
+    "color": "red_cyan",
+    "size": "MEDIUM",
+    "material": "flesh",
+    "diff": 25,
+    "anger_triggers": [
+      "FRIEND_DIED",
+      "FRIEND_ATTACKED",
+      "HURT"
+    ],
+    "aggression": 100,
+    "morale": 100,
+    "speed": 100,
+    "melee_skill": 3,
+    "melee_dice": 2,
+    "melee_dice_sides": 2,
+    "melee_cut": 2,
+    "dodge": 3,
+    "armor_bash": 2,
+    "armor_cut": 2,
+    "vision_day": 40,
+    "vision_night": 3,
+    "death_drops": "wild_bio_tool",
+    "luminance": 2,
+    "hp": 100,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 1,
+        "gun_type": "v29",
+        "ammo_type": "generic_no_ammo",
+        "max_ammo": 1000,
+        "fake_str": 8,
+        "fake_dex": 10,
+        "fake_per": 10,
+        "fake_skills": [
+          [
+            "gun",
+            1
+          ],
+          [
+            "pistol",
+            2
+          ]
+        ],
+        "move_cost": 100,
+        "targeting_cost": 50,
+        "ranges": [
+          [
+            8,
+            10,
+            "DEFAULT"
+          ]
+        ],
+        "description": "The super scout fires its pistol!",
+        "targeting_sound": "argh!",
+        "targeting_volume": 5,
+        "no_ammo_sound": "beep-beep-beep!"
+      }
+    ],
+    "starting_ammo": {
+      "generic_no_ammo": 100
+    },
+    "special_when_hit": [
+      "ZAPBACK",
+      60
+    ],
+    "description": "A zombie of a former member of the military. This one wields a particular pistol and bionics and appears to know how to use them.",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "POISON",
+      "BASHES",
+      "CBM_POWER",
+      "CBM_TECH",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES"
+    ]
+  }
 ]

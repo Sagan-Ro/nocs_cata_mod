@@ -1,141 +1,155 @@
-[{
-        "type" : "overmap_terrain",
-        "id" : "Survivor_Holdout",
-        "name" : "Survivor Holdout",
-        "sym" : 72,
-        "color" : "i_red",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 0
-    },{
-        "type" : "overmap_terrain",
-        "id" : "surv_camp",
-        "name" : "forest","//" : "Design to look like a normal forest.",
-        "sym" : 70,
-        "color" : "green",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 0
-    },{
-        "type" : "overmap_terrain",
-        "id" : "surv_emcampz",
-        "name" : "Survivor Emcampment",
-        "sym" : 67,
-        "color" : "light_green",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 0
-    },{
-        "type" : "overmap_terrain",
-        "id" : "surv_emcampb",
-        "name" : "Survivor Emcampment",
-        "sym" : 67,
-        "color" : "light_green",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 0
-    },{
-        "type" : "overmap_terrain",
-        "id" : "surv_emcampn",
-        "name" : "Survivor Emcampment",
-        "sym" : 67,
-        "color" : "light_green",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 0
-    },{
-        "type" : "overmap_terrain",
-        "id" : "surv_emcampnp",
-        "name" : "Survivor Emcampment",
-        "sym" : 67,
-        "color" : "light_green",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 0
-    },
-	{
-        "type" : "overmap_terrain",
-        "id" : "Bio_Weapon_Lab",
-        "name" : "Bio-Weapon Lab",
-        "sym" : 76,
-        "color" : "light_blue",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 0
-    }, {
-        "type" : "overmap_terrain",
-        "id" : "Unknown_Lab",
-        "name" : "Unknown Lab",
-        "sym" : 76,
-        "color" : "light_blue",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 0
-    }, {
-        "type" : "overmap_terrain",
-        "id" : "makeshift_command_center",
-        "name" : "Makeshift Command Center",
-        "sym" : 67,
-        "color" : "blue",
-        "see_cost" : 5,
-        "extras" : "build"
-    }, {
-        "type" : "overmap_terrain",
-        "id" : "bio_field",
-        "name" : "field",
-        "sym" : 46,
-        "color" : "brown",
-        "see_cost" : 2
-,        "extras" : "build",
-        "mondensity" : 0
-    },{
-        "type" : "overmap_terrain",
-        "id" : "b_field",
-        "name" : "field",
-        "sym" : 46,
-        "color" : "brown",
-        "see_cost" : 2,
-        "extras" : "field",
-        "allow_road" : true,
-        "mondensity" : 0
-	},
-	{
-        "type" : "overmap_terrain",
-        "id" : "b2_field",
-        "name" : "field",
-        "sym" : 46,
-        "color" : "brown",
-        "see_cost" : 2,
-        "extras" : "field",
-        "allow_road" : true,
-        "mondensity" : 0
-	}, 
-	{
-        "type" : "overmap_terrain",
-        "id" : "biow_field",
-        "name" : "field",
-        "sym" : 46,
-        "color" : "brown",
-        "see_cost" : 2,        
-		"extras" : "build",
-        "mondensity" : 0
-    },
-	{
-        "type" : "overmap_terrain",
-        "id" : "house_fight",
-        "name" : "Sketchy Cabin",
-        "sym" : 67,
-        "color" : "i_red",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 0
-    },{
-        "type" : "overmap_terrain",
-        "id" : "forest_slaghter",
-        "name" : "forest","//" : "Design to look like a normal forest.",
-        "sym" : 70,
-        "color" : "green",
-        "see_cost" : 5,
-        "extras" : "build",
-        "mondensity" : 0
-    }]
+[
+  {
+    "type": "overmap_terrain",
+    "id": "Survivor_Holdout",
+    "name": "Survivor Holdout",
+    "sym": 72,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "surv_camp",
+    "name": "forest",
+    "//": "Design to look like a normal forest.",
+    "sym": 70,
+    "color": "green",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "surv_emcampz",
+    "name": "Survivor Emcampment",
+    "sym": 67,
+    "color": "light_green",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "surv_emcampb",
+    "name": "Survivor Emcampment",
+    "sym": 67,
+    "color": "light_green",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "surv_emcampn",
+    "name": "Survivor Emcampment",
+    "sym": 67,
+    "color": "light_green",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "surv_emcampnp",
+    "name": "Survivor Emcampment",
+    "sym": 67,
+    "color": "light_green",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "Bio_Weapon_Lab",
+    "name": "Bio-Weapon Lab",
+    "sym": 76,
+    "color": "light_blue",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "Unknown_Lab",
+    "name": "Unknown Lab",
+    "sym": 76,
+    "color": "light_blue",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "makeshift_command_center",
+    "name": "Makeshift Command Center",
+    "sym": 67,
+    "color": "blue",
+    "see_cost": 5,
+    "extras": "build"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "bio_field",
+    "name": "field",
+    "sym": 46,
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "b_field",
+    "name": "field",
+    "sym": 46,
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "field",
+    "allow_road": true,
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "b2_field",
+    "name": "field",
+    "sym": 46,
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "field",
+    "allow_road": true,
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "biow_field",
+    "name": "field",
+    "sym": 46,
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "house_fight",
+    "name": "Sketchy Cabin",
+    "sym": 67,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "forest_slaghter",
+    "name": "forest",
+    "//": "Design to look like a normal forest.",
+    "sym": 70,
+    "color": "green",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 0
+  }
+]

@@ -1,516 +1,1479 @@
 [
-    {
-    "type" : "item_group",
-    "id" : "camping",
-        "items":[
-            ["surcan", 10], ["hammer_multitool", 10], ["parawatch", 10], ["parabracelets", 10]
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "sports",
-        "items":[
-            ["surcan", 10], ["hammer_multitool", 10], ["parawatch", 10], ["parabracelets", 10]
-        ]
-    }
-,{
-    "type" : "item_group",
-    "id" : "allsporting",
-        "items":[
-            ["surcan", 10], ["hammer_multitool", 10], ["parawatch", 10], ["parabracelets", 10]
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "gunxtras",
-        "items":[
-            ["fr_22", 5],
- ["fr_223", 5], ["fr_308", 5],
- ["fr_9mm", 5], ["fr_12", 5],
- ["fr_762", 5],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "gunsmith_gunparts",
-        "items":[
-            ["fr_22", 5],
- ["fr_223", 5], ["fr_308", 5],
- ["fr_9mm", 5], ["fr_12", 5],
- ["fr_762", 5],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "cop_armory",
-        "items":[
-            ["fr_22", 2],
- ["fr_223", 2], ["fr_308", 2],
- ["fr_9mm", 2], ["fr_12", 2],
- ["fr_762", 2],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "cop_gear",
-        "items":[
-            ["fr_22", 2],
- ["fr_223", 2], ["fr_308", 2],
- ["fr_9mm", 2], ["fr_12", 2],
- ["fr_762", 2],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "cop_evidence",
-        "items":[
-            ["fr_22", 2],
- ["fr_223", 2], ["fr_308", 2],
- ["fr_9mm", 2], ["fr_12", 2],
- ["fr_762", 2],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]
-
-        ]
-    }
-
-
-
-
-
-
-
-,{
-    "type" : "item_group",
-    "id" : "contraband",
-        "items":[
-            ["fr_22", 2],
- ["fr_223", 2], ["fr_308", 2],
- ["fr_9mm", 2], ["fr_12", 2],
- ["fr_762", 2],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "swat_gear",
-        "items":[
-            ["fr_22", 2],
- ["fr_223", 2], ["fr_308", 2],
- ["fr_9mm", 2], ["fr_12", 2],
- ["fr_762", 2],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "lmoe_guns",
-        "items":[
-            ["fr_22", 2],
- ["fr_223", 2], ["fr_308", 2],
- ["fr_9mm", 2], ["fr_12", 2],
- ["fr_762", 2]
-
-,
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]        ]
-    },{
-    "type" : "item_group",
-    "id" : "vault",
-        "items":[
-            ["fr_22", 2],
- ["fr_223", 2], ["fr_308", 2],
- ["fr_9mm", 2], ["fr_12", 2],
- ["fr_762", 2],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1],
- ["lmil_armor", 1],
- ["mil_armor", 1],
- ["hmil_armor", 1]
-
-        ]
-    }
-
-
-
-
-
-,{
-    "type" : "item_group",
-    "id" : "mil_hw",
-        "items":[
-            ["fr_22", 2],
- ["fr_223", 2], ["fr_308", 2],
- ["fr_9mm", 2], ["fr_12", 2],
- ["fr_762", 2],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1],
- ["lmil_armor", 2],
- ["mil_armor", 2],
- ["hmil_armor", 2]
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "military",
-        "items":[
-            ["fr_22", 2],
- ["fr_223", 2], ["fr_308", 2],
- ["fr_9mm", 2], ["fr_12", 2],
- ["fr_762", 2],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1],
- ["lmil_armor", 1],
- ["mil_armor", 1],
- ["hmil_armor", 1],
- ["arc_laser_rifle", 2],
-        ["laser_sniper", 2], 
-		["bolt_rifle_elec", 2],
-        ["laser_lmg", 2]
-        , ["megamap", 5], ["stim", 5], ["stealth_cloak_f", 3], ["boots_stealth", 3], ["goggles_nv_clairvoyance", 3] 
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "gunsmith_mat",
-        "items":[
-            ["fr_22", 5],
- ["fr_223", 5], ["fr_308", 5],
- ["fr_9mm", 5], ["fr_12", 5],
- ["fr_762", 5],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "mil_surplus",
-        "items":[
-            ["fr_22", 1],
- ["fr_223", 1], ["fr_308", 1],
- ["fr_9mm", 1], ["fr_12", 1],
- ["fr_762", 1],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1],
- ["mil_surp_pack_1", 1],
- ["mil_surp_pack_2", 1],
- ["mil_surp_pack_3", 1]
-
-        ]
-    }
-
-
-
-
-
-
-
-
-
-
-
-,{
-    "type" : "item_group",
-    "id" : "mil_accessories",
-        "items":[
-            ["fr_22", 1],
- ["fr_223", 1], ["fr_308", 1],
- ["fr_9mm", 1], ["fr_12", 1],
- ["fr_762", 1],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "army_personal_locker",
-        "items":[
-            ["fr_22", 1],
- ["fr_223", 1], ["fr_308", 1],
- ["fr_9mm", 1], ["fr_12", 1],
- ["fr_762", 1],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1]
-
-        ]
-    },{
-    "type":"item_group",
-    "id":"survivorzed_extra",
-    "guns_with_ammo" : true,
-    "items":[
-            ["sur_pnu_lmg", 2],
-			["ups_rifle", 2], 
-			["ups_rifle_crank", 2],
-			["surv_battery_pistol", 2], 
-			["surv_battery_rifle", 2],
-			["surv_full_223", 2],
-			["surv_full_22", 2],
-			["surv_full_9mm", 2],
-			["surv_full_45", 2],
-			["surv_full_308", 2], 
-			["surv_full_762", 2],
-			["surv_full_12", 2], 
-			["surv_lmg_308", 2],
-			["surv_lmg_762", 2],
-			["surv_lmg_223", 2],
-			["survbow", 2],
-			["surv_sniper", 2],
-			["elc_bld", 2],
-			["recipe_surv", 2],
-			["manual_surv", 2]
-
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "homebooks",
-    "items":[
-	["recipe_surv", 2],
-			["manual_surv", 2]
-	]
-	},{
-    "type" : "item_group",
-    "id" : "textbooks",
-    "items":[
-	["recipe_surv", 2],
-			["manual_surv", 2]
-	]
-	},
-	{
-    "type" : "item_group",
-    "id" : "mil_rifles",
-        "items":[
-		["arc_laser_rifle", 2],
-        ["laser_sniper", 2], 
-		["bolt_rifle_elec", 2],
-        ["laser_lmg", 2]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "helicopter",
-        "items":[
-		["arc_laser_rifle", 2],
-        ["laser_sniper", 2], 
-		["bolt_rifle_elec", 2],
-        ["laser_lmg", 2]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "army_rifles",
-        "items":[
-		["arc_laser_rifle", 2],
-        ["laser_sniper", 2], 
-		["bolt_rifle_elec", 2],
-        ["laser_lmg", 2]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "science",
-        "items":[
-		["arc_laser_rifle", 2],
-        ["laser_sniper", 2], 
-		["bolt_rifle_elec", 2],
-        ["laser_lmg", 2]
-        , ["megamap", 2], ["stim", 5], ["stealth_cloak_f", 1], ["boots_stealth", 2], ["goggles_nv_clairvoyance", 2], ["flesh_blade", 2], ["flesh_rifle", 2], ["blood_m", 2]        ]}
-, {
-    "type" : "item_group",
-    "id" : "rare",
-        "items":[
-		["arc_laser_rifle", 2],
-        ["laser_sniper", 2], 
-		["bolt_rifle_elec", 2],
-        ["laser_lmg", 2]
-        , ["megamap", 2], ["stim", 2], ["stealth_cloak_f", 2], ["boots_stealth", 2], ["goggles_nv_clairvoyance", 2], ["flesh_blade", 1], ["flesh_rifle", 1], ["blood_m", 1]        ]
-    }, {
-    "type" : "item_group",
-    "id" : "livingroom",
-        "items":[
-            ["biomap", 1]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "kitchen",
-        "items":[
-            ["biomap", 1]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "bed",
-        "items":[
-            ["biomap", 1]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "bedroom",
-        "items":[
-            ["biomap", 1],
-			["fr_22", 1],
- ["fr_223", 1], ["fr_308", 1],
- ["fr_9mm", 1], ["fr_12", 1],
- ["fr_762", 1],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1],
- ["recipe_surv", 2],
-			["manual_surv", 2]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "dresser",
-        "items":[
-            ["biomap", 1],
-			["fr_22", 1],
- ["fr_223", 1], ["fr_308", 1],
- ["fr_9mm", 1], ["fr_12", 1],
- ["fr_762", 1],
- ["22aux", 1],
- ["9mmaux", 1],
- ["45aux", 1],
- ["recipe_surv", 2],
-			["manual_surv", 2],
-			["dress_skirt", 75],
-      ["microskirt", 10],
-      ["fancy_bra", 70],
-      ["thong", 70]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "behindcounter",
-        "items":[
-            ["biomap", 1]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "trash",
-        "items":[
-            ["biomap", 1]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "traveler",
-        "items":[
-            ["biomap", 1],
-			["dress_skirt", 75],
-      ["microskirt", 10],
-      ["fancy_bra", 30],
-      ["thong", 30]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "shelter",
-        "items":[
-            ["biomap", 1]
-        ]
-    }, {
-    "type" : "item_group",
-    "id" : "trash_forest",
-        "items":[
-            ["biomap", 1]
-        ]
-    },{
-    "type" : "item_group",
-    "id" : "bionics",
-    "items":[
-      ["bio_laser_armgun", 10],
-			["bio_sword", 5],
-			["bio_flamethrower", 5]
-        ]},{
-    "type" : "item_group",
-    "id" : "bionics_mil",
-    "items":[
-      ["bio_laser_armgun", 10],
-			["bio_sword", 2],
-			["bio_flamethrower", 5]
-        ]},{
-    "type" : "item_group",
-    "id" : "bionics_op",
-    "items":[
-      ["bio_laser_armgun", 5],
-			["bio_sword", 5],
-			["bio_flamethrower", 5]
-        ]},{
-    "type" : "item_group",
-    "id" : "mil_surplus",
-    "items":[
-      ["m4a1", 2],
-      ["m9", 2],
-      ["m9mag", 2],
-      ["m9bigmag", 1],
-      ["stanag30", 2],
-      ["stanag10", 1],
-      ["556", 4],
-      ["9mm", 4],
-      ["suppressor", 2]
+  {
+    "type": "item_group",
+    "id": "camping",
+    "items": [
+      [
+        "surcan",
+        10
+      ],
+      [
+        "hammer_multitool",
+        10
+      ],
+      [
+        "parawatch",
+        10
+      ],
+      [
+        "parabracelets",
+        10
+      ]
     ]
   },
   {
-    "type" : "item_group",
-    "id" : "cleaning",
-    "items":[
-      ["soap", 250]
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "female_underwear_top",
-    "items":[
-      ["bra", 90],
-      ["fancy_bra", 90]
-    ]
-  },{
-    "type" : "item_group",
-    "id" : "female_underwear_bottom",
-    "items":[
-      ["panties", 70],
-      ["boy_shorts", 50],
-      ["thong", 70]
-    ]
-  },
-  {
-    "type" : "item_group",
-    "id" : "allclothes",
-    "items":[
-      ["dress_skirt", 75],
-      ["microskirt", 10],
-      ["fancy_bra", 30],
-      ["thong", 30]
+    "type": "item_group",
+    "id": "sports",
+    "items": [
+      [
+        "surcan",
+        10
+      ],
+      [
+        "hammer_multitool",
+        10
+      ],
+      [
+        "parawatch",
+        10
+      ],
+      [
+        "parabracelets",
+        10
+      ]
     ]
   },
   {
-    "type" : "item_group",
-    "id" : "pawn",
-    "items":[
-      ["dress_skirt", 75],
-      ["microskirt", 10]
+    "type": "item_group",
+    "id": "allsporting",
+    "items": [
+      [
+        "surcan",
+        10
+      ],
+      [
+        "hammer_multitool",
+        10
+      ],
+      [
+        "parawatch",
+        10
+      ],
+      [
+        "parabracelets",
+        10
+      ]
     ]
   },
   {
-    "type" : "item_group",
-    "id" : "pants",
-    "items":[
-      ["dress_skirt", 75],
-      ["microskirt", 10]
+    "type": "item_group",
+    "id": "gunxtras",
+    "items": [
+      [
+        "fr_22",
+        5
+      ],
+      [
+        "fr_223",
+        5
+      ],
+      [
+        "fr_308",
+        5
+      ],
+      [
+        "fr_9mm",
+        5
+      ],
+      [
+        "fr_12",
+        5
+      ],
+      [
+        "fr_762",
+        5
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunsmith_gunparts",
+    "items": [
+      [
+        "fr_22",
+        5
+      ],
+      [
+        "fr_223",
+        5
+      ],
+      [
+        "fr_308",
+        5
+      ],
+      [
+        "fr_9mm",
+        5
+      ],
+      [
+        "fr_12",
+        5
+      ],
+      [
+        "fr_762",
+        5
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "cop_armory",
+    "items": [
+      [
+        "fr_22",
+        2
+      ],
+      [
+        "fr_223",
+        2
+      ],
+      [
+        "fr_308",
+        2
+      ],
+      [
+        "fr_9mm",
+        2
+      ],
+      [
+        "fr_12",
+        2
+      ],
+      [
+        "fr_762",
+        2
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "cop_gear",
+    "items": [
+      [
+        "fr_22",
+        2
+      ],
+      [
+        "fr_223",
+        2
+      ],
+      [
+        "fr_308",
+        2
+      ],
+      [
+        "fr_9mm",
+        2
+      ],
+      [
+        "fr_12",
+        2
+      ],
+      [
+        "fr_762",
+        2
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "cop_evidence",
+    "items": [
+      [
+        "fr_22",
+        2
+      ],
+      [
+        "fr_223",
+        2
+      ],
+      [
+        "fr_308",
+        2
+      ],
+      [
+        "fr_9mm",
+        2
+      ],
+      [
+        "fr_12",
+        2
+      ],
+      [
+        "fr_762",
+        2
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "contraband",
+    "items": [
+      [
+        "fr_22",
+        2
+      ],
+      [
+        "fr_223",
+        2
+      ],
+      [
+        "fr_308",
+        2
+      ],
+      [
+        "fr_9mm",
+        2
+      ],
+      [
+        "fr_12",
+        2
+      ],
+      [
+        "fr_762",
+        2
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "swat_gear",
+    "items": [
+      [
+        "fr_22",
+        2
+      ],
+      [
+        "fr_223",
+        2
+      ],
+      [
+        "fr_308",
+        2
+      ],
+      [
+        "fr_9mm",
+        2
+      ],
+      [
+        "fr_12",
+        2
+      ],
+      [
+        "fr_762",
+        2
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "lmoe_guns",
+    "items": [
+      [
+        "fr_22",
+        2
+      ],
+      [
+        "fr_223",
+        2
+      ],
+      [
+        "fr_308",
+        2
+      ],
+      [
+        "fr_9mm",
+        2
+      ],
+      [
+        "fr_12",
+        2
+      ],
+      [
+        "fr_762",
+        2
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "vault",
+    "items": [
+      [
+        "fr_22",
+        2
+      ],
+      [
+        "fr_223",
+        2
+      ],
+      [
+        "fr_308",
+        2
+      ],
+      [
+        "fr_9mm",
+        2
+      ],
+      [
+        "fr_12",
+        2
+      ],
+      [
+        "fr_762",
+        2
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ],
+      [
+        "lmil_armor",
+        1
+      ],
+      [
+        "mil_armor",
+        1
+      ],
+      [
+        "hmil_armor",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mil_hw",
+    "items": [
+      [
+        "fr_22",
+        2
+      ],
+      [
+        "fr_223",
+        2
+      ],
+      [
+        "fr_308",
+        2
+      ],
+      [
+        "fr_9mm",
+        2
+      ],
+      [
+        "fr_12",
+        2
+      ],
+      [
+        "fr_762",
+        2
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ],
+      [
+        "lmil_armor",
+        2
+      ],
+      [
+        "mil_armor",
+        2
+      ],
+      [
+        "hmil_armor",
+        2
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military",
+    "items": [
+      [
+        "fr_22",
+        2
+      ],
+      [
+        "fr_223",
+        2
+      ],
+      [
+        "fr_308",
+        2
+      ],
+      [
+        "fr_9mm",
+        2
+      ],
+      [
+        "fr_12",
+        2
+      ],
+      [
+        "fr_762",
+        2
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ],
+      [
+        "lmil_armor",
+        1
+      ],
+      [
+        "mil_armor",
+        1
+      ],
+      [
+        "hmil_armor",
+        1
+      ],
+      [
+        "arc_laser_rifle",
+        2
+      ],
+      [
+        "laser_sniper",
+        2
+      ],
+      [
+        "bolt_rifle_elec",
+        2
+      ],
+      [
+        "laser_lmg",
+        2
+      ],
+      [
+        "megamap",
+        5
+      ],
+      [
+        "stim",
+        5
+      ],
+      [
+        "stealth_cloak_f",
+        3
+      ],
+      [
+        "boots_stealth",
+        3
+      ],
+      [
+        "goggles_nv_clairvoyance",
+        3
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunsmith_mat",
+    "items": [
+      [
+        "fr_22",
+        5
+      ],
+      [
+        "fr_223",
+        5
+      ],
+      [
+        "fr_308",
+        5
+      ],
+      [
+        "fr_9mm",
+        5
+      ],
+      [
+        "fr_12",
+        5
+      ],
+      [
+        "fr_762",
+        5
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mil_surplus",
+    "items": [
+      [
+        "fr_22",
+        1
+      ],
+      [
+        "fr_223",
+        1
+      ],
+      [
+        "fr_308",
+        1
+      ],
+      [
+        "fr_9mm",
+        1
+      ],
+      [
+        "fr_12",
+        1
+      ],
+      [
+        "fr_762",
+        1
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ],
+      [
+        "mil_surp_pack_1",
+        1
+      ],
+      [
+        "mil_surp_pack_2",
+        1
+      ],
+      [
+        "mil_surp_pack_3",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mil_accessories",
+    "items": [
+      [
+        "fr_22",
+        1
+      ],
+      [
+        "fr_223",
+        1
+      ],
+      [
+        "fr_308",
+        1
+      ],
+      [
+        "fr_9mm",
+        1
+      ],
+      [
+        "fr_12",
+        1
+      ],
+      [
+        "fr_762",
+        1
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "army_personal_locker",
+    "items": [
+      [
+        "fr_22",
+        1
+      ],
+      [
+        "fr_223",
+        1
+      ],
+      [
+        "fr_308",
+        1
+      ],
+      [
+        "fr_9mm",
+        1
+      ],
+      [
+        "fr_12",
+        1
+      ],
+      [
+        "fr_762",
+        1
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "survivorzed_extra",
+    "guns_with_ammo": true,
+    "items": [
+      [
+        "sur_pnu_lmg",
+        2
+      ],
+      [
+        "ups_rifle",
+        2
+      ],
+      [
+        "ups_rifle_crank",
+        2
+      ],
+      [
+        "surv_battery_pistol",
+        2
+      ],
+      [
+        "surv_battery_rifle",
+        2
+      ],
+      [
+        "surv_full_223",
+        2
+      ],
+      [
+        "surv_full_22",
+        2
+      ],
+      [
+        "surv_full_9mm",
+        2
+      ],
+      [
+        "surv_full_45",
+        2
+      ],
+      [
+        "surv_full_308",
+        2
+      ],
+      [
+        "surv_full_762",
+        2
+      ],
+      [
+        "surv_full_12",
+        2
+      ],
+      [
+        "surv_lmg_308",
+        2
+      ],
+      [
+        "surv_lmg_762",
+        2
+      ],
+      [
+        "surv_lmg_223",
+        2
+      ],
+      [
+        "survbow",
+        2
+      ],
+      [
+        "surv_sniper",
+        2
+      ],
+      [
+        "elc_bld",
+        2
+      ],
+      [
+        "recipe_surv",
+        2
+      ],
+      [
+        "manual_surv",
+        2
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "homebooks",
+    "items": [
+      [
+        "recipe_surv",
+        2
+      ],
+      [
+        "manual_surv",
+        2
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "textbooks",
+    "items": [
+      [
+        "recipe_surv",
+        2
+      ],
+      [
+        "manual_surv",
+        2
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mil_rifles",
+    "items": [
+      [
+        "arc_laser_rifle",
+        2
+      ],
+      [
+        "laser_sniper",
+        2
+      ],
+      [
+        "bolt_rifle_elec",
+        2
+      ],
+      [
+        "laser_lmg",
+        2
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "helicopter",
+    "items": [
+      [
+        "arc_laser_rifle",
+        2
+      ],
+      [
+        "laser_sniper",
+        2
+      ],
+      [
+        "bolt_rifle_elec",
+        2
+      ],
+      [
+        "laser_lmg",
+        2
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "army_rifles",
+    "items": [
+      [
+        "arc_laser_rifle",
+        2
+      ],
+      [
+        "laser_sniper",
+        2
+      ],
+      [
+        "bolt_rifle_elec",
+        2
+      ],
+      [
+        "laser_lmg",
+        2
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "science",
+    "items": [
+      [
+        "arc_laser_rifle",
+        2
+      ],
+      [
+        "laser_sniper",
+        2
+      ],
+      [
+        "bolt_rifle_elec",
+        2
+      ],
+      [
+        "laser_lmg",
+        2
+      ],
+      [
+        "megamap",
+        2
+      ],
+      [
+        "stim",
+        5
+      ],
+      [
+        "stealth_cloak_f",
+        1
+      ],
+      [
+        "boots_stealth",
+        2
+      ],
+      [
+        "goggles_nv_clairvoyance",
+        2
+      ],
+      [
+        "flesh_blade",
+        2
+      ],
+      [
+        "flesh_rifle",
+        2
+      ],
+      [
+        "blood_m",
+        2
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "rare",
+    "items": [
+      [
+        "arc_laser_rifle",
+        2
+      ],
+      [
+        "laser_sniper",
+        2
+      ],
+      [
+        "bolt_rifle_elec",
+        2
+      ],
+      [
+        "laser_lmg",
+        2
+      ],
+      [
+        "megamap",
+        2
+      ],
+      [
+        "stim",
+        2
+      ],
+      [
+        "stealth_cloak_f",
+        2
+      ],
+      [
+        "boots_stealth",
+        2
+      ],
+      [
+        "goggles_nv_clairvoyance",
+        2
+      ],
+      [
+        "flesh_blade",
+        1
+      ],
+      [
+        "flesh_rifle",
+        1
+      ],
+      [
+        "blood_m",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "livingroom",
+    "items": [
+      [
+        "biomap",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "kitchen",
+    "items": [
+      [
+        "biomap",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bed",
+    "items": [
+      [
+        "biomap",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bedroom",
+    "items": [
+      [
+        "biomap",
+        1
+      ],
+      [
+        "fr_22",
+        1
+      ],
+      [
+        "fr_223",
+        1
+      ],
+      [
+        "fr_308",
+        1
+      ],
+      [
+        "fr_9mm",
+        1
+      ],
+      [
+        "fr_12",
+        1
+      ],
+      [
+        "fr_762",
+        1
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ],
+      [
+        "recipe_surv",
+        2
+      ],
+      [
+        "manual_surv",
+        2
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "dresser",
+    "items": [
+      [
+        "biomap",
+        1
+      ],
+      [
+        "fr_22",
+        1
+      ],
+      [
+        "fr_223",
+        1
+      ],
+      [
+        "fr_308",
+        1
+      ],
+      [
+        "fr_9mm",
+        1
+      ],
+      [
+        "fr_12",
+        1
+      ],
+      [
+        "fr_762",
+        1
+      ],
+      [
+        "22aux",
+        1
+      ],
+      [
+        "9mmaux",
+        1
+      ],
+      [
+        "45aux",
+        1
+      ],
+      [
+        "recipe_surv",
+        2
+      ],
+      [
+        "manual_surv",
+        2
+      ],
+      [
+        "dress_skirt",
+        75
+      ],
+      [
+        "microskirt",
+        10
+      ],
+      [
+        "fancy_bra",
+        70
+      ],
+      [
+        "thong",
+        70
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "behindcounter",
+    "items": [
+      [
+        "biomap",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "trash",
+    "items": [
+      [
+        "biomap",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "traveler",
+    "items": [
+      [
+        "biomap",
+        1
+      ],
+      [
+        "dress_skirt",
+        75
+      ],
+      [
+        "microskirt",
+        10
+      ],
+      [
+        "fancy_bra",
+        30
+      ],
+      [
+        "thong",
+        30
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "shelter",
+    "items": [
+      [
+        "biomap",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "trash_forest",
+    "items": [
+      [
+        "biomap",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics",
+    "items": [
+      [
+        "bio_laser_armgun",
+        10
+      ],
+      [
+        "bio_sword",
+        5
+      ],
+      [
+        "bio_flamethrower",
+        5
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_mil",
+    "items": [
+      [
+        "bio_laser_armgun",
+        10
+      ],
+      [
+        "bio_sword",
+        2
+      ],
+      [
+        "bio_flamethrower",
+        5
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_op",
+    "items": [
+      [
+        "bio_laser_armgun",
+        5
+      ],
+      [
+        "bio_sword",
+        5
+      ],
+      [
+        "bio_flamethrower",
+        5
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mil_surplus",
+    "items": [
+      [
+        "m4a1",
+        2
+      ],
+      [
+        "m9",
+        2
+      ],
+      [
+        "m9mag",
+        2
+      ],
+      [
+        "m9bigmag",
+        1
+      ],
+      [
+        "stanag30",
+        2
+      ],
+      [
+        "stanag10",
+        1
+      ],
+      [
+        "556",
+        4
+      ],
+      [
+        "9mm",
+        4
+      ],
+      [
+        "suppressor",
+        2
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "cleaning",
+    "items": [
+      [
+        "soap",
+        250
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "female_underwear_top",
+    "items": [
+      [
+        "bra",
+        90
+      ],
+      [
+        "fancy_bra",
+        90
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "female_underwear_bottom",
+    "items": [
+      [
+        "panties",
+        70
+      ],
+      [
+        "boy_shorts",
+        50
+      ],
+      [
+        "thong",
+        70
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "allclothes",
+    "items": [
+      [
+        "dress_skirt",
+        75
+      ],
+      [
+        "microskirt",
+        10
+      ],
+      [
+        "fancy_bra",
+        30
+      ],
+      [
+        "thong",
+        30
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "pawn",
+    "items": [
+      [
+        "dress_skirt",
+        75
+      ],
+      [
+        "microskirt",
+        10
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "pants",
+    "items": [
+      [
+        "dress_skirt",
+        75
+      ],
+      [
+        "microskirt",
+        10
+      ]
     ]
   }
 ]
