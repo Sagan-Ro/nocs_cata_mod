@@ -26,7 +26,7 @@ Feedback is welcomed! Hope it’s fun.
 
 ----------------------------------------------------------------
 
-**It includes new items:**
+**New Items:**
 
 * **bio laser pistol**: Finger Laser CBM turned into a pistol.  Very accurate, but not particularly damaging.
 * **chain lightning rifle**: Rifle built with parts salvaged from Chain Lightning CBM.  Fires bolts of electricity that jump between nearby enemies.
@@ -158,13 +158,13 @@ Feedback is welcomed! Hope it’s fun.
 
 **Added New Buildings:**
 
-* **Survivor's Holdout: Has everything a survivor needs but it’s rare and its decently protected.
-* **Survivor Campsite: In the woods some survivors made temporary shelter and then left.
-* **Survivor Encampment: A group of survivors made a makeshift community and gathered supplies, deal with them and the place is yours!
-* **Bio-Weapon Lab: Were it all took place, were you were created, it’s overrun, and it may all end here. Small building with cloning vats, broken generators and broken computers.
-* **Makeshift Command Center: Former Bio-Weapon project personnel build a refuge facility for themselves, but from what?
-* **Unknown Lab: Another lab. Its use is clear once you reach there. Has a a good stash awaiting.
-* **Sketchy Cabin: Some out of place cabins seems to exist in the forest. You can hear the sound of fighting and smell the scent of death...
+* **Survivor's Holdout**: Has everything a survivor needs but it’s rare and its decently protected.
+* **Survivor Campsite**: In the woods some survivors made temporary shelter and then left.
+* **Survivor Encampment**: A group of survivors made a makeshift community and gathered supplies, deal with them and the place is yours!
+* **Bio-Weapon Lab**: Were it all took place, were you were created, it’s overrun, and it may all end here. Small building with cloning vats, broken generators and broken computers.
+* **Makeshift Command Center**: Former Bio-Weapon project personnel build a refuge facility for themselves, but from what?
+* **Unknown Lab**: Another lab. Its use is clear once you reach there. Has a a good stash awaiting.
+* **Sketchy Cabin**: Some out of place cabins seems to exist in the forest. You can hear the sound of fighting and smell the scent of death...
 
 **New Vehicle:**
 
