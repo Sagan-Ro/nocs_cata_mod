@@ -69,7 +69,7 @@
     "type": "TOOL",
     "id": "flesh_blade",
     "name": "biological sword",
-    "description": "A foot-long sword made from metal enclosed flesh and bone.  Its blade constists of razor sharp saw-like protrusions.  Its bone handle fits well in hand due to shape of its handguard.  Holding it makes you feel powerful... the sensation grows stronger with time.",
+    "description": "A foot-long sword made from metal enclosed flesh and bone.  Its blade consists of razor sharp saw-like protrusions.  Its bone handle fits well in hand due to shape of its handguard.  Holding it makes you feel powerful... the sensation grows stronger with time.",
     "weight": 680,
     "to_hit": 4,
     "max_charges": 3,

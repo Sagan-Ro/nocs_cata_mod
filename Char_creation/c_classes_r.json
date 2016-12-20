@@ -31,8 +31,8 @@
   {
     "type": "profession",
     "ident": "pri-sur",
-    "name": "Primitve Survivalist",
-    "description": "You knew the day would come, the day it all went to shit. You prepared yourself, not by gear but sheer skill; all those days in the woods payed of. If your ancestors survived with no tech, you'll be damned if you dont't",
+    "name": "Primitive Survivalist",
+    "description": "You knew the day would come, the day it all went to shit. You prepared yourself, not by gear but sheer skill; all those days in the woods paid off. If your ancestors survived with no tech, you'll be damned if you dont't",
     "points": 6,
     "skills": [
       {
@@ -183,7 +183,7 @@
     "type": "profession",
     "ident": "bio_cyclist",
     "name": "Bionic Cyclist",
-    "description": "Your traning and augmentation for the Cyberolympics cycling competition gave you an edge on escaping the start of the cataclysm. Can you keep on running from it forever?",
+    "description": "Your training and augmentation for the Cyber-Olympics cycling competition gave you an edge on escaping the start of the cataclysm. Can you keep on running from it forever?",
     "points": 6,
     "CBMs": [
       "bio_str_enhancer",

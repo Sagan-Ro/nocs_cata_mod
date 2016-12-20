@@ -9,7 +9,7 @@
     "to_hit": -1,
     "dispersion_modifier": 30,
     "price": 85000,
-    "description": "A variant of the aux flamthrower intended for diesel.",
+    "description": "A variant of the aux flamethrower intended for diesel.",
     "symbol": ":",
     "material": [
       "steel"

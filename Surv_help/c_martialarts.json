@@ -3,7 +3,7 @@
     "type": "martial_art",
     "id": "style_surv",
     "name": "Survivor Combatives",
-    "description": "You learned how to handle yourself in the cataclysm. You have becomed good at using improvised and hand made weaponry, and to a lesser extenct your fists. Not flashy but it keeps you alive.",
+    "description": "You learned how to handle yourself in the cataclysm. You have become good at using improvised and hand made weaponry, and to a lesser extent your fists. Not flashy but it keeps you alive.",
     "arm_block": 99,
     "leg_block": 99,
     "arm_block_with_bio_armor_arms": true,
@@ -14,7 +14,7 @@
         "name": "Weapon Focus",
         "melee_allowed": true,
         "min_melee": 3,
-        "description": "Weapon proficiency allows to block and dodge surprice attacks.",
+        "description": "Weapon proficiency allows to block and dodge surprise attacks.",
         "bonus_dodges": 1,
         "bonus_blocks": 2
       },
@@ -23,7 +23,7 @@
         "name": "Unarmed Focus",
         "unarmed_allowed": true,
         "min_unarmed": 3,
-        "description": "Careful movement allows to dodge surprice attacks easily.",
+        "description": "Careful movement allows to dodge surprise attacks easily.",
         "bonus_dodges": 3
       },
       {
@@ -42,7 +42,7 @@
         "unarmed_allowed": true,
         "min_unarmed": 2,
         "throw_immune": true,
-        "description": "If thrown or knockdown the user rolls slighty and gets up before an attack can be delt."
+        "description": "If thrown or knockdown the user rolls slightly and gets up before an attack can be dealt."
       }
     ],
     "onattack_buffs": [

@@ -2,7 +2,7 @@
   {
     "type": "vehicle",
     "id": "surv_rv",
-    "//": "A modified luxury rv",
+    "//": "A modified luxury RV",
     "name": "Survivor's RV",
     "parts": [
       {

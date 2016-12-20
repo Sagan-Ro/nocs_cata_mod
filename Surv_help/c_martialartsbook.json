@@ -5,7 +5,7 @@
     "type": "GENERIC",
     "name": "Survivor Combatives",
     "name_plural": "Survivor Combatives",
-    "description": "A journal with a tutorial on various unortodox combat mechanics.",
+    "description": "A journal with a tutorial on various unorhtodox combat mechanics.",
     "book_data": {
       "max_level": 5,
       "intelligence": 8,
