@@ -1,231 +1,1019 @@
-[{
-        "type" : "overmap_special",
-        "id" : "Survivor_Holdout_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "Survivor_Holdout", "connect":"road"}
+[
+  {
+    "type": "overmap_special",
+    "id": "Survivor_Holdout_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
         ],
-        "locations" : [ "forest" ], 
-        "city_distance" : [20, -1],         "city_sizes" : [0, 16], 
-        "occurrences" : [1, 1], 
-        "rotate" : false, 
-        "unique" : true, 
-        "required" : true, 
-        "flags" : [ "CLASSIC", "UNIQUE" ]
-    },{
-        "type" : "overmap_special",
-        "id" : "surv_camp_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "surv_camp"}
+        "overmap": "Survivor_Holdout",
+        "connect": "road"
+      }
+    ],
+    "locations": [
+      "forest"
+    ],
+    "city_distance": [
+      20,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      1,
+      1
+    ],
+    "rotate": false,
+    "unique": true,
+    "required": true,
+    "flags": [
+      "CLASSIC",
+      "UNIQUE"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "surv_camp_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
         ],
-        "locations" : [ "forest" ],         "city_distance" : [5, -1], 
-        "city_sizes" : [0, 16],         "occurrences" : [10, -1], 
-        "rotate" : true, 
-        "unique" : false, 
-        "required" : false, 
-        "flags" : [ "CLASSIC" ]
-    },{
-        "type" : "overmap_special",
-        "id" : "surv_emcampz_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "surv_emcampz"}
+        "overmap": "surv_camp"
+      }
+    ],
+    "locations": [
+      "forest"
+    ],
+    "city_distance": [
+      5,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      10,
+      -1
+    ],
+    "rotate": true,
+    "unique": false,
+    "required": false,
+    "flags": [
+      "CLASSIC"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "surv_emcampz_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
         ],
-        "locations" : [ "forest" ], 
-        "city_distance" : [5, -1], 
-        "city_sizes" : [0, 16], 
-        "occurrences" : [0, 10], 
-        "rotate" : true, 
-        "unique" : false, 
-        "required" : false, 
-        "flags" : [ "CLASSIC" ]
-    },{
-        "type" : "overmap_special",
-        "id" : "surv_emcampb_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "surv_emcampb"}
+        "overmap": "surv_emcampz"
+      }
+    ],
+    "locations": [
+      "forest"
+    ],
+    "city_distance": [
+      5,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      0,
+      10
+    ],
+    "rotate": true,
+    "unique": false,
+    "required": false,
+    "flags": [
+      "CLASSIC"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "surv_emcampb_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
         ],
-        "locations" : [ "forest" ], 
-        "city_distance" : [5, -1], 
-        "city_sizes" : [0, 16], 
-        "occurrences" : [0, 10], 
-        "rotate" : true, 
-        "unique" : false, 
-        "required" : false, 
-        "flags" : [ "CLASSIC" ]
-    },{
-        "type" : "overmap_special",
-        "id" : "surv_emcampn_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "surv_emcampn"}
+        "overmap": "surv_emcampb"
+      }
+    ],
+    "locations": [
+      "forest"
+    ],
+    "city_distance": [
+      5,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      0,
+      10
+    ],
+    "rotate": true,
+    "unique": false,
+    "required": false,
+    "flags": [
+      "CLASSIC"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "surv_emcampn_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
         ],
-        "locations" : [ "forest" ], 
-        "city_distance" : [5, -1], 
-        "city_sizes" : [0, 16], 
-        "occurrences" : [0, 10],         "rotate" : true, 
-        "unique" : false,
-        "required" : false, 
-        "flags" : [ "CLASSIC" ]
-    },{
-        "type" : "overmap_special",
-        "id" : "surv_emcampnp_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "surv_emcampnp"}
+        "overmap": "surv_emcampn"
+      }
+    ],
+    "locations": [
+      "forest"
+    ],
+    "city_distance": [
+      5,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      0,
+      10
+    ],
+    "rotate": true,
+    "unique": false,
+    "required": false,
+    "flags": [
+      "CLASSIC"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "surv_emcampnp_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
         ],
-        "locations" : [ "forest" ], 
-        "city_distance" : [5, -1], 
-        "city_sizes" : [0, 16], 
-        "occurrences" : [0, 1],         "rotate" : true, 
-        "unique" : false,
-        "required" : false, 
-        "flags" : [ "CLASSIC" ]
-    },
-	{
-        "type" : "overmap_special",
-        "id" : "Bio_Weapon_Lab_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,0,0], "overmap": "b2_field", "connect": "road"},
-            { "point":[3,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[3,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,1,0], "overmap": "Bio_Weapon_Lab", "connect": "road"},
-            { "point":[3,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[3,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[3,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,4,0], "overmap": "b_field", "connect": "road"}
+        "overmap": "surv_emcampnp"
+      }
+    ],
+    "locations": [
+      "forest"
+    ],
+    "city_distance": [
+      5,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      0,
+      1
+    ],
+    "rotate": true,
+    "unique": false,
+    "required": false,
+    "flags": [
+      "CLASSIC"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Bio_Weapon_Lab_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
         ],
-        "locations" : [ "forest" ], "//":"what special locations does it spawn",
-        "city_distance" : [20, -1], "//":"how far from a city it should be",
-        "city_sizes" : [0, 16], "//":"what city sizes should it spawn in",
-        "occurrences" : [1, 1], "//":"how many per overmap",
-        "rotate" : true, "//":"allow rotation",
-        "unique" : true, "//":"only allow one per city",
-        "required" : false, "//":"is this special required for valid city sizes",
-        "flags" : [ "CLASSIC", "UNIQUE" ]
-    }, {
-        "type" : "overmap_special",
-        "id" : "Unknown_Lab_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,0,0], "overmap": "b2_field", "connect": "road"},
-            { "point":[3,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[3,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,1,0], "overmap": "Unknown_Lab", "connect": "road"},
-            { "point":[3,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[3,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[3,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,4,0], "overmap": "b_field", "connect": "road"}
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          0,
+          0
         ],
-        "locations" : [ "forest" ], "//":"what special locations does it spawn",
-        "city_distance" : [1, -1], "//":"how far from a city it should be",
-        "city_sizes" : [0, 16], "//":"what city sizes should it spawn in",
-        "occurrences" : [1, 1], "//":"how many per overmap",
-        "rotate" : true, "//":"allow rotation",
-        "unique" : true, "//":"only allow one per city",
-        "required" : false, "//":"is this special required for valid city sizes",
-        "flags" : [ "CLASSIC", "UNIQUE" ]
-    }, {
-        "type" : "overmap_special",
-        "id" : "makeshift_command_center_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,0,0], "overmap": "b2_field", "connect": "road"},
-            { "point":[3,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,0,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[3,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,1,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,1,0], "overmap": "makeshift_command_center", "connect": "road"},
-            { "point":[3,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,2,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[3,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,3,0], "overmap": "b_field", "connect": "road"},
-            { "point":[0,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[1,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[2,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[3,4,0], "overmap": "b_field", "connect": "road"},
-            { "point":[4,4,0], "overmap": "b_field", "connect": "road"}
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          0,
+          0
         ],
-        "locations" : [ "land" ], "//":"what special locations does it spawn",
-        "city_distance" : [20, -1], "//":"how far from a city it should be",
-        "city_sizes" : [0, 16], "//":"what city sizes should it spawn in",
-        "occurrences" : [1, 1], "//":"how many per overmap",
-        "rotate" : true, "//":"allow rotation",
-        "unique" : true, "//":"only allow one per city",
-        "required" : false, "//":"is this special required for valid city sizes",
-        "flags" : [ "CLASSIC", "UNIQUE" ]
-    },{
-        "type" : "overmap_special",
-        "id" : "house_fight_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "house_fight"}
+        "overmap": "b2_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          0,
+          0
         ],
-        "locations" : [ "forest" ], 
-        "city_distance" : [5, -1], 
-        "city_sizes" : [0, 16], 
-        "occurrences" : [0, 15],         
-		"rotate" : true, 
-        "unique" : false,
-        "required" : false, 
-        "flags" : [ "CLASSIC" ]
-    },{
-        "type" : "overmap_special",
-        "id" : "forest_slaghter_s",
-        "overmaps" :
-        [
-            { "point":[0,0,0], "overmap": "forest_slaghter"}
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          0,
+          0
         ],
-        "locations" : [ "forest" ],         
-		"city_distance" : [5, -1], 
-        "city_sizes" : [0, 16],         
-		"occurrences" : [10, -1], 
-        "rotate" : true, 
-        "unique" : false, 
-        "required" : false, 
-        "flags" : [ "CLASSIC" ]
-    }]
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          1,
+          0
+        ],
+        "overmap": "Bio_Weapon_Lab",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      }
+    ],
+    "locations": [
+      "forest"
+    ],
+    "//": "is this special required for valid city sizes",
+    "city_distance": [
+      20,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      1,
+      1
+    ],
+    "rotate": true,
+    "unique": true,
+    "required": false,
+    "flags": [
+      "CLASSIC",
+      "UNIQUE"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Unknown_Lab_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          0,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "overmap": "b2_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          0,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          0,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          1,
+          0
+        ],
+        "overmap": "Unknown_Lab",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      }
+    ],
+    "locations": [
+      "forest"
+    ],
+    "//": "is this special required for valid city sizes",
+    "city_distance": [
+      1,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      1,
+      1
+    ],
+    "rotate": true,
+    "unique": true,
+    "required": false,
+    "flags": [
+      "CLASSIC",
+      "UNIQUE"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "makeshift_command_center_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          0,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          0,
+          0
+        ],
+        "overmap": "b2_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          0,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          0,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          1,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          1,
+          0
+        ],
+        "overmap": "makeshift_command_center",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          2,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          3,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          0,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          1,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          2,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          3,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      },
+      {
+        "point": [
+          4,
+          4,
+          0
+        ],
+        "overmap": "b_field",
+        "connect": "road"
+      }
+    ],
+    "locations": [
+      "land"
+    ],
+    "//": "is this special required for valid city sizes",
+    "city_distance": [
+      20,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      1,
+      1
+    ],
+    "rotate": true,
+    "unique": true,
+    "required": false,
+    "flags": [
+      "CLASSIC",
+      "UNIQUE"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "house_fight_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "house_fight"
+      }
+    ],
+    "locations": [
+      "forest"
+    ],
+    "city_distance": [
+      5,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      0,
+      15
+    ],
+    "rotate": true,
+    "unique": false,
+    "required": false,
+    "flags": [
+      "CLASSIC"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "forest_slaghter_s",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "forest_slaghter"
+      }
+    ],
+    "locations": [
+      "forest"
+    ],
+    "city_distance": [
+      5,
+      -1
+    ],
+    "city_sizes": [
+      0,
+      16
+    ],
+    "occurrences": [
+      10,
+      -1
+    ],
+    "rotate": true,
+    "unique": false,
+    "required": false,
+    "flags": [
+      "CLASSIC"
+    ]
+  }
+]
