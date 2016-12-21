@@ -54,7 +54,7 @@
     "id": "SUPER_SOLDIER_MARKER",
     "name": "Super Soldier Marker",
     "points": 1,
-    "description": "This is a DNA marker identifying you as part of thr Super Soldier Project.  It was used to give you clerances to biometric scanners and special weapons but now a days it seesm useless.",
+    "description": "This is a DNA marker identifying you as part of the Super Soldier Project.  It was used to give you clearances to biometric scanners and special weapons but now a days it seems useless.",
     "valid": false,
     "purifiable": false,
     "profession": true
@@ -64,7 +64,7 @@
     "id": "MARTIAL_ARTS_SURV",
     "name": "Survivor Combatives",
     "points": 3,
-    "description": "You have becomed good at using improvised and hand made weaponry, and to a lesser extenct your fists. You start with the Survivor Combatives style",
+    "description": "You have become good at using improvised and hand made weaponry, and to a lesser extent your fists. You start with the Survivor Combatives style",
     "initial_ma_styles": [
       "style_surv"
     ],

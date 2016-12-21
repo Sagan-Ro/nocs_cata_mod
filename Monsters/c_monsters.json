@@ -123,7 +123,7 @@
       "ZAPBACK",
       75
     ],
-    "description": "A walking bionic mutant. Deformed from its 'enhancements', and jealous of your existance, it hunts and kills whatever it finds.",
+    "description": "A walking bionic mutant. Deformed from its 'enhancements', and jealous of your existence, it hunts and kills whatever it finds.",
     "flags": [
       "SEES",
       "REGENERATES_10",
@@ -521,7 +521,7 @@
       "ZAPBACK",
       60
     ],
-    "description": "A zombie of a former member of the military. This one wields a particular lmg, bionics and armor and appears to know how to use them.",
+    "description": "A zombie of a former member of the military. This one wields a particular LMG, bionics and armor and appears to know how to use them.",
     "flags": [
       "SEES",
       "REGENERATES_10",

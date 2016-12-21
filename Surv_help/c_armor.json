@@ -11,7 +11,7 @@
     "to_hit": 0,
     "storage": 50,
     "symbol": "[",
-    "description": "A custom-built backpack modifed furthered to be an archer's best friend. Lots of storage,managable encumbrance and a built in quiver.",
+    "description": "A custom-built backpack modified furthered to be an archer's best friend. Lots of storage, manageable encumbrance and a built in quiver.",
     "price": 36000,
     "material": [
       "leather",
@@ -60,7 +60,7 @@
     "to_hit": -3,
     "storage": 80,
     "symbol": "[",
-    "description": "A home-made suit build to live off the land. Comes with ample storage,warm fur lining,evironmental and physical protection,a built in watch, a built in gasmask and a makeshift sheath ring. This suit looks very good on you, in a post-cataclysmic sort of way.",
+    "description": "A home-made suit build to live off the land. Comes with ample storage, warm fur lining, environmental and physical protection, a built-in watch, a built in gasmask and a makeshift sheath ring. This suit looks very good on you, in a post-cataclysmic sort of way.",
     "price": 180000,
     "material": [
       "leather",
@@ -130,7 +130,7 @@
     "to_hit": -3,
     "storage": 80,
     "symbol": "[",
-    "description": "A home-made suit build to live off the land. Comes with ample storage,warm fur lining,evironmental and physical protection,a built in watch, a built in gasmask and a makeshift sheath ring. The suit is carefully crafted of kevlar fabric and reinforced in metal. This suit looks very good on you, in a post-cataclysmic sort of way.",
+    "description": "A home-made suit build to live off the land. Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, a built in gasmask and a makeshift sheath ring. The suit is carefully crafted of Kevlar fabric and reinforced in metal. This suit looks very good on you, in a post-cataclysmic sort of way.",
     "price": 180000,
     "material": [
       "kevlar",
@@ -220,7 +220,7 @@
     "ammo": "NULL",
     "revert_to": "null",
     "symbol": "[",
-    "description": "An experimental cloak that uses a highly sophisticated network of cameras and LEDs to render the user fully invisible. It is powered by built-in torsion ratchets. Due to particulatities of its construction, it is very difficult to move in, hampering wearer's strength, dexterity and movement speed.",
+    "description": "An experimental cloak that uses a highly sophisticated network of cameras and LEDs to render the user fully invisible. It is powered by built-in torsion ratchets. Due to particularities of its construction, it is very difficult to move in, hampering wearer's strength, dexterity and movement speed.",
     "price": 8400000,
     "material": [
       "superalloy",
@@ -364,7 +364,7 @@
     "to_hit": -3,
     "storage": 0,
     "symbol": "[",
-    "description": "A fullbody light suit of grey bulletproof armor. 'Easy' to move in at the cost of unarmored joints.",
+    "description": "A full-body light suit of grey bulletproof armor. 'Easy' to move in at the cost of unarmored joints.",
     "price": 320000,
     "material": [
       "kevlar",
@@ -399,7 +399,7 @@
     "to_hit": -3,
     "storage": 0,
     "symbol": "[",
-    "description": "A fullbody suit of grey bulletproof armor. Somewhat 'easy' to move in by having joints jointed by leather.",
+    "description": "A full-body suit of grey bulletproof armor. Somewhat 'easy' to move in by having joints jointed by leather.",
     "price": 350000,
     "material": [
       "kevlar",
@@ -434,7 +434,7 @@
     "to_hit": -3,
     "storage": 0,
     "symbol": "[",
-    "description": "A fullbody suit of grey bulletproof armor. Difficult to move in because of steel reinforcement.",
+    "description": "A full-body suit of grey bulletproof armor. Difficult to move in because of steel reinforcement.",
     "price": 400000,
     "material": [
       "kevlar",
@@ -843,7 +843,7 @@
     "type": "ARMOR",
     "name": "thong",
     "name_plural": "thongs",
-    "description": "Women's underware that covers a little less than normal in exchange for stares.",
+    "description": "Women's underwear that covers a little less than normal in exchange for stares.",
     "weight": 30,
     "volume": 1,
     "price": 2500,

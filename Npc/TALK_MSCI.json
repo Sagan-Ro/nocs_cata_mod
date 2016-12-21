@@ -37,7 +37,7 @@
   {
     "type": "talk_topic",
     "id": "TALK_MSCI_CC_EXPLAIN",
-    "dynamic_line": "This a a refuge for the former scientists of the Bio-Weapon project.  We settled here in the woods and tried to make a living.  We allow people to stay here, as long as they contribute something.  We even managed to find a couple of stray Bio-Weapons!",
+    "dynamic_line": "This a refuge for the former scientists of the Bio-Weapon project.  We settled here in the woods and tried to make a living.  We allow people to stay here, as long as they contribute something.  We even managed to find a couple of stray Bio-Weapons!",
     "responses": [
       {
         "text": "Seems like you got it good here.",

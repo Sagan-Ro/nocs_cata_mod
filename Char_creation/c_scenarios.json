@@ -4,7 +4,7 @@
     "ident": "bunker",
     "name": "Bunker Evacuee",
     "points": 2,
-    "description": "You had connections, or intel somehow..., and because of it, you found this LMOE Shelter.Its summer now and you somehow survived and now things got a little bit easier.",
+    "description": "You had connections, or intel somehow..., and because of it, you found this LMOE Shelter. Its summer now and you somehow survived and now things got a little bit easier.",
     "allowed_locs": [
       "lmoe"
     ],
@@ -31,7 +31,7 @@
     "ident": "bugout",
     "name": "Into the Wild",
     "points": -2,
-    "description": "You tried to make it in the cities, you truly did. Things only got worse and you had to leave. You have skills to live in the woods, so that's where you headed. Its autumn now...winter is comming...they lurk by the trees...time to rebuild...",
+    "description": "You tried to make it in the cities, you truly did. Things only got worse and you had to leave. You have skills to live in the woods, so that's where you headed. Its autumn now... winter is coming... they lurk by the trees... time to rebuild...",
     "start_name": "Forest",
     "professions": [
       "naturalist",
@@ -832,9 +832,9 @@
   {
     "type": "scenario",
     "ident": "house_fight_scenario",
-    "name": "Slave Fighter's Freedoom",
+    "name": "Slave Fighter's Freedom",
     "points": -2,
-    "description": "All your life you have been experimented and forced to fight others for the ammusement of your masters. Never having seen the sun or the outside the cataclysm gave you a chance at freedoom. Now you just have to escape from your fellow combatants...",
+    "description": "All your life you have been experimented and forced to fight others for the amusement of your masters. Never having seen the sun or the outside the cataclysm gave you a chance at freedom. Now you just have to escape from your fellow combatants...",
     "start_name": "Sketchy Cabin",
     "professions": [
       "sf_blade",

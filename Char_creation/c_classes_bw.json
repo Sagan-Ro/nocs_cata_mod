@@ -712,7 +712,7 @@
     "type": "profession",
     "ident": "bio_scout",
     "name": "Super Scout",
-    "description": "The sniper of the Super Soldier project. You are one of a few augmented soldiers to be used for reconisance and V.I.P assasinations. With your weapons, regenerative and survival capabilities, you can eliminate key targets after living for weeks in enemy territory.",
+    "description": "The sniper of the Super Soldier project. You are one of a few augmented soldiers to be used for reconnaissance and V.I.P assassinations. With your weapons, regenerative and survival capabilities, you can eliminate key targets after living for weeks in enemy territory.",
     "points": 10,
     "CBMs": [
       "bio_eye_optic",
@@ -814,8 +814,8 @@
   {
     "type": "profession",
     "ident": "bio_knight",
-    "name": "Super Jauggernaut",
-    "description": "The tank of the Super Soldier project. You are one of a few augmented soldiers to be used as a heavy support to infantry. With ranged, melee, armor and regenertive capabilities, you can endure heavy damage and return it in kind.",
+    "name": "Super Juggernaut",
+    "description": "The tank of the Super Soldier project. You are one of a few augmented soldiers to be used as a heavy support to infantry. With ranged, melee, armor and regenerative capabilities, you can endure heavy damage and return it in kind.",
     "points": 10,
     "CBMs": [
       "bio_armor_eyes",
@@ -976,7 +976,7 @@
     "type": "profession",
     "ident": "sf_blade",
     "name": "Slave Fighter (Blade)",
-    "description": "Your were augmented wth a blade, and enhancements to your speed and reation time. You can hit an opponent multiple times before they land a blow.",
+    "description": "Your were augmented with a blade, and enhancements to your speed and reaction time. You can hit an opponent multiple times before they land a blow.",
     "points": 6,
     "CBMs": [
       "bio_sword",
@@ -1029,7 +1029,7 @@
     "type": "profession",
     "ident": "sf_claw",
     "name": "Slave Fighter (Claws)",
-    "description": "Your were augmented wth some claws, and enhancements to your reflexes. You deliver a powerful strike that neutralises foes in few hits.",
+    "description": "Your were augmented with some claws, and enhancements to your reflexes. You deliver a powerful strike that neutralizes foes in few hits.",
     "points": 6,
     "CBMs": [
       "bio_claws",
@@ -1089,7 +1089,7 @@
     "type": "profession",
     "ident": "sf_shock",
     "name": "Slave Fighter (Shocker)",
-    "description": "Your were augmented with electrical generators and protection from them. You hit multiple foes with electicity multiple times until their nerveous system gives up.",
+    "description": "Your were augmented with electrical generators and protection from them. You hit multiple foes with electricity multiple times until their nervous system gives up.",
     "points": 6,
     "CBMs": [
       "bio_chain_lightning",

@@ -3,7 +3,7 @@
     "id": "bio_laser_minigun",
     "type": "GUN",
     "name": "Laser Gatling Arm",
-    "description": "Your left arm is currently transformed into a ups powered laser gatlin gun. Fire it as if it was any other gun.",
+    "description": "Your left arm is currently transformed into a ups powered laser gatling gun. Fire it as if it was any other gun.",
     "volume": 12,
     "price": 0,
     "material": [

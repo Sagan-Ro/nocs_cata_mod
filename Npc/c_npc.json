@@ -14,7 +14,7 @@
   {
     "type": "npc",
     "id": "survn",
-    "comment": "Use as a random npc encounter",
+    "comment": "Use as a random NPC encounter",
     "name+": ", Prepper",
     "gender": "male",
     "class": "NC_SCAVENGER",
