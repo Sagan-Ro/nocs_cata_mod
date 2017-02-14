@@ -57,7 +57,7 @@ Feedback is welcomed! Hope it’s fun.
 * **Survivor's 7.62x39 LMG**: A (mostly) homemade LMG built from a full auto receiver. While still lower quality over pre-cataclysm LMGs, its superior to many other homemade weapons. Takes the 7.62x39 cartridge via its magazine.
 * **Survivor's .223 LMG**: A (mostly) homemade LMG built from a full auto receiver. While still lower quality over pre-cataclysm LMGs, its superior to many other homemade weapons. Takes the .223 cartridge via its magazine.
 * **Survivor's Fighting Bow**: A powerful bow that requires a strong archer to use. This bow has been designed carefully for accuracy, power and ease of use. The tips of the bow have makeshift blades to make this bow an efficient melee weapon when things get close and personal. Because of the blades, this bow cannot be worn and the only valid mods are sights.
-* **Survivor's Flintlock Sniper**: The homemade rifle of a true marksman. A long barrelled rifled rifle that shots paper cartridges. Using a straight pull open bolt receiver system makes reloading fairly quick. It uses a lighter's sparker to shoot it's ammunition. Very accurate and damaging but with high recoil, it is meant to shoot targets from afar in rapid succession.
+* **Survivor's Flintlock Sniper**: The homemade rifle of a true marksman. A long barreled rifled rifle that shots paper cartridges. Using a straight pull open bolt receiver system makes reloading fairly quick. It uses a lighter's sparker to shoot it's ammunition. Very accurate and damaging but with high recoil, it is meant to shoot targets from afar in rapid succession.
 * **monomolecular sword**: A foot-long sword made from high-tech alloy and edged with bonded nanocrystals. A welded metal handle and handguard allow you to hold it without slicing your hand open.
 * **bionic claw knuckles**: Short and sharp claws made from a high-tech metal welded to metal knuckles. Lightweight and fast, wielding them feels as if you were bare-handed.
 * **biological sword**: A foot-long sword made from metal enclosed flesh and bone.  Its blade consist of razor sharp saw-like protrusions.  Its bone handle fits well in hand due to shape of its handguard.  Holding it makes you feel powerful... the sensation grows stronger with time.
@@ -70,7 +70,7 @@ Feedback is welcomed! Hope it’s fun.
 * **aux .22 pistol**: An underbarrel .22 pistol. Has a 30 round magazine.
 * **aux 9mm pistol**: An underbarrel 9mm pistol. Has a 18 round magazine.
 * **aux .45 pistol**: An underbarrel .45 pistol. Has a 12 round magazine.
-* **Survivor's Laser sight**: A sight made for maximum target acquisition. It is composed of a small makeshift red dot sight that emits a laser beam at what it targets. The reticle in the sight allows proper aiming while the laser beam allows for quick target aim.
+* **Survivor's Laser sight**: A sight made for maximum target acquisition. It is composed of a small makeshift red dot sight that emits a laser beam at what it targets. The reticule in the sight allows proper aiming while the laser beam allows for quick target aim.
 * **LMG carry handle**: A handle on the side of a LMG to help in hip fire. Reduces target acquisition time and sight dispersion but increases recoil and dispersion.
 
 **New Items (Ammunition):**
@@ -80,12 +80,12 @@ Feedback is welcomed! Hope it’s fun.
 **New Items (Armor & Storage):**
 
 * **Survivor's Archer Backpack**: A custom-built backpack modified furthered to be an archer's best friend. Lots of storage, manageable encumbrance and a built in quiver.
-* **Survivor's Scout Suit**: A home-made suit build to live off the land. Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, a built in gasmask and a makeshift sheath ring. This suit looks very good on you, in a post-cataclysmic sort of way.
-* **Survivor's Armored Scout Suit**: A home-made suit build to live off the land. Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, a built in gasmask and a makeshift sheath ring. The suit is carefully crafted of Kevlar fabric and reinforced in metal. This suit looks very good on you, in a post-cataclysmic sort of way.
+* **Survivor's Scout Suit**: A home-made suit build to live off the land. Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, a built-in gas mask and a makeshift sheath ring. This suit looks very good on you, in a post-cataclysmic sort of way.
+* **Survivor's Armored Scout Suit**: A home-made suit build to live off the land. Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, a built-in gas mask and a makeshift sheath ring. The suit is carefully crafted of Kevlar fabric and reinforced in metal. This suit looks very good on you, in a post-cataclysmic sort of way.
 * **Bio-Weapon badge**: A round silver medallion that identifies the wearer as a part of the Bio-Weapon project.
 * **Stealth Cloak**: An experimental cloak that uses a highly sophisticated network of cameras and LEDs to render the user fully invisible. It is powered by built-in torsion ratchets. Due to particularities of its construction, it is very difficult to move in, hampering wearer's strength, dexterity and movement speed.
 * **pair of Mute Boots**: Experimental reinforced boots that completely silence your steps, but also slow your movement.
-* **pair of radiogenic goggles**: Experimental googles that use gamma radiation emitters, allowing the user to see through walls and in the dark. Prolonged use is not recommended due to danger of radiation poisoning.
+* **pair of radiogenic goggles**: Experimental goggles that use gamma radiation emitters, allowing the user to see through walls and in the dark. Prolonged use is not recommended due to danger of radiation poisoning.
 * **light military armor**: A full body light suit of grey bulletproof armor. 'Easy' to move in at the cost of unarmored joints.
 * **military armor**: A full body suit of grey bulletproof armor. Somewhat 'easy' to move in by having joints jointed by leather.
 * **heavy military armor**: A full body suit of grey bulletproof armor. Difficult to move in because of steel reinforcement.
@@ -172,7 +172,7 @@ Feedback is welcomed! Hope it’s fun.
 * **Slave Fighter (Shocker)**: One type of slave fighter augmented to shock clouds of electricity at their foes, can damage multiple foes at once.
 * **Slave Fighter (Weapon Master)**: One type of slave fighter augmented to use any weapon under the sun, adapts to the situation.
 * **Super Soldier**: The infantry of the Super Soldier project. You are one of many augmented soldiers to be deployed into a battle field to ensure victory. With range and melee, and regenerative capabilities, you engage enemies en-masse.
-* **Super Scout**: The sniper of the Super Soldier project. You are one of a few augmented soldiers to be used for recconisance and V.I.P assassinations. With your weapons, regenerative and survival capabilities, you can eliminate key targets after living for weeks in enemy territory.
+* **Super Scout**: The sniper of the Super Soldier project. You are one of a few augmented soldiers to be used for reconnaissance and V.I.P assassinations. With your weapons, regenerative and survival capabilities, you can eliminate key targets after living for weeks in enemy territory.
 * **Super Juggernaut**: The tank of the Super Soldier project. You are one of a few augmented soldiers to be used as a heavy support to infantry. With ranged, melee, armor and regenerative capabilities, you can endure heavy damage and return it in kind.
 * **Super B.A.M.R.U**: Biological and mechanical repair unit, the repairs man of the Super Soldier project. You are one of many augmented military repairmen to be used as a repair module. With repair and general electronic capabilities, you can maybe repair the world.
 
