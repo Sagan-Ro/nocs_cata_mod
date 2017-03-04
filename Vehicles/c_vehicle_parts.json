@@ -112,7 +112,7 @@
       "FRIDGE",
       "WATER_PURIFIER",
       "FAUCET",
-	  "ENABLED_DRAINS_EPOWER"
+      "ENABLED_DRAINS_EPOWER"
     ],
     "breaks_into": [
       {
@@ -166,7 +166,7 @@
     "override": true,
     "flags": [
       "FOLDABLE",
-	  "ENABLED_DRAINS_EPOWER"
+      "ENABLED_DRAINS_EPOWER"
     ],
     "folded_volume": 2
   },
