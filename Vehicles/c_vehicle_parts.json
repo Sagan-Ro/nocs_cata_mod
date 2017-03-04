@@ -111,7 +111,8 @@
       "RECHARGE",
       "FRIDGE",
       "WATER_PURIFIER",
-      "FAUCET"
+      "FAUCET",
+      "ENABLED_DRAINS_EPOWER"
     ],
     "breaks_into": [
       {
@@ -164,7 +165,8 @@
     "copy-from": "engine_electric_small",
     "override": true,
     "flags": [
-      "FOLDABLE"
+      "FOLDABLE",
+      "ENABLED_DRAINS_EPOWER"
     ],
     "folded_volume": 2
   },
