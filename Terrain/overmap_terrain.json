@@ -7,7 +7,8 @@
     "color": "i_red",
     "see_cost": 5,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -18,7 +19,8 @@
     "color": "green",
     "see_cost": 5,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -28,7 +30,8 @@
     "color": "light_green",
     "see_cost": 5,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -38,7 +41,8 @@
     "color": "light_green",
     "see_cost": 5,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -48,7 +52,8 @@
     "color": "light_green",
     "see_cost": 5,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -58,7 +63,8 @@
     "color": "light_green",
     "see_cost": 5,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -68,7 +74,8 @@
     "color": "light_blue",
     "see_cost": 5,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -78,7 +85,8 @@
     "color": "light_blue",
     "see_cost": 5,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -87,7 +95,8 @@
     "sym": 67,
     "color": "blue",
     "see_cost": 5,
-    "extras": "build"
+    "extras": "build",
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -97,7 +106,8 @@
     "color": "brown",
     "see_cost": 2,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -108,7 +118,8 @@
     "see_cost": 2,
     "extras": "field",
     "allow_road": true,
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -119,7 +130,8 @@
     "see_cost": 2,
     "extras": "field",
     "allow_road": true,
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -129,7 +141,8 @@
     "color": "brown",
     "see_cost": 2,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -139,7 +152,8 @@
     "color": "i_red",
     "see_cost": 5,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   },
   {
     "type": "overmap_terrain",
@@ -150,6 +164,7 @@
     "color": "green",
     "see_cost": 5,
     "extras": "build",
-    "mondensity": 0
+    "mondensity": 0,
+    "flags" : [ "NO_ROTATE" ]
   }
 ]

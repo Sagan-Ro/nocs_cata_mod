@@ -21,7 +21,7 @@
         ],
         "locations" : [ "forest" ],         "city_distance" : [5, -1], 
         "city_sizes" : [0, 16],         "occurrences" : [10, -1], 
-        "rotate" : true, 
+        "rotate" : false, 
         "unique" : false, 
         "required" : false, 
         "flags" : [ "CLASSIC" ]
@@ -36,7 +36,7 @@
         "city_distance" : [5, -1], 
         "city_sizes" : [0, 16], 
         "occurrences" : [0, 10], 
-        "rotate" : true, 
+        "rotate" : false, 
         "unique" : false, 
         "required" : false, 
         "flags" : [ "CLASSIC" ]
@@ -51,7 +51,7 @@
         "city_distance" : [5, -1], 
         "city_sizes" : [0, 16], 
         "occurrences" : [0, 10], 
-        "rotate" : true, 
+        "rotate" : false, 
         "unique" : false, 
         "required" : false, 
         "flags" : [ "CLASSIC" ]
@@ -65,7 +65,7 @@
         "locations" : [ "forest" ], 
         "city_distance" : [5, -1], 
         "city_sizes" : [0, 16], 
-        "occurrences" : [0, 10],         "rotate" : true, 
+        "occurrences" : [0, 10],         "rotate" : false, 
         "unique" : false,
         "required" : false, 
         "flags" : [ "CLASSIC" ]
@@ -79,7 +79,7 @@
         "locations" : [ "forest" ], 
         "city_distance" : [5, -1], 
         "city_sizes" : [0, 16], 
-        "occurrences" : [0, 1],         "rotate" : true, 
+        "occurrences" : [0, 1],         "rotate" : false, 
         "unique" : false,
         "required" : false, 
         "flags" : [ "CLASSIC" ]
@@ -176,7 +176,7 @@
         "city_distance" : [5, -1], 
         "city_sizes" : [0, 16], 
         "occurrences" : [0, 15],         
-		"rotate" : true, 
+		"rotate" : false, 
         "unique" : false,
         "required" : false, 
         "flags" : [ "CLASSIC" ]
@@ -191,7 +191,7 @@
 		"city_distance" : [5, -1], 
         "city_sizes" : [0, 16],         
 		"occurrences" : [10, -1], 
-        "rotate" : true, 
+        "rotate" : false, 
         "unique" : false, 
         "required" : false, 
         "flags" : [ "CLASSIC" ]
