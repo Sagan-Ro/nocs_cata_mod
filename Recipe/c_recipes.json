@@ -1928,18 +1928,14 @@
     "qualities": [
       {
         "id": "CUT",
-        "level": 1,
-        "amount": 1
-      }
+        "level": 1
+      },
+	  { 
+        "id": "SEW", 
+        "level": 1 
+	  }
     ],
-    "tools": [
-      [
-        [
-          "sewing_kit",
-          100
-        ]
-      ]
-    ],
+    "using": [ [ "filament", 100 ] ],
     "components": [
       [
         [
@@ -2004,8 +2000,12 @@
         "id": "SAW_M",
         "level": 1,
         "amount": 1
-      }
+      },
+	  { "id": "SEW",
+        "level": 1
+	  }
     ],
+    "using": [ [ "filament", 400 ] ],
     "tools": [
       [
         [
@@ -2015,12 +2015,6 @@
         [
           "toolset",
           20
-        ]
-      ],
-      [
-        [
-          "tailors_kit",
-          400
         ]
       ]
     ],
@@ -2158,7 +2152,11 @@
         "id": "SAW_M",
         "level": 1,
         "amount": 1
-      }
+      },
+	  { 
+	    "id": "SEW", 
+	    "level": 1 
+	  }
     ],
     "tools": [
       [
@@ -2174,14 +2172,9 @@
           "toolset",
           100
         ]
-      ],
-      [
-        [
-          "tailors_kit",
-          400
-        ]
       ]
     ],
+    "using": [ [ "filament", 400 ] ],
     "components": [
       [
         [
