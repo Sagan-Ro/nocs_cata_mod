@@ -1083,7 +1083,7 @@
       {
         "x": -8,
         "y": -1,
-        "part": "tank"
+        "part": "tank", "fuel": "water"
       },
       {
         "x": -8,
@@ -1108,7 +1108,7 @@
       {
         "x": -8,
         "y": 0,
-        "part": "tank"
+        "part": "tank", "fuel": "water_clean"
       },
       {
         "x": -8,
@@ -1153,7 +1153,7 @@
       {
         "x": -8,
         "y": 2,
-        "part": "tank"
+        "part": "tank", "fuel": "water_clean"
       },
       {
         "x": -8,
@@ -1188,7 +1188,7 @@
       {
         "x": -8,
         "y": 3,
-        "part": "tank"
+        "part": "tank", "fuel": "water"
       },
       {
         "x": -8,
