@@ -61,7 +61,7 @@
     "id": "surv_station",
     "//": "Actual item",
     "name": "Survivor's Station",
-    "description": "A makeshift vehicle mountable station that comprises of many utilities all compressesd into a single unit. Has no cargo space due to all the components it is made out of.",
+    "description": "A makeshift vehicle mountable station that comprises of many utilities all compressesd into a single unit. Has very little cargo space due to all the components it is made out of.",
     "weight": 123134,
     "to_hit": -2,
     "color": "light_red",
@@ -85,7 +85,7 @@
     "damage_modifier": 80,
     "durability": 100,
     "epower": -150,
-    "size": 100,
+    "size": 50,
     "item": "surv_station",
     "difficulty": 6,
     "location": "center",
@@ -112,7 +112,8 @@
       "FRIDGE",
       "WATER_PURIFIER",
       "FAUCET",
-      "ENABLED_DRAINS_EPOWER"
+	  "ENABLED_DRAINS_EPOWER",
+      "CARGO"
     ],
     "breaks_into": [
       {
@@ -166,7 +167,7 @@
     "override": true,
     "flags": [
       "FOLDABLE",
-      "ENABLED_DRAINS_EPOWER"
+	  "ENABLED_DRAINS_EPOWER"
     ],
     "folded_volume": 2
   },
