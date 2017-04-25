@@ -420,5 +420,86 @@
         "prob": 50
       }
     ]
+  },
+  {
+    "id": "generator_electric_small",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "small electric generator",
+    "item": "motor_small",
+    "difficulty": 1,
+    "durability": 120,
+    "power": -4,
+    "epower": 1000,
+    "//": "1 kW ~ 2HP drain @ 68% effficiency",
+    "damage_modifier": 80,
+    "folded_volume": 1,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 1, 2 ] },
+      { "item": "steel_chunk", "count": [ 1, 2 ] },
+      { "item": "scrap", "count": [ 1, 2 ] },
+      { "item": "cable", "charges": [ 3, 6 ] }
+    ],
+    "extend": { "flags": [ "TOOL_SCREWDRIVER", "FOLDABLE" ] }
+  },
+  {
+    "id": "generator_electric",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "electric generator",
+    "item": "motor",
+    "difficulty": 2,
+    "durability": 200,
+    "power": -17,
+    "epower": 5000,
+    "//": "5 kW ~ 8.5HP drain @ 80% effficiency",
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "extend": { "flags": [ "TOOL_WRENCH" ] }
+  },
+  {
+    "id": "generator_electric_large",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "large electric generator",
+    "item": "motor_large",
+    "difficulty": 3,
+    "durability": 400,
+    "power": -136,
+    "epower": 40000,
+    "//": "40 kW ~ 68HP drain @ 80% effficiency",
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "extend": { "flags": [ "TOOL_WRENCH" ] }
+  },
+  {
+    "id": "generator_electric_enhanced",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "enhanced electric generator",
+    "item": "motor_enhanced",
+    "difficulty": 4,
+    "durability": 200,
+    "power": -204,
+    "epower": 60000,
+    "//": "60 kW ~ 102HP drain @ 80% effficiency",
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "extend": { "flags": [ "TOOL_WRENCH" ] }
   }
 ]
