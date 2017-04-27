@@ -532,11 +532,12 @@
   },
   {
     "id": "dc_fridge",
+    "//": "Based roughly on Samsung RR35H6145WW size wise. Electricity usage balanced gameplay wise.",
     "copy-from": "minifridge",
     "type": "vehicle_part",
     "name": "DC fridge",
     "item": "dc_fridge",
-    "epower" : -200,
+    "epower" : -300,
     "size" : 1400,
     "breaks_into": [
             { "item": "scrap", "count": [2, 8] },
