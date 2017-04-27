@@ -501,5 +501,49 @@
       { "item": "cable", "charges": [ 10, 15 ] }
     ],
     "extend": { "flags": [ "TOOL_WRENCH" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "fridge",
+    "name": "fridge",
+    "description": "A decently sized fridge for keeping food cool. Lacks power converter to work with DC.",
+    "weight": 69000,
+    "color": "light_blue",
+    "symbol": "]",
+    "material": "steel",
+    "volume": 2400,
+    "category" : "veh_parts",
+    "price": 60000,
+    "breaks_into": [
+            { "item": "scrap", "count": [2, 8] },
+            { "item": "steel_chunk", "count": [0, 3] },
+            { "item": "hose", "count": 1 },
+            { "item": "cu_pipe", "count": [2, 5] },
+            { "item": "scrap_copper", "count": [1, 2] }
+        ]
+  },
+  {
+    "id": "dc_fridge",
+    "copy-from": "fridge",
+    "type": "GENERIC",
+    "name": "DC fridge",
+    "category" : "veh_parts",
+    "description": "A decently sized fridge for keeping food cool. Fitted with power converter to work with DC."
+  },
+  {
+    "id": "dc_fridge",
+    "copy-from": "minifridge",
+    "type": "vehicle_part",
+    "name": "DC fridge",
+    "item": "dc_fridge",
+    "epower" : -200,
+    "size" : 1400,
+    "breaks_into": [
+            { "item": "scrap", "count": [2, 8] },
+            { "item": "steel_chunk", "count": [0, 3] },
+            { "item": "hose", "count": 1 },
+            { "item": "cu_pipe", "count": [2, 5] },
+            { "item": "scrap_copper", "count": [1, 2] }
+        ]
   }
 ]
