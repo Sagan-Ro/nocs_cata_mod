@@ -420,5 +420,131 @@
         "prob": 50
       }
     ]
+  },
+  {
+    "id": "generator_electric_small",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "small electric generator",
+    "item": "motor_small",
+    "difficulty": 1,
+    "durability": 120,
+    "power": -4,
+    "epower": 1000,
+    "//": "1 kW ~ 2HP drain @ 68% effficiency",
+    "damage_modifier": 80,
+    "folded_volume": 1,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 1, 2 ] },
+      { "item": "steel_chunk", "count": [ 1, 2 ] },
+      { "item": "scrap", "count": [ 1, 2 ] },
+      { "item": "cable", "charges": [ 3, 6 ] }
+    ],
+    "extend": { "flags": [ "TOOL_SCREWDRIVER", "FOLDABLE" ] }
+  },
+  {
+    "id": "generator_electric",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "electric generator",
+    "item": "motor",
+    "difficulty": 2,
+    "durability": 200,
+    "power": -17,
+    "epower": 5000,
+    "//": "5 kW ~ 8.5HP drain @ 80% effficiency",
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "extend": { "flags": [ "TOOL_WRENCH" ] }
+  },
+  {
+    "id": "generator_electric_large",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "large electric generator",
+    "item": "motor_large",
+    "difficulty": 3,
+    "durability": 400,
+    "power": -136,
+    "epower": 40000,
+    "//": "40 kW ~ 68HP drain @ 80% effficiency",
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "extend": { "flags": [ "TOOL_WRENCH" ] }
+  },
+  {
+    "id": "generator_electric_enhanced",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "enhanced electric generator",
+    "item": "motor_enhanced",
+    "difficulty": 4,
+    "durability": 200,
+    "power": -204,
+    "epower": 60000,
+    "//": "60 kW ~ 102HP drain @ 80% effficiency",
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "extend": { "flags": [ "TOOL_WRENCH" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "fridge",
+    "name": "fridge",
+    "description": "A decently sized fridge for keeping food cool. Lacks power converter to work with DC.",
+    "weight": 69000,
+    "color": "light_blue",
+    "symbol": "]",
+    "material": "steel",
+    "volume": 2400,
+    "category" : "veh_parts",
+    "price": 60000,
+    "breaks_into": [
+            { "item": "scrap", "count": [2, 8] },
+            { "item": "steel_chunk", "count": [0, 3] },
+            { "item": "hose", "count": 1 },
+            { "item": "cu_pipe", "count": [2, 5] },
+            { "item": "scrap_copper", "count": [1, 2] }
+        ]
+  },
+  {
+    "id": "dc_fridge",
+    "copy-from": "fridge",
+    "type": "GENERIC",
+    "name": "DC fridge",
+    "category" : "veh_parts",
+    "description": "A decently sized fridge for keeping food cool. Fitted with power converter to work with DC."
+  },
+  {
+    "id": "dc_fridge",
+    "//": "Based roughly on Samsung RR35H6145WW size wise. Electricity usage balanced gameplay wise.",
+    "copy-from": "minifridge",
+    "type": "vehicle_part",
+    "name": "DC fridge",
+    "item": "dc_fridge",
+    "epower" : -300,
+    "size" : 1400,
+    "breaks_into": [
+            { "item": "scrap", "count": [2, 8] },
+            { "item": "steel_chunk", "count": [0, 3] },
+            { "item": "hose", "count": 1 },
+            { "item": "cu_pipe", "count": [2, 5] },
+            { "item": "scrap_copper", "count": [1, 2] }
+        ]
   }
 ]
