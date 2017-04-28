@@ -26,7 +26,7 @@
     "//": "This npcs know fighting and killing...",
     "place_npcs": [
       {
-        "class": "slave_fight",
+        "class": "slave_fight_ally",
         "x": 3,
         "y": 3
       },
@@ -36,7 +36,7 @@
         "y": 4
       },
       {
-        "class": "slave_fight",
+        "class": "slave_fight_ally",
         "x": 17,
         "y": 2
       },
@@ -46,7 +46,7 @@
         "y": 3
       },
       {
-        "class": "slave_fight",
+        "class": "slave_fight_ally",
         "x": 4,
         "y": 20
       },
@@ -56,7 +56,7 @@
         "y": 21
       },
       {
-        "class": "slave_fight",
+        "class": "slave_fight_ally",
         "x": 17,
         "y": 22
       },
@@ -425,24 +425,24 @@
     ],
     "terrain": {
       " ": "t_floor",
-      "#": "t_null",
-      "&": "t_null",
+      "#": "t_floor",
+      "&": "t_floor",
       "+": "t_door_c",
       "-": "t_door_boarded",
-      "B": "t_null",
-      "C": "t_null",
+      "B": "t_floor",
+      "C": "t_floor",
       "D": "t_door_locked_interior",
       "a": "t_hole",
       "b": "t_bars",
-      "c": "t_null",
-      "d": "t_null",
-      "f": "t_null",
+      "c": "t_floor",
+      "d": "t_floor",
+      "f": "t_floor",
       "h": "t_hole",
       "l": "t_hole",
-      "o": "t_null",
-      "r": "t_null",
+      "o": "t_floor",
+      "r": "t_floor",
       "w": "t_window_boarded",
-      "{": "t_null",
+      "{": "t_floor",
       "|": "t_wall"
     }
   },
