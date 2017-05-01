@@ -5940,7 +5940,7 @@
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_PARTS",
     "skill_used": "electronics",
-    "difficulty": 4,
+    "difficulty": 1,
     "time": 10000,
     "autolearn": true,
     "reversible": true,
