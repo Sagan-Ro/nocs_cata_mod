@@ -1,4 +1,5 @@
 [
+
   {
     "type": "recipe",
     "result": "bearing",
@@ -5933,6 +5934,18 @@
     "time" : 1,
     "pre_terrain" : "f_fridge_unplugged",
     "post_terrain" : "f_fridge"
+  },{
+    "result": "gasoline",
+    "type" : "recipe",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_FUEL",
+    "skill_used": "cooking",
+    "difficulty": 1,
+	"result_mult": 4,
+	"autolearn": true,
+    "time": 60,
+     "tools":[[ [ "goo_jerrycan", 24 ]]],
+	 "components":[[["water", 1]]]
   },
   {
     "type" : "recipe",
@@ -5940,7 +5953,7 @@
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_PARTS",
     "skill_used": "electronics",
-    "difficulty": 1,
+    "difficulty": 4,
     "time": 10000,
     "autolearn": true,
     "reversible": true,
