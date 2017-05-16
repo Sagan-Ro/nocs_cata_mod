@@ -483,7 +483,7 @@
       {
         "type": "gun",
         "cooldown": 5,
-        "gun_type": "bio_blaster_gun",
+        "gun_type": "laser_lmg",
         "ammo_type": "generic_no_ammo",
         "max_ammo": 1000,
         "fake_str": 8,
@@ -503,12 +503,12 @@
         "targeting_cost": 200,
         "ranges": [
           [
-            20,
+            15,
             30,
             "DEFAULT"
           ]
         ],
-        "description": "The super soldier fires its fusion blaster!",
+        "description": "The super soldier fires its lmg!",
         "targeting_sound": "swoosh...click!",
         "targeting_volume": 20,
         "no_ammo_sound": "beep-beep-beep!"
@@ -600,7 +600,7 @@
           ]
         ],
         "description": "The super scout fires its rifle!",
-        "targeting_sound": "arrrrrgh!",
+        "targeting_sound": "hhhmmmmm",
         "targeting_volume": 5,
         "no_ammo_sound": "beep-beep-beep!"
       }

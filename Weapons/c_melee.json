@@ -1,9 +1,9 @@
 [
   {
-    "type": "GENERIC",
+    "type": "TOOL",
     "id": "unbio_bladed_weapon",
-    "name": "monomolecular sword",
-    "description": "A foot-long sword made from high-tech alloy and edged with bonded nanocrystals. A welded metal handle and handguard allow you to hold it without slicing your hand open.",
+    "name": "monomolecular knife",
+    "description": "A foot-long knife made from high-tech alloy and edged with bonded nanocrystals. A welded metal handle and handguard allow you to hold it without slicing your hand open.",
     "weight": 250,
     "to_hit": 3,
     "color": "dark_gray",
@@ -21,7 +21,8 @@
     "flags": [
       "NON_STUCK",
       "STAB",
-      "UNBREAKABLE_MELEE"
+      "UNBREAKABLE_MELEE", 
+      "SHEATH_KNIFE"
     ],
     "price": 420000,
     "qualities": [
@@ -33,10 +34,62 @@
         "BUTCHER",
         22
       ]
-    ]
+    ],
+    "gunmod_data": {
+      "location": "underbarrel",
+      "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
+      "dispersion_modifier": 8,
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE" ] ] ],
+      "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ]
+    }
   },
   {
-    "type": "GENERIC",
+    "type": "TOOL",
+    "id": "unbio_sword_weapon",
+    "name": "monomolecular sword",
+    "description": "A yard-long sword made from high-tech alloy and edged with bonded nanocrystals. A welded metal handle and handguard allow you to hold it without slicing your hand open.",
+    "weight": 250,
+    "to_hit": 3,
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [
+      "superalloy",
+      "steel"
+    ],
+    "techniques": [
+      "RAPID",
+      "WBLOCK_2"
+    ],
+    "volume": 10,
+    "bashing": 8,
+    "cutting": 48,
+    "flags": [
+      "NON_STUCK",
+      "STAB",
+      "UNBREAKABLE_MELEE", 
+      "SHEATH_SWORD"
+    ],
+    "price": 420000,
+    "qualities": [
+      [
+        "CUT",
+        1
+      ],
+      [
+        "BUTCHER",
+        22
+      ]
+    ],
+    "gunmod_data": {
+      "location": "underbarrel",
+      "mod_targets": [ "shotgun", "rifle" ],
+      "dispersion_modifier": 10,
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE" ] ] ],
+      "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ]
+    }
+  },
+  {
+    "type": "TOOL",
     "id": "unbio_claws_weapon",
     "name": "bionic claw knuckles",
     "name_plural": "bionic claw knuckles",
