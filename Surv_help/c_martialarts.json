@@ -222,5 +222,18 @@
       "bio_blade_weapon",
       "bio_sword_weapon"
     ]
-  }
+  },
+  {
+        "type" : "martial_art",
+        "id" : "style_biojutsu",
+        "copy-from" : "style_biojutsu",
+        "name" : "Bionic Combatives",
+        "weapons" : [
+            "unbio_bladed_weapon",
+            "unbio_claws_weapon",
+			"bio_sword_weapon",
+            "bio_claws_weapon",
+            "bio_blade_weapon"
+        ]
+    }
 ]
