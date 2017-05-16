@@ -1412,26 +1412,14 @@
       {
         "x": -7,
         "y": 1,
-        "chance": 20,
+        "chance": 50,
         "items": "survivormap"
       },
       {
         "x": -7,
         "y": 2,
-        "chance": 30,
-        "items": "surv_full_223"
-      },
-      {
-        "x": -7,
-        "y": 2,
-        "chance": 30,
-        "items": "reloaded_223"
-      },
-      {
-        "x": -7,
-        "y": 2,
-        "chance": 30,
-        "items": "surv_lmg_223"
+        "chance": 50,
+        "items": [ "surv_lmg_223", "surv_belt_223", "reloaded_223", "reloaded_223", "reloaded_223" ]
       }
     ]
   },

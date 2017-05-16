@@ -910,36 +910,6 @@
   },
   {
     "type": "recipe",
-    "result": "goo_jerrycan",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_OTHER",
-    "difficulty": 0,
-    "time": 2000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [
-      [
-        "recipe_surv",
-        0
-      ]
-    ],
-    "components": [
-      [
-        [
-          "jerrycan",
-          1
-        ]
-      ],
-      [
-        [
-          "gas_slime_scrap",
-          10
-        ]
-      ]
-    ]
-  },
-  {
-    "type": "recipe",
     "result": "molded_saw",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
@@ -5614,76 +5584,6 @@
   },
   {
     "type": "recipe",
-    "result": "solar_recharger",
-    "category": "CC_ELECTRONIC",
-    "skill_used": "electronics",
-    "skills_required": [
-      "fabrication",
-      3
-    ],
-    "difficulty": 4,
-    "time": 15000,
-    "reversible": false,
-    "autolearn": false,
-    "book_learn": [
-      [
-        "manual_electronics",
-        2
-      ],
-      [
-        "mag_electronics",
-        2
-      ],
-      [
-        "manual_electronics",
-        2
-      ],
-      [
-        "recipe_surv",
-        1
-      ]
-    ],
-    "tools": [
-      [
-        [
-          "soldering_iron",
-          25
-        ],
-        [
-          "toolset",
-          25
-        ]
-      ]
-    ],
-    "components": [
-      [
-        [
-          "sheet_metal",
-          1
-        ]
-      ],
-      [
-        [
-          "solar_cell",
-          4
-        ]
-      ],
-      [
-        [
-          "solder_wire",
-          2
-        ]
-      ],
-      [
-        [
-          "scrap",
-          2
-        ]
-      ]
-    ]
-  },
-  {
-    "type": "recipe",
     "result": "mil_surp_pack_1",
     "id_suffix": "uncraft",
     "category": "CC_NONCRAFT",
@@ -5934,18 +5834,6 @@
     "time" : 1,
     "pre_terrain" : "f_fridge_unplugged",
     "post_terrain" : "f_fridge"
-  },{
-    "result": "gasoline",
-    "type" : "recipe",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_FUEL",
-    "skill_used": "cooking",
-    "difficulty": 1,
-	"result_mult": 4,
-	"autolearn": true,
-    "time": 60,
-     "tools":[[ [ "goo_jerrycan", 24 ]]],
-	 "components":[[["water", 1]]]
   },
   {
     "type" : "recipe",
@@ -5966,6 +5854,98 @@
     "components": [
       [ [ "fridge", 1 ] ],
       [ [ "power_supply", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "unbio_sword_weapon",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "skills_required": [
+      "fabrication",
+      4,
+      "melee",
+      2
+    ],
+    "difficulty": 6,
+    "time": 30000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [
+      [
+        "recipe_lab_elec",
+        5
+      ]
+    ],
+    "qualities": [
+      {
+        "id": "SCREW_FINE",
+        "level": 1,
+        "amount": 1
+      }
+    ],
+    "tools": [
+      [
+        [
+          "soldering_iron",
+          20
+        ],
+        [
+          "toolset",
+          20
+        ],
+        [
+          "small_repairkit",
+          20
+        ],
+        [
+          "large_repairkit",
+          10
+        ]
+      ],
+      [
+        [
+          "oxy_torch",
+          25
+        ],
+        [
+          "welder",
+          85
+        ],
+        [
+          "welder_crude",
+          180
+        ],
+        [
+          "toolset",
+          180
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "bio_sword",
+          1
+        ]
+      ],
+      [
+        [
+          "steel_chunk",
+          3
+        ],
+        [
+          "scrap",
+          9
+        ]
+      ],
+      [
+        [
+          "plastic_chunk",
+          3
+        ]
+      ]
     ]
   }
 ]
