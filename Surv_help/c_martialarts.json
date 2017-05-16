@@ -222,7 +222,7 @@
       "bio_blade_weapon",
       "bio_sword_weapon",
       "unbio_bladed_weapon",
-			"unbio_sword_weapon",
+      "unbio_sword_weapon",
       "unbio_claws_weapon"
     ]
   },
@@ -233,7 +233,7 @@
         "name" : "Bionic Combatives",
         "weapons" : [
             "unbio_bladed_weapon",
-			      "unbio_sword_weapon",
+	    "unbio_sword_weapon",
             "unbio_claws_weapon",
             "bio_sword_weapon",
             "bio_claws_weapon",
