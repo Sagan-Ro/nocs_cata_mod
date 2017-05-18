@@ -1,7 +1,7 @@
 [
   {
-    "type": "talk_topic",
     "id": "TALK_CGUARD1",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "Heh, another one caught in this Bio-Weapon mess, huh?",
@@ -31,8 +31,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_CGUARD1_ASK_PLACE",
+    "type": "talk_topic",
     "dynamic_line": "It's a refuge, made for the Bio-Weapon research team.  I happened to be one of the guards of the project.  It turned into a mess real quick.  Only one of the original scientists is still here.",
     "responses": [
       {
@@ -42,8 +42,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_CGUARD1_DIR",
+    "type": "talk_topic",
     "dynamic_line": "Sure! This is the recreation room/lobby, we guards mostly stay here.  Down there is the main intersection.  Right of that is the rest area, The Bio-Weapons are mostly there.  Left of the intersetion is just a bunch of junk metal.  Down from the intersection is the farm.  To the left of that are the restrooms.  To the right of the farm is the research room.  Our leader, Router, is there.  He can be a weirdo but he keeps us safe.  Go talk to people if you need anything.",
     "responses": [
       {
@@ -53,8 +53,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_CGUARD1_AKS_HOWRU",
+    "type": "talk_topic",
     "dynamic_line": "Can't complain.  We are safe, have food, water, and weapons.  Router keeps working on something he says is important.  Life isn't bad.",
     "responses": [
       {
@@ -64,8 +64,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_CGUARD1_ASK_STAY",
+    "type": "talk_topic",
     "dynamic_line": "It's not really up to me.  Go ask Router what he thinks.",
     "responses": [
       {

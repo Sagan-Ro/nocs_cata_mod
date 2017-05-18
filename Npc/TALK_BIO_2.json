@@ -1,7 +1,7 @@
 [
   {
-    "type": "talk_topic",
     "id": "TALK_BIO_2",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "...Do you also need a place to stay?",
@@ -27,8 +27,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BIO_2_U_BIO",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "Yeah.  I don't have that badge, myself.  I woke up in a cloning vat under gunfire with no idea of who I was.  Router took me in, but I don't really feel like I belong here...",
@@ -42,8 +42,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BIO_2_HOLDUP",
+    "type": "talk_topic",
     "dynamic_line": "Things are fine, considering the circumstances.  I'm safe, at least.  I still can't shake this feeling that I belong out there.  I'm just not sure if I can handle myself... combat isn't everything, you know?",
     "responses": [
       {
@@ -53,8 +53,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BIO_2_JOIN",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "I... are you sure?  I can help with combat, but I might just be a burden overall... besides, we can't make it until we deal with the reason we're stuck here in the first place.",
@@ -68,8 +68,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BIO_2_JOIN2",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "...You know what?  I am tired of being stuck here.  You're right, together we can survive out there and Apophis is going down!",
@@ -78,18 +78,16 @@
     "responses": [
       {
         "text": "That's the spirit!",
-        "trial": {
-          "type": "NONE"
-        },
+        "trial": { "type": "NONE" },
         "success": {
-          "topic": "TALK_DONE",
           "effect": "follow",
           "opinion": {
             "trust": 8,
             "fear": 0,
             "value": 8,
             "anger": -2
-          }
+          },
+          "topic": "TALK_DONE"
         }
       }
     ]

@@ -1,7 +1,7 @@
 [
   {
-    "type": "talk_topic",
     "id": "TALK_BHUNTER",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "That thing you are wearing... a Bio-Weapon Badge...",
@@ -14,17 +14,15 @@
       },
       {
         "text": "Bio-Weapon?",
-        "trial": {
-          "type": "NONE"
-        },
+        "trial": { "type": "NONE" },
         "success": {
-          "topic": "TALK_BHUNTER_ASK_BIO",
           "opinion": {
             "trust": 0,
             "fear": -1,
             "value": -1,
             "anger": 0
-          }
+          },
+          "topic": "TALK_BHUNTER_ASK_BIO"
         }
       },
       {
@@ -46,8 +44,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BHUNTER_IAM_BIO",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "Well I'll be damned!  How do I know you didn't just find that somewhere?  Oh well, it doesn't really matter. The fact that you have it means you at least met one. Well, if you need anything, I can help you out.",
@@ -61,8 +59,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BHUNTER_ASK_BIO",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "You're kidding, right?  You really don't know?  Is that badge actually yours...? Maybe that mindwipe rumor was true after all...",
@@ -71,39 +69,35 @@
     "responses": [
       {
         "text": "Could you explain it to me?",
-        "trial": {
-          "type": "NONE"
-        },
+        "trial": { "type": "NONE" },
         "success": {
-          "topic": "TALK_BHUNTER_EXPLAIN_BIO",
           "opinion": {
             "trust": 1,
             "fear": 0,
             "value": 1,
             "anger": 0
-          }
+          },
+          "topic": "TALK_BHUNTER_EXPLAIN_BIO"
         }
       },
       {
         "text": "Whatever it is, I really don't care.",
-        "trial": {
-          "type": "NONE"
-        },
+        "trial": { "type": "NONE" },
         "success": {
-          "topic": "TALK_BHUNTER_NOCARE",
           "opinion": {
             "trust": 0,
             "fear": 0,
             "value": -1,
             "anger": -2
-          }
+          },
+          "topic": "TALK_BHUNTER_NOCARE"
         }
       }
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BHUNTER_EXPLAIN_BIO",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "I guess memory wipe makes sense.  Alright, I will explain.  Some time ago, the military launched a joined research project with an end goal of creating artificial combatants, made to perform various specific tasks - basically, living weapons.  They wanted them to be as low-maintenance as possible.  So to accomplish that, the research team used resources from already ongoing projects to first mutate and then cybernetically enhance humans, focusing on developing whatever qualities the military needed at the time.  You are one them.  A Bio-Weapon.  This is the lab where you were created.",
@@ -121,8 +115,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BHUNTER_ASK_LEARN",
+    "type": "talk_topic",
     "dynamic_line": "I used to be a computer hacker before the world went to hell.  After it did, when I wasn't looking for food and gear or fighting for my life, I was following leads to this place.  The military weren't all that good at keeping their secrets.",
     "responses": [
       {
@@ -132,8 +126,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BHUNTER_NOCARE",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "Figures.  You're either a fake or just don't care about what you are.  Still, you must be pretty capable to make it here.",
@@ -147,8 +141,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BHUNTER_ASK_DOING",
+    "type": "talk_topic",
     "dynamic_line": "I came here to see if I could find anything on the Bio-Weapons. How about yourself?",
     "responses": [
       {
@@ -158,8 +152,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BHUNTER_ASK_DO",
+    "type": "talk_topic",
     "dynamic_line": "I'm trying to reach a hideout built by former scientists who worked on the Bio-Weapon project.  Rumor has it they live somewhere in the woods.  Maybe you could help me find it...",
     "responses": [
       {
@@ -169,8 +163,8 @@
     ]
   },
   {
-    "type": "talk_topic",
     "id": "TALK_BHUNTER_ASK_JOIN",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "Sure!  Not just anybody gets to wear that badge.  Fake or not, you're a good fighter from what I've seen.  It'll be easier with somebody to watch my back.  Just help me find out more about this project, alright?",
@@ -179,18 +173,16 @@
     "responses": [
       {
         "text": "Let's go, then.",
-        "trial": {
-          "type": "NONE"
-        },
+        "trial": { "type": "NONE" },
         "success": {
-          "topic": "TALK_DONE",
           "effect": "follow",
           "opinion": {
             "trust": 8,
             "fear": 0,
             "value": 8,
             "anger": -2
-          }
+          },
+          "topic": "TALK_DONE"
         }
       }
     ]
