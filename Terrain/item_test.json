@@ -1,132 +1,59 @@
-{
-  "method": "json",
-  "object": {
-    "add": [
-      {
-        "item": "22_cb",
-        "repeat": 2,
-        "x": 1,
-        "y": 14
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "item spawn" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        " ": "t_null"
       },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 3,
-        "y": 14
+      "furniture": {
+        " ": "f_null"
       },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 5,
-        "y": 14
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 1,
-        "y": 15
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 4,
-        "y": 15
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 5,
-        "y": 15
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 2,
-        "y": 16
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 3,
-        "y": 16
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 5,
-        "y": 16
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 2,
-        "y": 17
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 5,
-        "y": 17
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 1,
-        "y": 18
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 5,
-        "y": 18
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 1,
-        "y": 19
-      },
-      {
-        "item": "22_cb",
-        "repeat": 1,
-        "x": 3,
-        "y": 19
-      }
-    ],
-    "furniture": {
-      " ": "f_null"
-    },
-    "rows": [
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        ",
-      "                        "
-    ],
-    "terrain": {
-      " ": "t_null"
+      "add": [
+        { "item": "22_cb", "x": 1, "y": 14, "repeat": 2 },
+        { "item": "22_cb", "x": 3, "y": 14, "repeat": 1 },
+        { "item": "22_cb", "x": 5, "y": 14, "repeat": 1 },
+        { "item": "22_cb", "x": 1, "y": 15, "repeat": 1 },
+        { "item": "22_cb", "x": 4, "y": 15, "repeat": 1 },
+        { "item": "22_cb", "x": 5, "y": 15, "repeat": 1 },
+        { "item": "22_cb", "x": 2, "y": 16, "repeat": 1 },
+        { "item": "22_cb", "x": 3, "y": 16, "repeat": 1 },
+        { "item": "22_cb", "x": 5, "y": 16, "repeat": 1 },
+        { "item": "22_cb", "x": 2, "y": 17, "repeat": 1 },
+        { "item": "22_cb", "x": 5, "y": 17, "repeat": 1 },
+        { "item": "22_cb", "x": 1, "y": 18, "repeat": 1 },
+        { "item": "22_cb", "x": 5, "y": 18, "repeat": 1 },
+        { "item": "22_cb", "x": 1, "y": 19, "repeat": 1 },
+        { "item": "22_cb", "x": 3, "y": 19, "repeat": 1 }
+      ]
     }
-  },
-  "om_terrain": "item spawn",
-  "type": "mapgen",
-  "weight": 100
-}
+  }
+]
