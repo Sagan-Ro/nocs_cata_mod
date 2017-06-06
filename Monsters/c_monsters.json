@@ -38,7 +38,7 @@
     "fear_triggers": [ "FIRE" ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": [ "ACID", "NORMAL" ],
-    "flags": [ "SEES", "REGENERATES_10", "HEARS", "SMELLS", "STUMBLES", "POISON", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_SUBS", "CBM_POWER", "CBM_OP", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "REGENERATES_10", "HEARS", "SMELLS", "STUMBLES", "POISON", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_POWER", "CBM_OP", "NO_BREATHE", "REVIVES", "BONES" ]
   },
   {
     "id": "mon_failed_weapon",
@@ -77,7 +77,7 @@
       "half_life": 15,
       "into": "mon_zombie_failed_weapon"
     },
-    "flags": [ "SEES", "REGENERATES_10", "HEARS", "SMELLS", "WARM", "HUMAN", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_SUBS", "CBM_POWER", "CBM_OP", "BONES" ]
+    "flags": [ "SEES", "REGENERATES_10", "HEARS", "SMELLS", "WARM", "HUMAN", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_POWER", "CBM_OP", "BONES" ]
   },
   {
     "id": "hulk_weapon",
@@ -182,7 +182,7 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": [ "ACID", "FUNGUS", "NORMAL" ],
-    "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "STUMBLES", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_SUBS", "CBM_POWER", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "STUMBLES", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_OP", "CBM_POWER", "REVIVES", "BONES", "PUSH_MON" ]
   },
   {
     "id": "mon_zombie_bio_infantry",
