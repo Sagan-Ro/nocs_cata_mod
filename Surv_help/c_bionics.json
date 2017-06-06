@@ -161,7 +161,7 @@
     "symbol": "(",
     "color": "red",
     "skill": "rifle",
-    "range": 2,
+    "range": 5,
     "ranged_damage": 5,
     "pierce": 0,
     "dispersion": 300,
