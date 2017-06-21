@@ -976,7 +976,7 @@
     "type": "profession",
     "ident": "sf_blade",
     "name": "Slave Fighter (Blade)",
-    "description": "Your were augmented with a blade, and enhancements to your speed and reaction time. You can hit an opponent multiple times before they land a blow.",
+    "description": "You were augmented with a blade, and enhancements to your speed and reaction time. You can hit an opponent multiple times before they land a blow.",
     "points": 6,
     "CBMs": [
       "bio_sword",
@@ -1029,7 +1029,7 @@
     "type": "profession",
     "ident": "sf_claw",
     "name": "Slave Fighter (Claws)",
-    "description": "Your were augmented with some claws, and enhancements to your reflexes. You deliver a powerful strike that neutralizes foes in few hits.",
+    "description": "You were augmented with some claws, and enhancements to your reflexes. You deliver a powerful strike that neutralizes foes in few hits.",
     "points": 6,
     "CBMs": [
       "bio_claws",
@@ -1089,7 +1089,7 @@
     "type": "profession",
     "ident": "sf_shock",
     "name": "Slave Fighter (Shocker)",
-    "description": "Your were augmented with electrical generators and protection from them. You hit multiple foes with electricity multiple times until their nervous system gives up.",
+    "description": "You were augmented with electrical generators and protection from them. You hit multiple foes with electricity, frying them until their nervous system gives up.",
     "points": 6,
     "CBMs": [
       "bio_chain_lightning",
@@ -1141,7 +1141,7 @@
     "type": "profession",
     "ident": "sf_weapon",
     "name": "Slave Fighter (Weapon Master)",
-    "description": "You have been augmented with many 'passive' combat bionics, they merely aid you but are not weapons in and of themselves. You have been trained to use all sorts of different weapons, including your fists, and you have learned. You can pretty much weaponize a sock.",
+    "description": "You have been augmented with many 'passive' combat bionics, they merely aid you but are not weapons in and of themselves. You have been trained to use all sorts of different weapons, including your fists. You can pretty much weaponize a sock.",
     "points": 6,
     "traits": [
       "MARTIAL_ARTS_SURV"

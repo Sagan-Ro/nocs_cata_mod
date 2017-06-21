@@ -4,7 +4,7 @@
     "ident": "bunker",
     "name": "Bunker Evacuee",
     "points": 2,
-    "description": "You had connections, or intel somehow..., and because of it, you found this LMOE Shelter. Its summer now and you somehow survived and now things got a little bit easier.",
+    "description": "You had connections, or intel somehow..., and because of it, you found this LMOE Shelter. It's summer now and you somehow survived, now things get a little bit easier.",
     "allowed_locs": [
       "lmoe"
     ],
@@ -31,7 +31,7 @@
     "ident": "bugout",
     "name": "Into the Wild",
     "points": -2,
-    "description": "You tried to make it in the cities, you truly did. Things only got worse and you had to leave. You have skills to live in the woods, so that's where you headed. Its autumn now... winter is coming... they lurk by the trees... time to rebuild...",
+    "description": "You tried to make it in the cities, you truly did. Things only got worse and you had to leave. You have skills to live in the woods, so that's where you are headed. It's autumn now... winter is coming... they lurk by the trees... time to rebuild...",
     "start_name": "Forest",
     "professions": [
       "naturalist",
@@ -178,7 +178,7 @@
     "ident": "mycus_bwmd",
     "name": "Mycus B.W.M.D",
     "points": 2,
-    "description": "After mycus assimilation was successful, our local system was instructed to claim more territory for the mycus. Hostile organism are near, proceed with caution.",
+    "description": "After mycus assimilation was successful, our local system was instructed to claim more territory for the mycus. Hostile organisms are near, proceed with caution.",
     "start_name": "Fungal Territory",
     "professions": [
       "mycus_weapon"
@@ -299,7 +299,7 @@
     "ident": "prep_house",
     "name": "Prepper Household",
     "points": 2,
-    "description": "You knew something was coming, you prepared, when the dead rose, you knew what to do. With your house now barricaded, its time to put your plan into action.",
+    "description": "You knew something was coming, you prepared, when the dead rose, you knew what to do. With your house now barricaded, it's time to put your plan into action.",
     "start_name": "Boarded Up House",
     "professions": [
       "unemployed",
@@ -314,106 +314,54 @@
   },
   {
     "type": "scenario",
-    "ident" : "mutant",
-    "name" : "Experiment",
-    "points" : 2,
-    "description": "Since birth, your sole purpose in life has been the advancement of genetic science, willingly or not.  Once the cataclysm struck, you left the lab, and wandered aimlessly, ending up in a forest.",
-    "start_name" : "Forest",
-    "allowed_locs" : ["forest"],
-    "professions" : ["unemployed","mutant_patient","mutant_volunteer","broken_cyborg"],
-    "traits" : ["ELFAEYES","URSINE_EYE","FANGS","GILLS","SPINES","PLANTSKIN","NAILS","RADIOGENIC","PADDED_FEET","RAP_TALONS","HOOVES","CANINE_EARS","FELINE_EARS","TAIL_FLUFFY","TAIL_LONG","WEB_WALKER","WHISKERS","SLIT_NOSTRILS","TROGLO","WEBBED","BEAK","UNSTABLE","RADIOACTIVE1","SLIMY","HERBIVORE","CARNIVORE","PONDEROUS1","SUNLIGHT_DEPENDENT","COLDBLOOD","GROWL","ARM_FEATHERS","ARM_TENTACLES","LEG_TENTACLES","CHAOTIC","ALCMET","LIGHT_BONES","CHITIN"],
-    "edit-mode" : "modify",
-    "add:professions" : ["faulty_bionic","cykotic"]
-
+    "ident": "mutant",
+    "copy-from": "mutant",
+    "extend": { "professions": [ "faulty_bionic", "cykotic" ] }
   },
   {
     "type": "scenario",
     "ident": "bad_day",
-    "name": "Challenge-Really Bad Day",
-    "points" : -10,
-    "description": "You start drunk to the point of incapacitation, depressed, infected, surrounded by fire, naked, and sick with the flu.  This day went downhill really fast.",
-    "start_name": "Anywhere",
-    "allowed_locs" : ["house","s_grocery","s_gun","s_garage","pawn","bank","mil_surplus","furniture","s_library","s_bookstore"],
-    "professions" : ["svictim","tweaker"],
-    "flags" : ["FIRE_START","INFECTED","BAD_DAY","CHALLENGE"],
-    "edit-mode" : "modify",
-    "add:professions" : ["faulty_bionic","cykotic"]
+    "copy-from": "bad_day",
+    "extend": { "professions": [ "faulty_bionic", "cykotic" ] }
   },
   {
     "type": "scenario",
     "ident": "missed",
-    "name": "Missed",
-    "points" : 0,
-    "description": "Whether due to stubbornness, ignorance, or just plain bad luck, you missed the evacuation, and are stuck in a city full of the risen dead.",
-    "allowed_locs" : ["house","s_grocery","s_gun","s_garage","pawn","bank","mil_surplus","furniture","s_library","s_bookstore","boarded_house"],
-    "start_name": "In Town",
-    "edit-mode" : "modify",
-    "add:allowed_locs" : ["s_electronics_s","s_clothes_s"]
+    "copy-from": "missed",
+    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s" ] }
   },
   {
     "type": "scenario",
-    "ident": "summer_advanced_start",
-    "name": "The Next Summer",
-    "points" : 0,
-    "description": "A little over a year has passed since the apocalypse started, and you're about to face your second summer in Hell.",
-    "allowed_locs" : ["forest","field","cabin"],
-    "start_name": "Outside Town",
-    "flags" : ["SUM_ADV_START"],
-    "professions" : ["naturalist","road_warrior","player_bandit","winter_scavenger","winter_army","waste_ranger","unemployed"],
-    "traits" : ["MARTIAL_ARTS_SURV"],
-    "edit-mode" : "modify"
+    "ident": "missed",
+    "copy-from": "missed",
+    "traits" : ["MARTIAL_ARTS_SURV"]
   },
   {
     "type": "scenario",
-    "name": "Burning Building",
-    "description": "The building you had chosen to reside in has suddenly caught fire!  You might want to leave.",
-    "flags": [ "FIRE_START" ],
     "ident": "fire",
-    "points" : -2,
-    "start_name": "Anywhere",
-    "allowed_locs": [ "house", "s_grocery", "s_gun", "s_garage", "pawn", "bank", "mil_surplus", "furniture", "s_library", "s_bookstore" ],
-    "edit-mode" : "modify",
-    "add:allowed_locs" : ["s_electronics_s","s_clothes_s"]
+    "copy-from": "fire",
+    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s" ] }
   },
   {
     "type": "scenario",
-    "name": "Infected",
-    "description": "In the chaos and panic of evacuation, you got bitten by something!  You didn't get proper medical care, and now the wound has started turning green.",
-    "flags": [ "INFECTED" ],
     "ident": "infected",
-    "points" : -4,
-    "start_name": "Anywhere",
-    "allowed_locs": [ "house", "s_grocery", "s_gun", "s_garage", "pawn", "bank", "mil_surplus", "furniture", "s_library", "s_bookstore" ],
-    "blacklist_professions": true,
-    "professions": [ "medic", "jr_survivalist", "camper", "cyberjunkie" ],
-    "edit-mode" : "modify",
-    "add:allowed_locs" : ["s_electronics_s","s_clothes_s"]
+    "copy-from": "infected",
+    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s" ] }
   },
   {
     "type": "scenario",
     "ident": "ambushed",
-    "name": "Ambush",
-    "points" : 0,
-    "description": "It is the winter after zero hour, cold and weary you ducked into a small cabin for the night.  The next morning, you awoke to the sound of lots of movement in the woods.",
-    "allowed_locs": ["cabin"],
-    "start_name": "Abandoned Cabin",
-    "flags" : ["SUR_START","WIN_START"],
-    "professions" : ["winter_survivor","winter_scavenger","winter_army","unemployed"],
-    "traits" : ["MARTIAL_ARTS_SURV"],
-    "edit-mode" : "modify"
+    "copy-from": "ambushed",
+    "traits" : ["MARTIAL_ARTS_SURV"]
   },
   {
     "type": "scenario",
     "ident": "wilderness",
-    "name": "Wilderness",
-    "points" : 0,
-    "description": "You find yourself amongst trees.  The screaming and the moaning is fainter this far from civilization, but you'd better know what you're doing out here.",
-    "start_name": "Forest",
-    "professions" : ["unemployed", "survivalist", "trapper", "bionic_prepper", "guru", "backpacker", "naturalist", "camper", "bow_hunter", "crossbow_hunter", "shotgun_hunter", "rifle_hunter", "lumberjack", "jr_survivalist", "fisher", "bio_sniper"],
-    "allowed_locs" : ["forest"],
-    "edit-mode" : "modify",
-    "add:professions" : ["pri-sur"],
-    "add:allowed_locs" : ["surv_camp_l"]
+    "copy-from": "wilderness",
+    "extend": {
+      "professions": [ "pri-sur" ],
+      "allowed_locs": [ "surv_camp_l" ]
+    }
   },
   {
     "type": "scenario",
@@ -442,7 +390,7 @@
     "ident": "house_fight_scenario",
     "name": "Slave Fighter's Freedom",
     "points": -2,
-    "description": "All your life you have been experimented and forced to fight others for the amusement of your masters. Never having seen the sun or the outside the cataclysm gave you a chance at freedom. Now you just have to escape from your fellow combatants...",
+    "description": "All your life you have been experimented on and forced to fight others for the amusement of your masters. Never having seen the sun or the outside the cataclysm gave you a chance at freedom. Now you just have to escape from your fellow combatants...",
     "start_name": "Sketchy Cabin",
     "professions": [
       "sf_blade",

@@ -153,7 +153,7 @@
     "symbol": ",",
     "name": "Survival in a Can",
     "name_plural": "Survival in a Cans",
-    "description": "A large tin can held together by a tab and seal. Remove the seal to split the can into two smaller can and reveal its contents. It contains carefully packed survival items with a list of them on the side of the can. You could not possibly put its contents back together.",
+    "description": "A large tin can held together by a tab and seal. Remove the seal to split the container into two smaller cans and reveal its contents. It contains carefully packed survival items with a list of them on the side of the can. You could not possibly put its contents back together.",
     "price": 600,
     "material": "steel",
     "flags": [
@@ -311,7 +311,7 @@
     "symbol": ";",
     "color": "light_gray",
     "name": "Can Forge (off)",
-    "description": "This is a portable light source/forge/food cooker made from a soda can with pebbles reinforcing the inner wall, powered by charcoal. It is used to meltdown metals, cook some food and providing low light for crafting.",
+    "description": "This is a portable light source/forge/food cooker made from a soda can with pebbles reinforcing the inner wall, powered by charcoal. It is used to melt down metals, cook some food and providing low light for crafting.",
     "price": 1000,
     "material": [
       "aluminum",
@@ -393,7 +393,7 @@
     "color": "light_gray",
     "symbol": ";",
     "name": "metal mold",
-    "description": "This is a plastic mold.  It could be shaped and used to craft items made of metal.",
+    "description": "This is a makeshift mold made from plastic.  It could be shaped and used to craft items made of metal.",
     "price": 1000,
     "material": "plastic",
     "weight": 4,
@@ -413,7 +413,7 @@
     "symbol": ";",
     "color": "grey",
     "name": "Molded Hammer",
-    "description": "This is a molded metal hammer with a metal handle.  It functions like a professional hammer but it is bulkier and weights more adding a little bashing power",
+    "description": "This is a molded metal hammer with a metal handle.  It functions like a professional hammer but it is bulkier and weighs more, adding a little bashing power",
     "price": 500,
     "material": [
       "steel"
@@ -446,7 +446,7 @@
     "symbol": ";",
     "color": "light_gray",
     "name": "Molded Knife",
-    "name_plural": "stone knives",
+    "name_plural": "Molded Knives",
     "description": "This is a sharpened molded metal blade with a metal handle.  Works better than sharpening any old metal.",
     "price": 200,
     "material": [
@@ -693,7 +693,7 @@
     "symbol": "/",
     "color": "white",
     "name": "Fishing String",
-    "description": "A long string with a hook attached to the end. Useful as a crude fishing tool. Requires Bait as lure and sinker.",
+    "description": "A long string with a hook attached to the end. Useful as a crude fishing tool. Requires bait as lure and sinker.",
     "price": 0,
     "material": "cotton",
     "weight": 170,
@@ -717,7 +717,7 @@
     "color": "brown",
     "name": "Solar torch",
     "name_plural": "Solar torches",
-    "description": "A mysterious torch that uses the power of the sun (and blob goo) to lit itself. Somehow, the gasoline synthesized goo produces gasoline when in the sun continuously soaking the rag making it 'rechargeable' in a sense. You need a lighter to turn it on. One lit, it can't be turned off until all fuel is used.",
+    "description": "A mysterious torch that uses the power of the sun (and blob goo) to light itself. Somehow, the gasoline synthesized goo produces gasoline when in the sun continuously soaking the rag making it 'rechargeable' in a sense. You need a lighter to turn it on. Once lit, it can't be turned off until all fuel is used.",
     "price": 0,
     "material": "wood",
     "weight": 956,
@@ -752,7 +752,7 @@
     "color": "brown",
     "name": "Solar torch (lit)",
     "name_plural": "Solar torches (lit)",
-    "description": "A mysterious torch that uses the power of the sun (and blob goo) to lit itself. Somehow, the gasoline synthesized goo produces gasoline when in the sun continuously soaking the rag making it 'rechargeable' in a sense. It is burning, producing plenty of light, now to wait for it to run out of fuel.",
+    "description": "A mysterious torch that uses the power of the sun (and blob goo) to ligt itself. Somehow, the gasoline synthesized goo produces gasoline when in the sun continuously soaking the rag making it 'rechargeable' in a sense. It is burning, producing plenty of light, now to wait for it to run out of fuel.",
     "price": 0,
     "material": "wood",
     "flags": [
@@ -813,7 +813,7 @@
     "symbol": ";",
     "color": "brown",
     "name": "Molded Saw",
-    "description": "A Molded saw that somewhat combines the utilities of a wood and metal saws.",
+    "description": "A Molded saw that somewhat combines the utilities of wood and metal saws.",
     "price": 3000,
     "material": [
       "steel"
@@ -863,7 +863,7 @@
       "terrain": [
         "Survivor_Holdout"
       ],
-      "message": "After putting off for a while, you memorize the location..."
+      "message": "After putting it off for a while, you memorize the location..."
     }
   },
   {
@@ -917,7 +917,7 @@
     "symbol": ";",
     "color": "blue",
     "name": "Encampment project reminder",
-    "description": "A note describing a group of people creating prepper settlements. You try to remember if there is any of them nearby. Maybe the back of the note has coordinates to their settlements.",
+    "description": "A note describing a group of people creating prepper settlements. You try to remember if there are any of them nearby. Maybe the back of the note has coordinates to their settlements.",
     "price": 0,
     "material": "paper",
     "weight": 30,
@@ -942,7 +942,7 @@
     "color": "brown",
     "name": "Hammer Multi-tool",
     "name_plural": "Hammer Multi-tools",
-    "description": "A multi-tool who's top is a hammer and a pair of pliers combined. Small and practical, the survivor's mini-tool-kit.",
+    "description": "A multi-tool whose top is a hammer and a pair of pliers combined. Small and practical, the survivor's mini-tool-kit.",
     "price": 5000,
     "material": [
       "steel",
