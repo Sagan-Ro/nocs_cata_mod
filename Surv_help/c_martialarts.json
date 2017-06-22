@@ -42,7 +42,7 @@
         "unarmed_allowed": true,
         "min_unarmed": 2,
         "throw_immune": true,
-        "description": "If thrown or knockdown the user rolls slightly and gets up before an attack can be dealt."
+        "description": "If thrown or knocked down the user rolls slightly, and gets up before an attack can be dealt."
       }
     ],
     "onattack_buffs": [

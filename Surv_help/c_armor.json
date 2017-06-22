@@ -11,7 +11,7 @@
     "to_hit": 0,
     "storage": 50,
     "symbol": "[",
-    "description": "A custom-built backpack modified furthered to be an archer's best friend. Lots of storage, manageable encumbrance and a built in quiver.",
+    "description": "A custom-built backpack modified further to be an archer's best friend. Lots of storage, manageable encumbrance and a built in quiver.",
     "price": 36000,
     "material": [
       "leather",
@@ -60,7 +60,7 @@
     "to_hit": -3,
     "storage": 80,
     "symbol": "[",
-    "description": "A home-made suit build to live off the land. Comes with ample storage, warm fur lining, environmental and physical protection, a built-in watch, a built in gasmask and a makeshift sheath ring. This suit looks very good on you, in a post-cataclysmic sort of way.",
+    "description": "A home-made suit built to live off the land. Comes with ample storage, warm fur lining, environmental and physical protection, a built-in watch, a built in gasmask and a makeshift sheath ring. This suit looks very good on you, in a post-cataclysmic sort of way.",
     "price": 180000,
     "material": [
       "leather",
@@ -130,7 +130,7 @@
     "to_hit": -3,
     "storage": 80,
     "symbol": "[",
-    "description": "A home-made suit build to live off the land. Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, a built in gasmask and a makeshift sheath ring. The suit is carefully crafted of Kevlar fabric and reinforced in metal. This suit looks very good on you, in a post-cataclysmic sort of way.",
+    "description": "A home-made suit built to live off the land. Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, a built in gasmask and a makeshift sheath ring. The suit is carefully crafted of Kevlar fabric and reinforced in metal. This suit looks very good on you, in a post-cataclysmic sort of way.",
     "price": 180000,
     "material": [
       "kevlar",
@@ -399,7 +399,7 @@
     "to_hit": -3,
     "storage": 0,
     "symbol": "[",
-    "description": "A full-body suit of grey bulletproof armor. Somewhat 'easy' to move in by having joints jointed by leather.",
+    "description": "A full-body suit of grey bulletproof armor. Somewhat 'easy' to move in, having joints protected by leather.",
     "price": 350000,
     "material": [
       "kevlar",

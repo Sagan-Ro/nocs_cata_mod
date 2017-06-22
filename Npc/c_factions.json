@@ -16,7 +16,7 @@
     "sneak": 0,
     "crime": -1,
     "cult": -1,
-    "description": "Members of the Command Center seeking refuge from...something. They intel and some connections to old guard."
+    "description": "Members of the Command Center seeking refuge from...something. They have intel and some connections to the Old Guard."
   },
   {
     "type": "faction",
@@ -35,7 +35,7 @@
     "sneak": 0,
     "crime": -1,
     "cult": -1,
-    "description": "Ragtag branch of the military that survived the initial cataclysm. Allied to the command center they seek leadership in this new world."
+    "description": "Ragtag branch of the military that survived the initial cataclysm. Allied to the command center, they seek leadership in this new world."
   },
   {
     "type": "faction",
@@ -54,7 +54,7 @@
     "sneak": 0,
     "crime": -1,
     "cult": -1,
-    "description": "Survivors who had prepared for the cataclysm before the idea of it was on the radar. They posses the means to rebuild."
+    "description": "Survivors who had prepared for the cataclysm before the idea of it was on the radar. They possess the means to rebuild."
   },
   {
     "type": "faction",
@@ -92,7 +92,7 @@
     "sneak": 0,
     "crime": 1,
     "cult": 0,
-    "description": "People who all their lives have been nothing but fighting in a ring for the amusement of the rich.  Most of the saner captives and new meat end up in Blue Team, pitted against hardened and \"broken in\" combatants."
+    "description": "People who all their lives have seen nothing but fighting in a ring for the amusement of the rich.  Most of the saner captives and new meat end up in Blue Team, pitted against hardened and \"broken in\" combatants."
   },
   {
     "type": "faction",
@@ -111,6 +111,6 @@
     "sneak": 0,
     "crime": 1,
     "cult": 0,
-    "description": "People who all their lives have been nothing but fighting in a ring for the amusement of the rich. Devoid of reason they think the cataclysm is but another round, barely able to tell each other apart from the other team."
+    "description": "People who all their lives have seen nothing but fighting in a ring for the amusement of the rich. Devoid of reason they think the cataclysm is but another round, barely able to tell each other apart from the other team."
   }
 ]
