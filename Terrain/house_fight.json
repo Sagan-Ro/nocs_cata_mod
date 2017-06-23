@@ -132,7 +132,7 @@
         { "class": "slave_fight_ally", "x": 17, "y": 2 },
         { "class": "slave_fight", "x": 21, "y": 3 },
         { "class": "slave_fight_ally", "x": 4, "y": 20 },
-        { "class": "slave_fight", "x": 8, "y": 21 },
+        { "class": "slave_fight", "x": 9, "y": 21 },
         { "class": "slave_fight_ally", "x": 17, "y": 22 },
         { "class": "slave_fight", "x": 21, "y": 21 },
         { "class": "slave_fight", "x": 10, "y": 7 }
