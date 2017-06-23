@@ -89,7 +89,7 @@
       "NEVER_JAMS",
       "NO_UNLOAD"
     ],
-    "ups_charges": 250,
+    "ups_charges": 100,
     "skill": "rifle",
     "weight": 2950,
     "volume": 12,
@@ -362,7 +362,7 @@
       "NEVER_JAMS",
       "NO_UNLOAD"
     ],
-    "ups_charges": 100,
+    "ups_charges": 50,
     "skill": "rifle",
     "weight": 5620,
     "volume": 15,
@@ -517,7 +517,7 @@
       "MODE_BURST",
       "ALWAY_TWOHAND"
     ],
-    "ups_charges": 100,
+    "ups_charges": 50,
     "skill": "rifle",
     "ranged_damage": 20,
     "pierce": 10,
@@ -1935,7 +1935,7 @@
     "dispersion": 0,
     "durability": 8,
     "burst": 5,
-    "ups_charges": 100,
+    "ups_charges": 25,
     "reload": 0,
     "valid_mod_locations": [
       [
@@ -1995,7 +1995,7 @@
     "pierce": 5,
     "dispersion": 50,
     "durability": 4,
-    "ups_charges": 20,
+    "ups_charges": 15,
     "reload": 50,
     "valid_mod_locations": [
       [
@@ -2049,7 +2049,7 @@
     "pierce": 5,
     "dispersion": 50,
     "durability": 8,
-    "ups_charges": 20,
+    "ups_charges": 10,
     "reload": 25,
     "valid_mod_locations": [
       [
