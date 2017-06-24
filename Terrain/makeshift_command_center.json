@@ -167,7 +167,7 @@
         { "class": "main_bio_sci", "x": 20, "y": 22 },
         { "class": "bio_weapon_1", "x": 22, "y": 10 },
         { "class": "bio_weapon_2", "x": 22, "y": 14 },
-        { "class": "cmnd_guard_1", "x": 15, "y": 4 },
+        { "class": "cmnd_guard_1", "x": 15, "y": 5 },
         { "class": "cmnd_guard_2", "x": 19, "y": 4 }
       ]
     }
