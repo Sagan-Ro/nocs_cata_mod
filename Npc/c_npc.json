@@ -7,7 +7,7 @@
     "gender": "male",
     "class": "NC_SCAVENGER",
     "attitude": 1,
-    "mission": 0,
+    "mission": 7,
     "chat": "TALK_BFF",
     "faction": "preppers"
   },
@@ -30,9 +30,9 @@
     "name_unique" : "Evelynn Rose",
     "name_suffix": "Bio Hunter",
     "gender": "female",
-    "class": "NC_SOLDIER",
+    "class": "NC_BIO_HUNTER_F",
     "attitude": 1,
-    "mission": 0,
+    "mission": 7,
     "chat": "TALK_BHUNTER",
     "faction": "super_soldiers"
   },
@@ -45,7 +45,7 @@
     "gender": "male",
     "class": "NC_SCIENTIST",
     "attitude": 0,
-    "mission": 0,
+    "mission": 7,
     "chat": "TALK_MSCI",
     "faction": "commandeers"
   },
@@ -58,7 +58,7 @@
     "gender": "male",
     "class": "NC_SOLDIER",
     "attitude": 0,
-    "mission": 0,
+    "mission": 7,
     "chat": "TALK_BIO_1",
     "faction": "bio_weapons"
   },
@@ -71,7 +71,7 @@
     "gender": "female",
     "class": "NC_SOLDIER",
     "attitude": 0,
-    "mission": 0,
+    "mission": 7,
     "chat": "TALK_BIO_2",
     "faction": "bio_weapons"
   },
@@ -81,9 +81,9 @@
     "comment": "One of the Guards in the Command Center.",
     "name_suffix": "Super Soldier",
     "gender": "female",
-    "class": "NC_SOLDIER",
+    "class": "NC_SUPER_SOLDIER",
     "attitude": 0,
-    "mission": 0,
+    "mission": 7,
     "chat": "TALK_CGUARD1",
     "faction": "commandeers"
   },
@@ -93,9 +93,9 @@
     "comment": "One of the Guards in the Command Center.",
     "name_suffix": "Super Soldier",
     "gender": "male",
-    "class": "NC_SOLDIER",
+    "class": "NC_SUPER_SOLDIER",
     "attitude": 0,
-    "mission": 0,
+    "mission": 7,
     "chat": "TALK_CGUARD2",
     "faction": "commandeers"
   },

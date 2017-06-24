@@ -1,105 +1,6 @@
 [
   {
     "type": "npc_class",
-    "id": "NC_SUPER_SOLDIER",
-    "name": "Super Soldier",
-    "job_description": "I am guarding this place in exchange for food and shelter.",
-    "bonus_str": {
-      "rng": [
-        1,
-        2
-      ]
-    },
-    "bonus_dex": {
-      "rng": [
-        1,
-        2
-      ]
-    },
-    "skills": [
-      {
-        "skill": "ALL",
-        "level": {
-          "sum": [
-            {
-              "dice": [
-                3,
-                2
-              ]
-            },
-            {
-              "constant": 0
-            }
-          ]
-        }
-      },
-      {
-        "skill": "dodge",
-        "bonus": {
-          "rng": [
-            1,
-            2
-          ]
-        }
-      },
-      {
-        "skill": "melee",
-        "bonus": {
-          "rng": [
-            1,
-            2
-          ]
-        }
-      },
-      {
-        "skill": "unarmed",
-        "bonus": {
-          "rng": [
-            1,
-            2
-          ]
-        }
-      },
-      {
-        "skill": "rifle",
-        "bonus": {
-          "rng": [
-            3,
-            5
-          ]
-        }
-      },
-      {
-        "skill": "gun",
-        "bonus": {
-          "rng": [
-            2,
-            4
-          ]
-        }
-      },
-      {
-        "skill": "cutting",
-        "bonus": {
-          "rng": [
-            1,
-            2
-          ]
-        }
-      },
-      {
-        "skill": "stabbing",
-        "bonus": {
-          "rng": [
-            1,
-            2
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "type": "npc_class",
     "id": "NC_BIO_WEAPON",
     "name": "Bio Weapon",
     "job_description": "I am here to find answers...",
@@ -208,6 +109,90 @@
         }
       }
     ]
+    },
+    {
+        "type" : "npc_class",
+        "id" : "NC_SUPER_SOLDIER",
+        "name" : "Super Soldier",
+        "job_description" : "I am guarding this place in exchange for food and shelter.",
+        "common" : false,
+        "bonus_str" : { "rng" : [ 1, 2 ] },
+        "bonus_dex" : { "rng" : [ 1, 2 ] },
+        "skills" : [
+            {
+                "skill" : "ALL", "level" : {
+                    "mul" : [
+                        { "one_in" : 3 },
+                        {
+                            "sum" : [
+                                { "dice" : [ 2, 2 ] },
+                                { "constant": -2 }
+                            ]
+                        }
+                    ]
+                }
+            },
+            { "skill": "dodge", "bonus" : { "rng" : [ 1, 2 ] } },
+            { "skill": "melee", "bonus" : { "rng" : [ 1, 2 ] } },
+            { "skill": "unarmed", "bonus" : { "rng" : [ 1, 2 ] } },
+            { "skill": "rifle", "bonus" : { "rng" : [ 3, 5 ] } },
+            { "skill": "gun", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "cutting", "bonus" : { "rng" : [ 1, 2 ] } },
+            { "skill": "stabbing", "bonus" : { "rng" : [ 1, 2 ] } }
+        ],
+        "worn_override": "NC_SUPER_SOLDIER_worn",
+        "carry_override": "NC_SUPER_SOLDIER_carry",
+        "weapon_override": "NC_SUPER_SOLDIER_weapon",
+        "comment": "Some traits to mimic a few of the profession bionics.",
+        "traits": [
+            [ "SUPER_SOLDIER_MARKER", 100 ],
+            [ "THICKSKIN", 100 ],
+            [ "NIGHTVISION", 100 ],
+            [ "ADRENALINE", 100 ],
+            [ "REGEN", 100 ]
+        ]
+    },
+    {
+        "type" : "npc_class",
+        "id" : "NC_BIO_HUNTER_F",
+        "name" : "Bio-Weapon Hunter",
+        "job_description" : "I am here to fix this mess.",
+        "common" : false,
+        "bonus_str" : { "rng" : [ 1, 3 ] },
+        "bonus_dex" : { "rng" : [ 1, 3 ] },
+        "skills" : [
+            {
+                "skill" : "ALL", "level" : {
+                    "mul" : [
+                        { "one_in" : 3 },
+                        {
+                            "sum" : [
+                                { "dice" : [ 2, 3 ] },
+                                { "constant": -2 }
+                            ]
+                        }
+                    ]
+                }
+            },
+            { "skill": "dodge", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "melee", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "unarmed", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "smg", "bonus" : { "rng" : [ 3, 6 ] } },
+            { "skill": "gun", "bonus" : { "rng" : [ 2, 5 ] } },
+            { "skill": "cutting", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "stabbing", "bonus" : { "rng" : [ 1, 3 ] } }
+        ],
+        "worn_override": "NC_BIO_HUNTER_F_worn",
+        "carry_override": "NC_BIO_HUNTER_F_carry",
+        "weapon_override": "NC_BIO_HUNTER_F_weapon",
+        "comment": "Some traits to mimic a few of the profession bionics.",
+        "traits": [
+            [ "SUPER_SOLDIER_MARKER", 100 ],
+            [ "THICKSKIN", 100 ],
+            [ "NIGHTVISION", 100 ],
+            [ "CLAWS", 100 ],
+            [ "REGEN", 100 ]
+        ]
   },
     {
         "type" : "npc_class",
