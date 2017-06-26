@@ -1124,6 +1124,33 @@
     }
   },
   {
+    "id": "blood_p",
+    "type": "TOOL",
+    "symbol": ">",
+    "color": "blue",
+    "name": "organic defusion set",
+    "description": "A strange infusion set with several organic-looking parts.  It has multiple tubes for simultaneous extraction and infusion of blood.  Its label refers to it as a rapid stem cell treatment by replicating your own stem cells for better results..",
+    "price": 5000,
+    "material": [
+      "plastic",
+      "flesh"
+    ],
+    "weight": 150,
+    "volume": 3,
+    "cutting": 1,
+    "to_hit": -1,
+    "max_charges": 1,
+    "initial_charges": 1,
+    "charges_per_use": 1,
+    "turns_per_charge": 0,
+    "ammo": "NULL",
+    "revert_to": "null",
+    "use_action": "PURIFIER",
+    "artifact_data": {
+      "charge_type": "ARTC_HP"
+    }
+  },
+  {
     "id": "ulmap",
     "category": "books",
     "type": "GENERIC",

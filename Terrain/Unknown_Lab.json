@@ -132,6 +132,7 @@
         { "item": "flesh_blade", "x": 22, "y": 16, "repeat": 1 },
         { "item": "flesh_rifle", "x": 22, "y": 17, "repeat": 1 },
         { "item": "blood_m", "x": 22, "y": 18, "repeat": 1 },
+        { "item": "blood_p", "x": 22, "y": 18, "repeat": 1 },
         { "item": "laser_sniper", "x": 1, "y": 17, "repeat": 1 },
         { "item": "arc_laser_rifle", "x": 1, "y": 17, "repeat": 1 },
         { "item": "laser_lmg", "x": 1, "y": 17, "repeat": 1 },
