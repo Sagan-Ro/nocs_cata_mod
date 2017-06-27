@@ -14,10 +14,20 @@
   {
     "type": "npc",
     "id": "survn",
+    "comment": "Static encampment NPCs",
+    "name_suffix": "Prepper",
+    "class": "NC_PREPPER",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_SHELTER",
+    "faction": "preppers"
+  },
+  {
+    "type": "npc",
+    "id": "survn_special",
     "comment": "Use as a random NPC encounter",
     "name_suffix": "Prepper",
-    "gender": "male",
-    "class": "NC_SCAVENGER",
+    "class": "NC_PREPPER",
     "attitude": 0,
     "mission": 0,
     "chat": "TALK_SHELTER",

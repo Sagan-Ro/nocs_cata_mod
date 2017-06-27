@@ -132,11 +132,7 @@
         { "class": "survn", "x": 4, "y": 16 },
         { "class": "survn", "x": 17, "y": 16 },
         { "class": "survn", "x": 10, "y": 6 },
-        { "class": "survn", "x": 11, "y": 11 },
-        { "class": "survn", "x": 13, "y": 2 },
-        { "class": "survn", "x": 12, "y": 10 },
         { "class": "survn", "x": 13, "y": 7 },
-        { "class": "survn", "x": 11, "y": 8 },
         { "class": "survn", "x": 10, "y": 15 }
       ],
       "place_vehicles": [
