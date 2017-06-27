@@ -9,7 +9,7 @@
           { "item": "undershirt", "prob": 30 },
           { "item": "kevlar", "prob": 10 },
           { "item": "long_undertop", "prob": 30 },
-          { "items": "under_armor", "prob": 30 }
+          { "item": "under_armor", "prob": 30 }
         ]
       },
       {
@@ -17,7 +17,7 @@
           { "group": "male_underwear_bottom", "prob": 30 },
           { "group": "loincloth", "prob": 10 },
           { "item": "long_underpants", "prob": 30 },
-          { "items": "under_armor_shorts", "prob": 30 }
+          { "item": "under_armor_shorts", "prob": 30 }
         ]
       },
       {
