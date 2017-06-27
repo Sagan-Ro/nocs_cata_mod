@@ -2029,6 +2029,7 @@
   },
   {
     "id": "v29",
+    "override": true,
     "type": "GUN",
     "name": "V29 laser pistol",
     "description": "The V29 laser pistol was designed in the mid-21st century and was one of the first firearms to use fusion as its ammunition.  It is larger than most traditional handguns, but displays no recoil whatsoever.",
