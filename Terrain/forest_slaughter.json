@@ -47,6 +47,9 @@
         "_": "f_null",
         "t": "f_null"
       },
+      "place_loot": [
+        { "group": "dead_slave_fighters", "x": [ 1, 22 ], "y": [ 9, 12 ], "repeat": [ 2, 5 ] }
+      ],
       "place_npcs": [
         { "class": "slave_fight", "x": 11, "y": 13 }
       ]

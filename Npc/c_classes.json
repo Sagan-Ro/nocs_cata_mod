@@ -112,6 +112,36 @@
     },
     {
         "type" : "npc_class",
+        "id" : "NC_PREPPER",
+        "name" : "Prepper",
+        "job_description" : "Just surviving, as usual.",
+        "common" : false,
+        "bonus_str" : { "rng" : [ -1, 1 ] },
+        "bonus_int" : { "rng" : [ -1, 1 ] },
+        "bonus_dex" : { "rng" : [ -1, 2 ] },
+        "bonus_per" : { "rng" : [ -1, 2 ] },
+        "skills" : [
+            {
+                "skill" : "ALL", "level" : {
+                    "sum" : [
+                        { "dice" : [ 3, 2 ] },
+                        { "constant" : -3 }
+                    ]
+                }
+            },
+            { "skill": "survival", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "gun", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "pistol", "bonus" : { "rng" : [ 2, 5 ] } },
+            { "skill": "rifle", "bonus" : { "rng" : [ 0, 3 ] } },
+            { "skill": "archery", "bonus" : { "rng" : [ 0, 3 ] } }
+        ],
+        "comment": "Weapon is empty group to workaround difficulty pairing weapons and ammo via overrides.",
+        "worn_override": "NC_PREPPER_worn",
+        "carry_override": "NC_PREPPER_carry",
+        "weapon_override": "EMPTY_GROUP"
+    },
+    {
+        "type" : "npc_class",
         "id" : "NC_SUPER_SOLDIER",
         "name" : "Super Soldier",
         "job_description" : "I am guarding this place in exchange for food and shelter.",

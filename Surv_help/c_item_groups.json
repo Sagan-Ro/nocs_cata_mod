@@ -2051,5 +2051,19 @@
         10
       ]
     ]
+  },
+  {
+    "id": "dead_slave_fighters",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "distribution": [
+          { "group": "NC_GLADIATOR_LIGHT_worn", "prob": 50 },
+          { "group": "NC_GLADIATOR_HEAVY_worn", "prob": 50 }
+        ]
+      },
+      { "item": "corpse" }
+    ]
   }
 ]
