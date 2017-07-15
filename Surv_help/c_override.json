@@ -85,6 +85,7 @@
     "copy-from": "nanoskirt",
     "type": "ARMOR",
     "name": "nanoskirt",
-    "extend": { "flags": [ "SUPER_FANCY" ] }
+    "extend": { "flags": [ "SUPER_FANCY" ] },
+    "delete": { "flags": [ "FANCY" ] }
   }
 ]
