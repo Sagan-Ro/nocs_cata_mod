@@ -166,5 +166,40 @@
     "mondensity": 0,
     "extras": "build",
     "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "plain_slaughter1",
+    "type": "overmap_terrain",
+    "name": "field",
+    "//": "Design to look like a normal plain tile.",
+    "sym" : 46,
+    "color" : "brown",
+    "see_cost": 5,
+    "mondensity": 0,
+    "extras": "build",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "plain_slaughter2",
+    "type": "overmap_terrain",
+    "name": "field",
+    "//": "Design to look like a normal plain tile.",
+    "sym" : 46,
+    "color" : "brown",
+    "see_cost": 5,
+    "mondensity": 0,
+    "extras": "build",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "new_fungal_territory",
+    "type": "overmap_terrain",
+    "name": "fungal field",
+    "sym" : 116,
+    "color" : "cyan",
+    "see_cost": 5,
+    "mondensity": 0,
+    "extras": "build",
+    "flags": [ "NO_ROTATE" ]
   }
 ]
