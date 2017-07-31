@@ -7,9 +7,9 @@
     "object": {
       "//": "Good Npcs",
       "rows": [
-        "$$$$$$$$$$$++$$$$$$$$$$$",
-        "$.........____.........$",
-        "$.||w|w||.____.||w|w||.$",
+        ".........o..............",
+        "$$$$$$$$$$++++$$$$$$$$$$",
+        "$.||w|w||o____.||w|w||.$",
         "$.|dbbbb|.____.|Octc=|.$",
         "$.|_____-.____.-____W|.$",
         "$.|dbbbb|.____.|fctc&|.$",
@@ -34,9 +34,9 @@
       ],
       "terrain": {
         "#": "t_dirtmound",
-        "$": "t_fence_barbed",
+        "$": "t_palisade",
         "&": "t_water_pump",
-        "+": "t_chaingate_c",
+        "+": "t_palisade_gate",
         "-": "t_rdoor_c",
         ".": "t_dirtfloor",
         "=": "t_rock_floor",
@@ -58,7 +58,8 @@
         "u": "t_utility_light",
         "w": "t_window_enhanced",
         "{": "t_rock_floor",
-        "|": "t_wall_log"
+        "|": "t_wall_log",
+        "o": "t_palisade_pulley"
       },
       "furniture": {
         "#": "f_null",
@@ -86,7 +87,8 @@
         "u": "f_null",
         "w": "f_null",
         "{": "f_locker",
-        "|": "f_null"
+        "|": "f_null",
+        "o": "f_null"
       },
       "place_toilets": [
         { "x": 15, "y": 21 },
