@@ -31,7 +31,7 @@
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
-      "yes": "Yeah.  I don't have that badge, myself.  I woke up in a cloning vat under gunfire with no idea of who I was.  Router took me in, but I don't really feel like I belong here...",
+      "yes": "Yeah.  I woke up in a cloning vat under gunfire with no idea of who I was.  Router took me in, but I don't really feel like I belong here...",
       "no": "Yeah, you know about the project?  In spite of my nickname, I am a weapon, trained to use both ranged and melee weapons."
     },
     "responses": [

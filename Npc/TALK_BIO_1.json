@@ -31,7 +31,7 @@
     "id": "TALK_BIO_1_U_BIO",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
-      "yes": "Yeah.  I lost my badge, though.  Router found me passed out and told me about everything.  I don't remember anything before that.  Guess I just have to trust him for now.",
+      "yes": "Yeah.  Router found me passed out and told me about everything.  I don't remember anything before that.  Guess I just have to trust him for now.",
       "no": "That's right.  You seem to know your stuff, guess one doesn't simply find this place by accident.  Router told me what I am.  I am stuck here until further notice."
     },
     "responses": [

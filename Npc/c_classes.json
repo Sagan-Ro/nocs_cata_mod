@@ -1,115 +1,51 @@
 [
-  {
-    "type": "npc_class",
-    "id": "NC_BIO_WEAPON",
-    "name": "Bio Weapon",
-    "job_description": "I am here to find answers...",
-    "bonus_str": {
-      "rng": [
-        2,
-        4
-      ]
-    },
-    "bonus_int": {
-      "rng": [
-        0,
-        2
-      ]
-    },
-    "bonus_dex": {
-      "rng": [
-        2,
-        4
-      ]
-    },
-    "bonus_per": {
-      "rng": [
-        0,
-        2
-      ]
-    },
-    "skills": [
-      {
-        "skill": "ALL",
-        "level": {
-          "sum": [
+    {
+        "type" : "npc_class",
+        "id" : "NC_BIO_WEAPON",
+        "name" : "Bio-Weapon",
+        "job_description" : "I am here to find answers...",
+        "common" : false,
+        "bonus_str" : { "rng" : [ 2, 4 ] },
+        "bonus_dex" : { "rng" : [ 2, 4 ] },
+        "bonus_int" : { "rng" : [ 0, 2 ] },
+        "bonus_per" : { "rng" : [ 0, 2 ] },
+        "skills" : [
             {
-              "dice": [
-                6,
-                2
-              ]
+                "skill" : "ALL", "level" : {
+                    "mul" : [
+                        { "one_in" : 3 },
+                        {
+                            "sum" : [
+                                { "dice" : [ 2, 3 ] },
+                                { "constant": -2 }
+                            ]
+                        }
+                    ]
+                }
             },
-            {
-              "constant": -2
-            }
-          ]
-        }
-      },
-      {
-        "skill": "dodge",
-        "bonus": {
-          "rng": [
-            2,
-            4
-          ]
-        }
-      },
-      {
-        "skill": "melee",
-        "bonus": {
-          "rng": [
-            2,
-            4
-          ]
-        }
-      },
-      {
-        "skill": "unarmed",
-        "bonus": {
-          "rng": [
-            2,
-            4
-          ]
-        }
-      },
-      {
-        "skill": "rifle",
-        "bonus": {
-          "rng": [
-            3,
-            6
-          ]
-        }
-      },
-      {
-        "skill": "gun",
-        "bonus": {
-          "rng": [
-            3,
-            6
-          ]
-        }
-      },
-      {
-        "skill": "cutting",
-        "bonus": {
-          "rng": [
-            2,
-            4
-          ]
-        }
-      },
-      {
-        "skill": "stabbing",
-        "bonus": {
-          "rng": [
-            2,
-            4
-          ]
-        }
-      }
-    ]
-    },
+            { "skill": "dodge", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "melee", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "unarmed", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "rifle", "bonus" : { "rng" : [ 3, 6 ] } },
+            { "skill": "gun", "bonus" : { "rng" : [ 3, 6 ] } },
+            { "skill": "cutting", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "stabbing", "bonus" : { "rng" : [ 2, 4 ] } }
+        ],
+        "comment": "Weapon is in carry group to ensure ammo is matched up with it.",
+        "worn_override": "NC_BIO_WEAPON_worn",
+        "carry_override": "NC_BIO_WEAPON_carry",
+        "weapon_override": "EMPTY_GROUP",
+        "comment": "Not quite the bio-weapon mutations, because these are generic ones.",
+        "traits": [
+            [ "BIO_WEAPON_GENERIC", 100 ],
+            [ "THICKSKIN", 100 ],
+            [ "GOODHEARING", 100 ],
+            [ "QUICK", 100 ],
+            [ "NIGHTVISION", 100 ],
+            [ "CLAWS", 100 ],
+            [ "REGEN", 100 ]
+        ]
+  },
     {
         "type" : "npc_class",
         "id" : "NC_PREPPER",
