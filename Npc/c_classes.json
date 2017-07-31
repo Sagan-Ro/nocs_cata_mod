@@ -40,10 +40,20 @@
             [ "BIO_WEAPON_GENERIC", 100 ],
             [ "THICKSKIN", 100 ],
             [ "GOODHEARING", 100 ],
-            [ "QUICK", 100 ],
+            [ "QUICK", 80 ],
+            [ "DEFT", 80 ,
             [ "NIGHTVISION", 100 ],
-            [ "CLAWS", 100 ],
-            [ "REGEN", 100 ]
+            [ "CLAWS", 50 ],
+            [ "REGEN", 80 ],
+            [ "STR_UP", 45 ],
+            [ "PER_UP", 45],
+            [ "INT_UP", 45 ],
+            [ "DEX_UP", 45 ],
+            [ "STR_UP_2", 10 ],
+            [ "PER_UP_2", 10 ],
+            [ "INT_UP_2", 10 ],
+            [ "DEX_UP_2", 10 ],
+            [ "HUNGER", 100 ]
         ]
   },
     {
