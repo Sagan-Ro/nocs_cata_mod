@@ -116,19 +116,9 @@
         "id" : "Unknown_Lab_s",
         "overmaps" :
         [
-            { "point":[1,-1,0], "overmap": "road_end_north"},
-			{ "point":[0,0,0], "overmap": "biow_field"},
-            { "point":[1,0,0], "overmap": "biow_field"},
-            { "point":[2,0,0], "overmap": "biow_field"},
-            { "point":[0,1,0], "overmap": "biow_field"},
-            { "point":[1,1,0], "overmap": "Unknown_Lab"},
-            { "point":[2,1,0], "overmap": "biow_field"},
-            { "point":[0,2,0], "overmap": "biow_field"},
-            { "point":[1,2,0], "overmap": "biow_field"},
-            { "point":[2,2,0], "overmap": "biow_field"}
-        ],
-        "connections" : [
-            { "point" : [1,-1,0] }
+            
+            { "point":[0,0,0], "overmap": "Unknown_Bunker"},
+			{ "point":[0,0,-1], "overmap": "Unknown_Lab"}
         ],
         "locations" : [ "wilderness" ], "//":"what special locations does it spawn",
         "city_distance" : [20, -1], "//":"how far from a city it should be",

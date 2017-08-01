@@ -89,6 +89,17 @@
     "flags": [ "NO_ROTATE" ]
   },
   {
+    "id": "Unknown_Bunker",
+    "type": "overmap_terrain",
+    "name": "Unknown Bunker",
+    "sym": 66,
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 0,
+    "extras": "build",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
     "id": "makeshift_command_center",
     "type": "overmap_terrain",
     "name": "Makeshift Command Center",
