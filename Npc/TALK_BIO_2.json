@@ -17,8 +17,8 @@
         "topic": "TALK_BIO_2_HOLDUP"
       },
       {
-        "text": "Do you want to come with me?",
-        "topic": "TALK_BIO_2_JOIN"
+        "text": "Anything I can do for you?",
+        "topic": "TALK_MISSION_OFFER"
       },
       {
         "text": "Bye.",
@@ -32,7 +32,7 @@
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "Yeah.  I woke up in a cloning vat under gunfire with no idea of who I was.  Router took me in, but I don't really feel like I belong here...",
-      "no": "Yeah, you know about the project?  In spite of my nickname, I am a weapon, trained to use both ranged and melee weapons."
+      "no": "Yeah, you know about the project?  I am a walking weapon, trained to use both ranged and melee weapons."
     },
     "responses": [
       {
@@ -54,6 +54,7 @@
   },
   {
     "id": "TALK_BIO_2_JOIN",
+    "//": "This Talk topic is no lobger used",
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
@@ -69,6 +70,7 @@
   },
   {
     "id": "TALK_BIO_2_JOIN2",
+    "//": "This Talk topic is no lobger used",
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",

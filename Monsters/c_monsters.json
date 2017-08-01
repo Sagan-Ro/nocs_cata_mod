@@ -134,7 +134,7 @@
       }
     ],
     "special_when_hit": [ "ZAPBACK", 75 ],
-    "death_drops": "wild_bio_weapom_item",
+    "death_drops": "apophis_bio_weapom_item",
     "death_function": [ "ACID", "NORMAL", "EXPLODE" ],
     "flags": [ "SEES", "REGENERATES_50", "HEARS", "GOODHEARING", "SMELLS", "WARM", "HUMAN", "ATTACKMON", "PUSH_MON", "ELECTRIC", "GRABS", "BASHES", "GROUP_BASH", "CBM_OP", "CBM_SUBS", "CBM_SUBS", "CBM_POWER", "CBM_POWER", "BONES", "DESTROYS" ]
   },

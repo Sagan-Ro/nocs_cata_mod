@@ -17,8 +17,8 @@
         "topic": "TALK_BIO_1_BORING"
       },
       {
-        "text": "You want out?",
-        "topic": "TALK_BIO_1_JOIN"
+        "text": "Anything I can do for you?",
+        "topic": "TALK_MISSION_OFFER"
       },
       {
         "text": "Well, bye.",
@@ -54,6 +54,7 @@
   },
   {
     "type": "talk_topic",
+    "//": "This Talk topic is no lobger used",
     "id": "TALK_BIO_1_JOIN",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
@@ -69,6 +70,7 @@
   },
   {
     "type": "talk_topic",
+    "//": "This Talk topic is no lobger used",
     "id": "TALK_BIO_1_JOIN2",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
