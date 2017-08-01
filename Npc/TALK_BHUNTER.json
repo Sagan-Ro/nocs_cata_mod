@@ -34,8 +34,8 @@
         "topic": "TALK_BHUNTER_ASK_DO"
       },
       {
-        "text": "Can I join you?",
-        "topic": "TALK_BHUNTER_ASK_JOIN"
+        "text": "Anything I can do for you?",
+        "topic": "TALK_MISSION_OFFER"
       },
       {
         "text": "Well, bye.",
@@ -163,12 +163,13 @@
     ]
   },
   {
-    "id": "TALK_BHUNTER_ASK_JOIN",
+    "id": "TALK_BHUNTER_ASK_QUEST",
+    "//": "This Talk topic is no lobger used",
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
-      "yes": "Sure!  Not just anybody gets to wear that badge.  Fake or not, you're a good fighter from what I've seen.  It'll be easier with somebody to watch my back.  Just help me find out more about this project, alright?",
-      "no": "Well, I'm running low on supplies and the fact that you made it here proves you can handle yourself.  Just help me out with my search, ok?"
+      "yes": "Sure!  Not just anybody gets to wear that badge.  Fake or not, you're a good fighter from what I've seen.  It'll be easier with somebody to watch my back.  Also, there is something that I want to ask later if you have time.",
+      "no": "Well, I'm running low on supplies and the fact that you made it here proves you can handle yourself.  Also, there is something that I want to ask later if you have time."
     },
     "responses": [
       {

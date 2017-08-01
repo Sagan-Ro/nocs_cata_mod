@@ -234,14 +234,12 @@
     "items": {
       "both": [
         "badge_bio_weapon",
-        "socks_wool",
-        "helmet_larmor",
-        "gloves_leather",
-        "touring_suit",
-        "boots"
+        "subsuit_xl",
+        "footrags",
+        "hat_noise_cancelling"
       ],
       "male": [
-        "boxer_shorts"
+        "briefs"
       ],
       "female": [
         "bra",
@@ -332,23 +330,12 @@
     "items": {
       "both": [
         "badge_bio_weapon",
-        "socks_wool",
-        "helmet_army",
-        "gloves_tactical",
-        "jacket_army",
-        "army_top",
-        "pants_army",
-        "boots_stealth",
-        "rucksack",
-        "shoulder_strap",
-        "rifle_scope",
-        "laser_sniper",
-        "megamap",
-        "large_tent_kit",
-        "rollmat"
+        "subsuit_xl",
+        "footrags",
+        "hat_noise_cancelling"
       ],
       "male": [
-        "boxer_shorts"
+        "briefs"
       ],
       "female": [
         "bra",
@@ -444,9 +431,16 @@
     "items": {
       "both": [
         "badge_bio_weapon",
-        "power_armor_light",
-        "power_armor_helmet_light",
-        "power_armor_frame"
+        "subsuit_xl",
+        "footrags",
+        "hat_noise_cancelling"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
       ]
     },
     "flags": [
@@ -507,25 +501,12 @@
     "items": {
       "both": [
         "badge_bio_weapon",
-        "socks_wool",
-        "helmet_army",
-        "gloves_tactical",
-        "jacket_army",
-        "army_top",
-        "pants_army",
-        "boots_combat",
-        "molle_pack",
-        "wearable_rx12",
-        "ampoule",
-        "ampoule",
-        "ampoule",
-        "1st_aid",
-        "1st_aid",
-        "1st_aid",
-        "stim"
+        "subsuit_xl",
+        "footrags",
+        "hat_noise_cancelling"
       ],
       "male": [
-        "boxer_shorts"
+        "briefs"
       ],
       "female": [
         "bra",

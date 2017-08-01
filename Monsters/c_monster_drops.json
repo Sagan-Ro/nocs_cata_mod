@@ -37,11 +37,57 @@
   },
   {
     "type": "item_group",
+    "subtype": "collection",
+    "comment": "items of bio-weapon apophis",
+    "id": "apophis_bio_weapom_item",
+    "entries": [
+      {
+        "group": "weapon_hat",
+        "damage": [
+          1,
+          4
+        ]
+      },
+      {
+        "group": "weapon_suit",
+        "damage": [
+          1,
+          4
+        ]
+      },
+      {
+        "group": "weapon_badge_apophis",
+        "damage": [
+          0,
+          0
+        ]
+      },
+      {
+        "group": "weapom_feet",
+        "damage": [
+          1,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "weapon_badge",
     "items": [
       [
         "badge_bio_weapon",
         50
+      ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "weapon_badge_apophis",
+    "items": [
+      [
+        "badge_bio_weapon_apophis",
+        100
       ]
     ]
   },

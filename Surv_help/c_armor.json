@@ -201,6 +201,27 @@
     "phase": "solid"
   },
   {
+    "type": "ARMOR",
+    "id": "badge_bio_weapon_apophis",
+    "name": "Bio-Weapon Apophis badge",
+    "volume": 0,
+    "material_thickness": 0,
+    "description": "A round silver medallion that identifies the wearer as a part of the Bio-Weapon project. This one has the name 'Apophis' inscribed on the front.",
+    "weight": 60,
+    "to_hit": 0,
+    "color": "red",
+    "encumbrance": 0,
+    "price": 10000,
+    "material": [
+      "silver"
+    ],
+    "coverage": 0,
+    "bashing_protection": 0,
+    "symbol": "[",
+    "warmth": 0,
+    "phase": "solid"
+  },
+  {
     "type": "TOOL_ARMOR",
     "id": "stealth_cloak",
     "name": "Stealth Cloak",
