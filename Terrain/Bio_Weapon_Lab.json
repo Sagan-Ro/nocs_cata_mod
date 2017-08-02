@@ -6,7 +6,7 @@
     "weight": 1000,
     "object": {
       "rows": [
-        ",,,,,,,,,,C,,,,,,,,,,,,,",
+        "F,,,,,,,,,C,,,,,,,,,,,,F",
         "|||||||||||dd|||||||||||",
         "|&&&{{{{{.C....{{{{{&&&|",
         "|&&&................&&&|",
@@ -41,6 +41,7 @@
         "C": "t_card_reader_broken",
         "D": "t_door_o",
         "E": "t_elevator_control_off",
+        "F": "t_chainfence_v",
         "S": "t_station_disc",
         "T": "t_metal_floor",
         "_": "t_utility_light",

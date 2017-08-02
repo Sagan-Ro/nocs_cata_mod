@@ -6,7 +6,7 @@
     "weight": 1000,
     "object": {
       "rows": [
-        ",,,,,,,,,,,,,,,,,,,,,,,,",
+        "F,,,,,,,,,,,,,,,,,,,,,,F",
         "!!!!!!!!!!!<<!!!!!!!!!!!",
         "!Wbaaaa.f|K..|.....6T.Z!",
         "!........|>//|.ppp._..Z!",
@@ -49,6 +49,7 @@
         "B": "t_metal_floor",
         "C": "t_metal_floor",
         "D": "t_metal_floor",
+        "F": "t_chainfence_v",
         "H": "t_metal_floor",
         "K": "t_gates_mech_control",
         "O": "t_metal_floor",
