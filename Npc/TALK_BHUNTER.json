@@ -164,7 +164,6 @@
   },
   {
     "id": "TALK_BHUNTER_ASK_QUEST",
-    "//": "This Talk topic is no lobger used",
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
@@ -186,6 +185,7 @@
           "topic": "TALK_DONE"
         }
       }
-    ]
+    ],
+    "//": "This Talk topic is no longer used"
   }
 ]

@@ -52,12 +52,12 @@
         "c": "t_fence_post",
         "e": "t_metal_floor",
         "f": "t_metal_floor",
+        "o": "t_palisade_pulley",
         "r": "t_door_metal_c_peep",
         "s": "t_shrub_strawberry_harvested",
         "w": "t_window_enhanced",
         "{": "t_metal_floor",
-        "|": "t_wall_metal",
-        "o": "t_palisade_pulley"
+        "|": "t_wall_metal"
       },
       "furniture": {
         "#": "f_null",
@@ -79,12 +79,12 @@
         "c": "f_null",
         "e": "f_toilet",
         "f": "f_fridge",
+        "o": "f_null",
         "r": "f_null",
         "s": "f_null",
         "w": "f_null",
         "{": "f_locker",
-        "|": "f_null",
-        "o": "f_null"
+        "|": "f_null"
       },
       "place_toilets": [
         { "x": 21, "y": 15 }
