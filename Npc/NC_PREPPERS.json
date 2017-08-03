@@ -127,8 +127,8 @@
   {
     "id": "NC_PREPPER_carry",
     "type": "item_group",
-    "subtype": "distribution",
     "//": "And this is how to reliably get NC overrides to pair guns and ammo.",
+    "subtype": "distribution",
     "entries": [
       { "group": "NC_PREPPER_carry_pnu", "prob": 20 },
       { "group": "NC_PREPPER_carry_batt", "prob": 10 },
@@ -176,8 +176,8 @@
     "id": "NC_PREPPER_carry_223",
     "type": "item_group",
     "subtype": "collection",
-    "ammo": 100,
     "magazine": 100,
+    "ammo": 100,
     "entries": [
       { "item": "surv_full_223" },
       { "item": "surv_223_mag", "count": [ 2, 3 ] }
@@ -187,8 +187,8 @@
     "id": "NC_PREPPER_carry_9mm",
     "type": "item_group",
     "subtype": "collection",
-    "ammo": 100,
     "magazine": 100,
+    "ammo": 100,
     "entries": [
       { "item": "surv_full_9mm" },
       { "item": "surv_9mm_mag", "count": [ 2, 3 ] }

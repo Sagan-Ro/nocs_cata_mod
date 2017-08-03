@@ -2,9 +2,9 @@
   {
     "id": "flintlock_ammo_mine",
     "type": "AMMO",
-    "name": "Paper Mineball cartridge",
+    "name": "Paper Minie ball cartridge",
     "//": "meant as a companion to the Survivor's Flintlock Sniper.",
-    "description": "A paper cartridge containing black powder and a Mineball.  A paper enclosed version of the historic projectile of the USA Civil war. The Mineball is still as deadly and accurate as ever.",
+    "description": "A paper cartridge containing black powder and a Minie ball.  A paper enclosed version of the historic projectile of the USA Civil war. The Minie ball is still as deadly and accurate as ever.",
     "weight": 86,
     "volume": 2,
     "price": 5000,

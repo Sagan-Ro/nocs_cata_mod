@@ -103,7 +103,6 @@
   },
   {
     "id": "TALK_MSCI_ASK_DO",
-    "//": "This Talk topic is no lobger used",
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
@@ -137,11 +136,11 @@
           "topic": "TALK_MSCI_NOTHANKS"
         }
       }
-    ]
+    ],
+    "//": "This Talk topic is no lobger used"
   },
   {
     "id": "TALK_MSCI_THANKS",
-    "//": "This Talk topic is no lobger used",
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
@@ -153,11 +152,11 @@
         "text": "Now for the map...",
         "topic": "TALK_MSCI"
       }
-    ]
+    ],
+    "//": "This Talk topic is no lobger used"
   },
   {
     "id": "TALK_MSCI_NOTHANKS",
-    "//": "This Talk topic is no lobger used",
     "type": "talk_topic",
     "dynamic_line": "I understand.  It's practically a lost cause at this point.  I'll keep trying to figure something out to stop it.",
     "responses": [
@@ -165,7 +164,8 @@
         "text": "Sorry.",
         "topic": "TALK_MSCI"
       }
-    ]
+    ],
+    "//": "This Talk topic is no lobger used"
   },
   {
     "id": "TALK_MSCI_ASK_STAY",

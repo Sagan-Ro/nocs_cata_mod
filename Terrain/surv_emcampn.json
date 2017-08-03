@@ -54,12 +54,12 @@
         "e": "t_rock_floor",
         "f": "t_rock_floor",
         "g": "t_rock_floor",
+        "o": "t_palisade_pulley",
         "t": "t_rock_floor",
         "u": "t_utility_light",
         "w": "t_window_enhanced",
         "{": "t_rock_floor",
-        "|": "t_wall_log",
-        "o": "t_palisade_pulley"
+        "|": "t_wall_log"
       },
       "furniture": {
         "#": "f_null",
@@ -83,12 +83,12 @@
         "e": "f_toilet",
         "f": "f_fridge",
         "g": "f_glass_fridge",
+        "o": "f_null",
         "t": "f_table",
         "u": "f_null",
         "w": "f_null",
         "{": "f_locker",
-        "|": "f_null",
-        "o": "f_null"
+        "|": "f_null"
       },
       "place_toilets": [
         { "x": 15, "y": 21 },

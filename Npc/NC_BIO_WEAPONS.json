@@ -24,8 +24,8 @@
   {
     "id": "NC_BIO_WEAPON_carry",
     "type": "item_group",
-    "subtype": "distribution",
     "//": "Pairs the guns and ammo.",
+    "subtype": "distribution",
     "entries": [
       { "group": "NC_BIO_WEAPON_carry_scar_l", "prob": 40 },
       { "group": "NC_BIO_WEAPON_carry_fal", "prob": 20 },
@@ -37,8 +37,8 @@
     "id": "NC_BIO_WEAPON_carry_scar_l",
     "type": "item_group",
     "subtype": "collection",
-    "ammo": 100,
     "magazine": 100,
+    "ammo": 100,
     "entries": [
       { "item": "scar_l" },
       { "item": "stanag30", "count": [ 2, 3 ] }
@@ -48,8 +48,8 @@
     "id": "NC_BIO_WEAPON_carry_fal",
     "type": "item_group",
     "subtype": "collection",
-    "ammo": 100,
     "magazine": 100,
+    "ammo": 100,
     "entries": [
       { "item": "fn_fal" },
       { "item": "falmag", "count": [ 2, 3 ] }
@@ -59,8 +59,8 @@
     "id": "NC_BIO_WEAPON_carry_scar_h",
     "type": "item_group",
     "subtype": "collection",
-    "ammo": 100,
     "magazine": 100,
+    "ammo": 100,
     "entries": [
       { "item": "scar_h" },
       { "item": "scarhmag", "count": [ 2, 3 ] }
@@ -70,8 +70,8 @@
     "id": "NC_BIO_WEAPON_carry_8mm",
     "type": "item_group",
     "subtype": "collection",
-    "ammo": 100,
     "magazine": 100,
+    "ammo": 100,
     "entries": [
       {
         "distribution": [
